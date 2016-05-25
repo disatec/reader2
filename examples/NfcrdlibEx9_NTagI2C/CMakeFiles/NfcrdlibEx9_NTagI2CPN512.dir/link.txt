@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g3 -gdwarf-2    CMakeFiles/NfcrdlibEx9_NTagI2CPN512.dir/NfcrdlibEx9_NTagI2C.c.o  -o NfcrdlibEx9_NTagI2CPN512  -L/linux -rdynamic ../../linux/libNxpRdLibLinuxPN512.a -lpthread -lrt -Wl,-rpath,/linux 

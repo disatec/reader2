@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g3 -gdwarf-2    CMakeFiles/NfcrdlibEx1_BasicDiscoveryLoopRC663.dir/NfcrdlibEx1_BasicDiscoveryLoop.c.o CMakeFiles/NfcrdlibEx1_BasicDiscoveryLoopRC663.dir/src/cards.c.o  -o NfcrdlibEx1_BasicDiscoveryLoopRC663  -L/linux -rdynamic ../../linux/libNxpRdLibLinuxRC663.a -lpthread -lrt -Wl,-rpath,/linux 

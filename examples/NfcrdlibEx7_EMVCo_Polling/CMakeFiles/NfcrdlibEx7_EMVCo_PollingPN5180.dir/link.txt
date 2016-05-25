@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g3 -gdwarf-2    CMakeFiles/NfcrdlibEx7_EMVCo_PollingPN5180.dir/NfcrdlibEx7_EMVCo_Polling.c.o  -o NfcrdlibEx7_EMVCo_PollingPN5180  -L/linux -rdynamic ../../linux/libNxpRdLibLinuxPN5180.a -lpthread -lrt -Wl,-rpath,/linux 

@@ -1,0 +1,413 @@
+Scanning dependencies of target NxpRdLibLinuxPN512
+[  0%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/comps/phbalReg/src/Linux/phbalReg_Stub_Utils.c.o
+[  1%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/comps/phOsal/src/Posix/phOsal_Posix.c.o
+[  1%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/comps/phPlatform/src/Posix/phPlatform.c.o
+[  1%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/shared/phhwConfig.c.o
+[  2%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/phacDiscLoop.c.o
+[  2%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c.o
+[  2%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c.o
+[  3%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.c.o
+[  3%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c.o
+[  3%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.c.o
+[  3%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c.o
+[  4%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c.o
+[  4%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/src/phalFelica.c.o
+[  4%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c.o
+[  5%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/src/phalI15693.c.o
+[  5%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.c.o
+[  5%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/phalI18000p3m3.c.o
+[  6%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c.o
+[  6%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw_Int.c.o
+[  6%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc.c.o
+[  6%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.c.o
+[  7%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.c.o
+[  7%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf.c.o
+[  7%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.c.o
+[  8%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.c.o
+[  8%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.c.o
+[  8%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful.c.o
+[  9%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.c.o
+[  9%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.c.o
+[  9%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/phalSli.c.o
+[  9%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.c.o
+[ 10%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/phalT1T.c.o
+[ 10%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.c.o
+[ 10%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/phalTop.c.o
+[ 11%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.c.o
+[ 11%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.c.o
+[ 11%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.c.o
+[ 12%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.c.o
+[ 12%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.c.o
+[ 12%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.c.o
+[ 12%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phbalReg/src/phbalReg.c.o
+[ 13%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/phceT4T.c.o
+[ 13%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.c.o
+[ 13%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.c.o
+[ 14%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/phhalHw.c.o
+[ 14%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.c.o
+[ 14%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Instr.c.o
+[ 15%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Int.c.o
+[ 15%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Wait.c.o
+[ 15%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.c.o
+[ 16%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Cmd.c.o
+[ 16%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.c.o
+[ 16%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Wait.c.o
+[ 16%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.c.o
+[ 17%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.c.o
+[ 17%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.c.o
+[ 17%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c.o
+[ 18%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore.c.o
+[ 18%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.c.o
+[ 18%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/phlnLlcp.c.o
+[ 19%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw.c.o
+[ 19%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Int.c.o
+[ 19%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.c.o
+[ 19%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Transport.c.o
+[ 20%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Transport_Connection.c.o
+[ 20%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Transport_Connectionless.c.o
+[ 20%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Timers.c.o
+[ 21%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phLog/src/phLog.c.o
+[ 21%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phnpSnep/src/phnpSnep.c.o
+[ 21%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phnpSnep/src/Sw/phnpSnep_Sw.c.o
+[ 22%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/src/phpalEpcUid.c.o
+[ 22%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.c.o
+[ 22%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/phpalFelica.c.o
+[ 22%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c.o
+[ 23%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c.o
+[ 23%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c.o
+[ 23%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/phpalI14443p3b.c.o
+[ 24%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.c.o
+[ 24%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/phpalI14443p4.c.o
+[ 24%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.c.o
+[ 25%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/phpalI14443p4a.c.o
+[ 25%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c.o
+[ 25%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/phpalI14443p4mC.c.o
+[ 25%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.c.o
+[ 26%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.c.o
+[ 26%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c.o
+[ 26%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.c.o
+[ 27%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/phpalI18092mPI.c.o
+[ 27%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.c.o
+[ 27%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.c.o
+[ 28%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/phpalI18092mT.c.o
+[ 28%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.c.o
+[ 28%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.c.o
+[ 28%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare.c.o
+[ 29%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c.o
+[ 29%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/phpalSli15693.c.o
+[ 29%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.c.o
+[ 30%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phTools/src/phTools.c.o
+[ 30%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phTools/src/phTools_Q.c.o
+[ 30%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN512.dir/comps/phbalReg/src/Linux/phbalReg_Stub.c.o
+Linking C static library libNxpRdLibLinuxPN512.a
+[ 30%] Built target NxpRdLibLinuxPN512
+Scanning dependencies of target NxpRdLibLinuxPN5180
+[ 31%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/comps/phbalReg/src/Linux/phbalReg_Stub_Utils.c.o
+[ 31%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/comps/phOsal/src/Posix/phOsal_Posix.c.o
+[ 31%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/comps/phPlatform/src/Posix/phPlatform.c.o
+[ 31%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/shared/phhwConfig.c.o
+[ 32%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/phacDiscLoop.c.o
+[ 32%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c.o
+[ 32%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c.o
+[ 33%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.c.o
+[ 33%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c.o
+[ 33%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.c.o
+[ 34%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c.o
+[ 34%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c.o
+[ 34%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/src/phalFelica.c.o
+[ 34%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c.o
+[ 35%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/src/phalI15693.c.o
+[ 35%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.c.o
+[ 35%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/phalI18000p3m3.c.o
+[ 36%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c.o
+[ 36%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw_Int.c.o
+[ 36%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc.c.o
+[ 37%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.c.o
+[ 37%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.c.o
+[ 37%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf.c.o
+[ 37%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.c.o
+[ 38%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.c.o
+[ 38%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.c.o
+[ 38%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful.c.o
+[ 39%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.c.o
+[ 39%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.c.o
+[ 39%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/phalSli.c.o
+[ 40%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.c.o
+[ 40%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/phalT1T.c.o
+[ 40%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.c.o
+[ 41%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/phalTop.c.o
+[ 41%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.c.o
+[ 41%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.c.o
+[ 41%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.c.o
+[ 42%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.c.o
+[ 42%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.c.o
+[ 42%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.c.o
+[ 43%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phbalReg/src/phbalReg.c.o
+[ 43%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/phceT4T.c.o
+[ 43%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.c.o
+[ 44%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.c.o
+[ 44%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/phhalHw.c.o
+[ 44%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.c.o
+[ 44%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Instr.c.o
+[ 45%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Int.c.o
+[ 45%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Wait.c.o
+[ 45%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.c.o
+[ 46%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Cmd.c.o
+[ 46%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.c.o
+[ 46%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Wait.c.o
+[ 47%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.c.o
+[ 47%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.c.o
+[ 47%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.c.o
+[ 47%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c.o
+[ 48%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore.c.o
+[ 48%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.c.o
+[ 48%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/phlnLlcp.c.o
+[ 49%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw.c.o
+[ 49%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Int.c.o
+[ 49%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.c.o
+[ 50%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Transport.c.o
+[ 50%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Transport_Connection.c.o
+[ 50%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Transport_Connectionless.c.o
+[ 50%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Timers.c.o
+[ 51%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phLog/src/phLog.c.o
+[ 51%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phnpSnep/src/phnpSnep.c.o
+[ 51%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phnpSnep/src/Sw/phnpSnep_Sw.c.o
+[ 52%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/src/phpalEpcUid.c.o
+[ 52%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.c.o
+[ 52%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/phpalFelica.c.o
+[ 53%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c.o
+[ 53%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c.o
+[ 53%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c.o
+[ 53%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/phpalI14443p3b.c.o
+[ 54%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.c.o
+[ 54%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/phpalI14443p4.c.o
+[ 54%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.c.o
+[ 55%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/phpalI14443p4a.c.o
+[ 55%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c.o
+[ 55%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/phpalI14443p4mC.c.o
+[ 56%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.c.o
+[ 56%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.c.o
+[ 56%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c.o
+[ 56%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.c.o
+[ 57%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/phpalI18092mPI.c.o
+[ 57%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.c.o
+[ 57%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.c.o
+[ 58%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/phpalI18092mT.c.o
+[ 58%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.c.o
+[ 58%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.c.o
+[ 59%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare.c.o
+[ 59%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c.o
+[ 59%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/phpalSli15693.c.o
+[ 59%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.c.o
+[ 60%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phTools/src/phTools.c.o
+[ 60%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/__/nxprdlib/NxpRdLib/comps/phTools/src/phTools_Q.c.o
+[ 60%] Building C object linux/CMakeFiles/NxpRdLibLinuxPN5180.dir/comps/phbalReg/src/Linux/phbalReg_Stub.c.o
+Linking C static library libNxpRdLibLinuxPN5180.a
+[ 60%] Built target NxpRdLibLinuxPN5180
+Scanning dependencies of target NxpRdLibLinuxRC663
+[ 61%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/comps/phbalReg/src/Linux/phbalReg_Stub_Utils.c.o
+[ 61%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/comps/phOsal/src/Posix/phOsal_Posix.c.o
+[ 61%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/comps/phPlatform/src/Posix/phPlatform.c.o
+[ 62%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/shared/phhwConfig.c.o
+[ 62%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/phacDiscLoop.c.o
+[ 62%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c.o
+[ 62%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c.o
+[ 63%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.c.o
+[ 63%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c.o
+[ 63%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.c.o
+[ 64%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c.o
+[ 64%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c.o
+[ 64%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/src/phalFelica.c.o
+[ 65%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c.o
+[ 65%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/src/phalI15693.c.o
+[ 65%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.c.o
+[ 66%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/phalI18000p3m3.c.o
+[ 66%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c.o
+[ 66%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw_Int.c.o
+[ 66%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc.c.o
+[ 67%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.c.o
+[ 67%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.c.o
+[ 67%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf.c.o
+[ 68%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.c.o
+[ 68%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.c.o
+[ 68%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.c.o
+[ 69%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful.c.o
+[ 69%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.c.o
+[ 69%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.c.o
+[ 69%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/phalSli.c.o
+[ 70%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.c.o
+[ 70%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/phalT1T.c.o
+[ 70%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.c.o
+[ 71%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/phalTop.c.o
+[ 71%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.c.o
+[ 71%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.c.o
+[ 72%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.c.o
+[ 72%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.c.o
+[ 72%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.c.o
+[ 72%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.c.o
+[ 73%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phbalReg/src/phbalReg.c.o
+[ 73%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/phceT4T.c.o
+[ 73%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.c.o
+[ 74%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.c.o
+[ 74%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/phhalHw.c.o
+[ 74%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.c.o
+[ 75%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Instr.c.o
+[ 75%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Int.c.o
+[ 75%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Wait.c.o
+[ 75%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.c.o
+[ 76%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Cmd.c.o
+[ 76%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.c.o
+[ 76%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Wait.c.o
+[ 77%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.c.o
+[ 77%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.c.o
+[ 77%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.c.o
+[ 78%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c.o
+[ 78%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore.c.o
+[ 78%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.c.o
+[ 78%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/phlnLlcp.c.o
+[ 79%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw.c.o
+[ 79%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Int.c.o
+[ 79%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.c.o
+[ 80%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Transport.c.o
+[ 80%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Transport_Connection.c.o
+[ 80%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Transport_Connectionless.c.o
+[ 81%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Timers.c.o
+[ 81%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phLog/src/phLog.c.o
+[ 81%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phnpSnep/src/phnpSnep.c.o
+[ 81%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phnpSnep/src/Sw/phnpSnep_Sw.c.o
+[ 82%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/src/phpalEpcUid.c.o
+[ 82%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.c.o
+[ 82%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/phpalFelica.c.o
+[ 83%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c.o
+[ 83%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c.o
+[ 83%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c.o
+[ 84%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/phpalI14443p3b.c.o
+[ 84%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.c.o
+[ 84%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/phpalI14443p4.c.o
+[ 84%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.c.o
+[ 85%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/phpalI14443p4a.c.o
+[ 85%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c.o
+[ 85%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/phpalI14443p4mC.c.o
+[ 86%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.c.o
+[ 86%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.c.o
+[ 86%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c.o
+[ 87%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.c.o
+[ 87%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/phpalI18092mPI.c.o
+[ 87%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.c.o
+[ 87%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.c.o
+[ 88%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/phpalI18092mT.c.o
+[ 88%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.c.o
+[ 88%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.c.o
+[ 89%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare.c.o
+[ 89%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c.o
+[ 89%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/phpalSli15693.c.o
+[ 90%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.c.o
+[ 90%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phTools/src/phTools.c.o
+[ 90%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/__/nxprdlib/NxpRdLib/comps/phTools/src/phTools_Q.c.o
+[ 91%] Building C object linux/CMakeFiles/NxpRdLibLinuxRC663.dir/comps/phbalReg/src/Linux/phbalReg_Stub.c.o
+Linking C static library libNxpRdLibLinuxRC663.a
+[ 91%] Built target NxpRdLibLinuxRC663
+Scanning dependencies of target NfcrdlibEx1_BasicDiscoveryLoopPN512
+[ 91%] Building C object examples/NfcrdlibEx1_BasicDiscoveryLoop/CMakeFiles/NfcrdlibEx1_BasicDiscoveryLoopPN512.dir/NfcrdlibEx1_BasicDiscoveryLoop.c.o
+[ 91%] Building C object examples/NfcrdlibEx1_BasicDiscoveryLoop/CMakeFiles/NfcrdlibEx1_BasicDiscoveryLoopPN512.dir/src/cards.c.o
+Linking C executable NfcrdlibEx1_BasicDiscoveryLoopPN512
+[ 91%] Built target NfcrdlibEx1_BasicDiscoveryLoopPN512
+Scanning dependencies of target NfcrdlibEx1_BasicDiscoveryLoopPN5180
+[ 91%] Building C object examples/NfcrdlibEx1_BasicDiscoveryLoop/CMakeFiles/NfcrdlibEx1_BasicDiscoveryLoopPN5180.dir/NfcrdlibEx1_BasicDiscoveryLoop.c.o
+[ 92%] Building C object examples/NfcrdlibEx1_BasicDiscoveryLoop/CMakeFiles/NfcrdlibEx1_BasicDiscoveryLoopPN5180.dir/src/cards.c.o
+Linking C executable NfcrdlibEx1_BasicDiscoveryLoopPN5180
+[ 92%] Built target NfcrdlibEx1_BasicDiscoveryLoopPN5180
+Scanning dependencies of target NfcrdlibEx1_BasicDiscoveryLoopRC663
+[ 92%] Building C object examples/NfcrdlibEx1_BasicDiscoveryLoop/CMakeFiles/NfcrdlibEx1_BasicDiscoveryLoopRC663.dir/NfcrdlibEx1_BasicDiscoveryLoop.c.o
+[ 92%] Building C object examples/NfcrdlibEx1_BasicDiscoveryLoop/CMakeFiles/NfcrdlibEx1_BasicDiscoveryLoopRC663.dir/src/cards.c.o
+Linking C executable NfcrdlibEx1_BasicDiscoveryLoopRC663
+[ 92%] Built target NfcrdlibEx1_BasicDiscoveryLoopRC663
+Scanning dependencies of target NfcrdlibEx2_AdvancedDiscoveryLoopPN512
+[ 93%] Building C object examples/NfcrdlibEx2_AdvancedDiscoveryLoop/CMakeFiles/NfcrdlibEx2_AdvancedDiscoveryLoopPN512.dir/NfcrdlibEx2_AdvancedDiscoveryLoop.c.o
+[ 93%] Building C object examples/NfcrdlibEx2_AdvancedDiscoveryLoop/CMakeFiles/NfcrdlibEx2_AdvancedDiscoveryLoopPN512.dir/src/cards.c.o
+Linking C executable NfcrdlibEx2_AdvancedDiscoveryLoopPN512
+[ 93%] Built target NfcrdlibEx2_AdvancedDiscoveryLoopPN512
+Scanning dependencies of target NfcrdlibEx2_AdvancedDiscoveryLoopPN5180
+[ 93%] Building C object examples/NfcrdlibEx2_AdvancedDiscoveryLoop/CMakeFiles/NfcrdlibEx2_AdvancedDiscoveryLoopPN5180.dir/NfcrdlibEx2_AdvancedDiscoveryLoop.c.o
+[ 94%] Building C object examples/NfcrdlibEx2_AdvancedDiscoveryLoop/CMakeFiles/NfcrdlibEx2_AdvancedDiscoveryLoopPN5180.dir/src/cards.c.o
+Linking C executable NfcrdlibEx2_AdvancedDiscoveryLoopPN5180
+[ 94%] Built target NfcrdlibEx2_AdvancedDiscoveryLoopPN5180
+Scanning dependencies of target NfcrdlibEx2_AdvancedDiscoveryLoopRC663
+[ 94%] Building C object examples/NfcrdlibEx2_AdvancedDiscoveryLoop/CMakeFiles/NfcrdlibEx2_AdvancedDiscoveryLoopRC663.dir/NfcrdlibEx2_AdvancedDiscoveryLoop.c.o
+[ 94%] Building C object examples/NfcrdlibEx2_AdvancedDiscoveryLoop/CMakeFiles/NfcrdlibEx2_AdvancedDiscoveryLoopRC663.dir/src/cards.c.o
+Linking C executable NfcrdlibEx2_AdvancedDiscoveryLoopRC663
+[ 94%] Built target NfcrdlibEx2_AdvancedDiscoveryLoopRC663
+Scanning dependencies of target NfcrdlibEx3_NFCForumPN512
+[ 94%] Building C object examples/NfcrdlibEx3_NFCForum/CMakeFiles/NfcrdlibEx3_NFCForumPN512.dir/NfcrdlibEx3_NFCForum.c.o
+[ 95%] Building C object examples/NfcrdlibEx3_NFCForum/CMakeFiles/NfcrdlibEx3_NFCForumPN512.dir/src/cards.c.o
+Linking C executable NfcrdlibEx3_NFCForumPN512
+[ 95%] Built target NfcrdlibEx3_NFCForumPN512
+Scanning dependencies of target NfcrdlibEx3_NFCForumPN5180
+[ 95%] Building C object examples/NfcrdlibEx3_NFCForum/CMakeFiles/NfcrdlibEx3_NFCForumPN5180.dir/NfcrdlibEx3_NFCForum.c.o
+[ 95%] Building C object examples/NfcrdlibEx3_NFCForum/CMakeFiles/NfcrdlibEx3_NFCForumPN5180.dir/src/cards.c.o
+Linking C executable NfcrdlibEx3_NFCForumPN5180
+[ 95%] Built target NfcrdlibEx3_NFCForumPN5180
+Scanning dependencies of target NfcrdlibEx4_MIFAREClassicPN512
+[ 96%] Building C object examples/NfcrdlibEx4_MIFAREClassic/CMakeFiles/NfcrdlibEx4_MIFAREClassicPN512.dir/NfcrdlibEx4_MIFAREClassic.c.o
+Linking C executable NfcrdlibEx4_MIFAREClassicPN512
+[ 96%] Built target NfcrdlibEx4_MIFAREClassicPN512
+Scanning dependencies of target NfcrdlibEx4_MIFAREClassicPN5180
+[ 96%] Building C object examples/NfcrdlibEx4_MIFAREClassic/CMakeFiles/NfcrdlibEx4_MIFAREClassicPN5180.dir/NfcrdlibEx4_MIFAREClassic.c.o
+Linking C executable NfcrdlibEx4_MIFAREClassicPN5180
+[ 96%] Built target NfcrdlibEx4_MIFAREClassicPN5180
+Scanning dependencies of target NfcrdlibEx4_MIFAREClassicRC663
+[ 96%] Building C object examples/NfcrdlibEx4_MIFAREClassic/CMakeFiles/NfcrdlibEx4_MIFAREClassicRC663.dir/NfcrdlibEx4_MIFAREClassic.c.o
+Linking C executable NfcrdlibEx4_MIFAREClassicRC663
+[ 96%] Built target NfcrdlibEx4_MIFAREClassicRC663
+Scanning dependencies of target NfcrdlibEx5_ISO15693PN5180
+[ 97%] Building C object examples/NfcrdlibEx5_ISO15693/CMakeFiles/NfcrdlibEx5_ISO15693PN5180.dir/NfcrdlibEx5_ISO15693.c.o
+Linking C executable NfcrdlibEx5_ISO15693PN5180
+[ 97%] Built target NfcrdlibEx5_ISO15693PN5180
+Scanning dependencies of target NfcrdlibEx5_ISO15693RC663
+[ 97%] Building C object examples/NfcrdlibEx5_ISO15693/CMakeFiles/NfcrdlibEx5_ISO15693RC663.dir/NfcrdlibEx5_ISO15693.c.o
+Linking C executable NfcrdlibEx5_ISO15693RC663
+[ 97%] Built target NfcrdlibEx5_ISO15693RC663
+Scanning dependencies of target NfcrdlibEx6_EMVCo_LoopbackPN512
+[ 97%] Building C object examples/NfcrdlibEx6_EMVCo_Loopback/CMakeFiles/NfcrdlibEx6_EMVCo_LoopbackPN512.dir/NfcrdlibEx6_EMVCo_Loopback.c.o
+Linking C executable NfcrdlibEx6_EMVCo_LoopbackPN512
+[ 97%] Built target NfcrdlibEx6_EMVCo_LoopbackPN512
+Scanning dependencies of target NfcrdlibEx6_EMVCo_LoopbackPN5180
+[ 97%] Building C object examples/NfcrdlibEx6_EMVCo_Loopback/CMakeFiles/NfcrdlibEx6_EMVCo_LoopbackPN5180.dir/NfcrdlibEx6_EMVCo_Loopback.c.o
+Linking C executable NfcrdlibEx6_EMVCo_LoopbackPN5180
+[ 97%] Built target NfcrdlibEx6_EMVCo_LoopbackPN5180
+Scanning dependencies of target NfcrdlibEx6_EMVCo_LoopbackRC663
+[ 98%] Building C object examples/NfcrdlibEx6_EMVCo_Loopback/CMakeFiles/NfcrdlibEx6_EMVCo_LoopbackRC663.dir/NfcrdlibEx6_EMVCo_Loopback.c.o
+Linking C executable NfcrdlibEx6_EMVCo_LoopbackRC663
+[ 98%] Built target NfcrdlibEx6_EMVCo_LoopbackRC663
+Scanning dependencies of target NfcrdlibEx7_EMVCo_PollingPN512
+[ 98%] Building C object examples/NfcrdlibEx7_EMVCo_Polling/CMakeFiles/NfcrdlibEx7_EMVCo_PollingPN512.dir/NfcrdlibEx7_EMVCo_Polling.c.o
+Linking C executable NfcrdlibEx7_EMVCo_PollingPN512
+[ 98%] Built target NfcrdlibEx7_EMVCo_PollingPN512
+Scanning dependencies of target NfcrdlibEx7_EMVCo_PollingPN5180
+[ 98%] Building C object examples/NfcrdlibEx7_EMVCo_Polling/CMakeFiles/NfcrdlibEx7_EMVCo_PollingPN5180.dir/NfcrdlibEx7_EMVCo_Polling.c.o
+Linking C executable NfcrdlibEx7_EMVCo_PollingPN5180
+[ 98%] Built target NfcrdlibEx7_EMVCo_PollingPN5180
+Scanning dependencies of target NfcrdlibEx7_EMVCo_PollingRC663
+[ 99%] Building C object examples/NfcrdlibEx7_EMVCo_Polling/CMakeFiles/NfcrdlibEx7_EMVCo_PollingRC663.dir/NfcrdlibEx7_EMVCo_Polling.c.o
+Linking C executable NfcrdlibEx7_EMVCo_PollingRC663
+[ 99%] Built target NfcrdlibEx7_EMVCo_PollingRC663
+Scanning dependencies of target NfcrdlibEx8_HCE_T4TPN512
+[ 99%] Building C object examples/NfcrdlibEx8_HCE_T4T/CMakeFiles/NfcrdlibEx8_HCE_T4TPN512.dir/NfcrdlibEx8_HCE_T4T.c.o
+Linking C executable NfcrdlibEx8_HCE_T4TPN512
+[ 99%] Built target NfcrdlibEx8_HCE_T4TPN512
+Scanning dependencies of target NfcrdlibEx8_HCE_T4TPN5180
+[ 99%] Building C object examples/NfcrdlibEx8_HCE_T4T/CMakeFiles/NfcrdlibEx8_HCE_T4TPN5180.dir/NfcrdlibEx8_HCE_T4T.c.o
+Linking C executable NfcrdlibEx8_HCE_T4TPN5180
+[ 99%] Built target NfcrdlibEx8_HCE_T4TPN5180
+Scanning dependencies of target NfcrdlibEx9_NTagI2CPN512
+[100%] Building C object examples/NfcrdlibEx9_NTagI2C/CMakeFiles/NfcrdlibEx9_NTagI2CPN512.dir/NfcrdlibEx9_NTagI2C.c.o
+Linking C executable NfcrdlibEx9_NTagI2CPN512
+[100%] Built target NfcrdlibEx9_NTagI2CPN512
+Scanning dependencies of target NfcrdlibEx9_NTagI2CPN5180
+[100%] Building C object examples/NfcrdlibEx9_NTagI2C/CMakeFiles/NfcrdlibEx9_NTagI2CPN5180.dir/NfcrdlibEx9_NTagI2C.c.o
+Linking C executable NfcrdlibEx9_NTagI2CPN5180
+[100%] Built target NfcrdlibEx9_NTagI2CPN5180
+Scanning dependencies of target NfcrdlibEx9_NTagI2CRC663
+[100%] Building C object examples/NfcrdlibEx9_NTagI2C/CMakeFiles/NfcrdlibEx9_NTagI2CRC663.dir/NfcrdlibEx9_NTagI2C.c.o
+Linking C executable NfcrdlibEx9_NTagI2CRC663
+[100%] Built target NfcrdlibEx9_NTagI2CRC663

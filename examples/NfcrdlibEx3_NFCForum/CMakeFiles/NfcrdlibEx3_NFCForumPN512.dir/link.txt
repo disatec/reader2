@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g3 -gdwarf-2    CMakeFiles/NfcrdlibEx3_NFCForumPN512.dir/NfcrdlibEx3_NFCForum.c.o CMakeFiles/NfcrdlibEx3_NFCForumPN512.dir/src/cards.c.o  -o NfcrdlibEx3_NFCForumPN512  -L/linux -rdynamic ../../linux/libNxpRdLibLinuxPN512.a -lpthread -lrt -Wl,-rpath,/linux 

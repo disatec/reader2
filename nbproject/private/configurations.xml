@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="addition">
+        <df name="kernel-space_bal-module">
+          <df name="bal">
+            <df name="include">
+              <df name="linux">
+                <df name="spi">
+                  <in>bal_spi.h</in>
+                </df>
+              </df>
+            </df>
+            <in>bal.c</in>
+          </df>
+        </df>
+      </df>
+      <df name="build">
+      </df>
+      <df name="CMakeFiles">
+        <df name="3.0.2">
+          <df name="CompilerIdC">
+            <in>CMakeCCompilerId.c</in>
+          </df>
+          <df name="CompilerIdCXX">
+            <in>CMakeCXXCompilerId.cpp</in>
+          </df>
+        </df>
+        <df name="CMakeTmp">
+        </df>
+      </df>
+      <df name="examples">
+        <df name="CMakeFiles">
+        </df>
+        <df name="NfcrdlibEx1_BasicDiscoveryLoop">
+          <df name="CMakeFiles">
+            <df name="NfcrdlibEx1_BasicDiscoveryLoopPN512.dir">
+              <df name="src">
+              </df>
+            </df>
+            <df name="NfcrdlibEx1_BasicDiscoveryLoopPN5180.dir">
+              <df name="src">
+              </df>
+            </df>
+            <df name="NfcrdlibEx1_BasicDiscoveryLoopRC663.dir">
+              <df name="src">
+              </df>
+            </df>
+          </df>
+          <df name="intfs">
+            <in>cards.h</in>
+          </df>
+          <df name="src">
+            <in>cards.c</in>
+          </df>
+          <in>NfcrdlibEx1_BasicDiscoveryLoop.c</in>
+        </df>
+        <df name="NfcrdlibEx2_AdvancedDiscoveryLoop">
+          <df name="CMakeFiles">
+            <df name="NfcrdlibEx2_AdvancedDiscoveryLoopPN512.dir">
+              <df name="src">
+              </df>
+            </df>
+            <df name="NfcrdlibEx2_AdvancedDiscoveryLoopPN5180.dir">
+              <df name="src">
+              </df>
+            </df>
+            <df name="NfcrdlibEx2_AdvancedDiscoveryLoopRC663.dir">
+              <df name="src">
+              </df>
+            </df>
+          </df>
+          <df name="intfs">
+            <in>cards.h</in>
+          </df>
+          <df name="src">
+            <in>cards.c</in>
+          </df>
+          <in>NfcrdlibEx2_AdvancedDiscoveryLoop.c</in>
+        </df>
+        <df name="NfcrdlibEx3_NFCForum">
+          <df name="CMakeFiles">
+            <df name="NfcrdlibEx3_NFCForumPN512.dir">
+              <df name="src">
+              </df>
+            </df>
+            <df name="NfcrdlibEx3_NFCForumPN5180.dir">
+              <df name="src">
+              </df>
+            </df>
+          </df>
+          <df name="intfs">
+            <in>NfcrdlibEx3_NFCForum.h</in>
+            <in>cards.h</in>
+          </df>
+          <df name="src">
+            <in>cards.c</in>
+          </df>
+          <in>NfcrdlibEx3_NFCForum.c</in>
+        </df>
+        <df name="NfcrdlibEx4_MIFAREClassic">
+          <df name="CMakeFiles">
+            <df name="NfcrdlibEx4_MIFAREClassicPN512.dir">
+            </df>
+            <df name="NfcrdlibEx4_MIFAREClassicPN5180.dir">
+            </df>
+            <df name="NfcrdlibEx4_MIFAREClassicRC663.dir">
+            </df>
+          </df>
+          <in>NfcrdlibEx4_MIFAREClassic.c</in>
+        </df>
+        <df name="NfcrdlibEx5_ISO15693">
+          <df name="CMakeFiles">
+            <df name="NfcrdlibEx5_ISO15693PN5180.dir">
+            </df>
+            <df name="NfcrdlibEx5_ISO15693RC663.dir">
+            </df>
+          </df>
+          <in>NfcrdlibEx5_ISO15693.c</in>
+        </df>
+        <df name="NfcrdlibEx6_EMVCo_Loopback">
+          <df name="CMakeFiles">
+            <df name="NfcrdlibEx6_EMVCo_LoopbackPN512.dir">
+            </df>
+            <df name="NfcrdlibEx6_EMVCo_LoopbackPN5180.dir">
+            </df>
+            <df name="NfcrdlibEx6_EMVCo_LoopbackRC663.dir">
+            </df>
+          </df>
+          <in>NfcrdlibEx6_EMVCo_Loopback.c</in>
+        </df>
+        <df name="NfcrdlibEx7_EMVCo_Polling">
+          <df name="CMakeFiles">
+            <df name="NfcrdlibEx7_EMVCo_PollingPN512.dir">
+            </df>
+            <df name="NfcrdlibEx7_EMVCo_PollingPN5180.dir">
+            </df>
+            <df name="NfcrdlibEx7_EMVCo_PollingRC663.dir">
+            </df>
+          </df>
+          <in>NfcrdlibEx7_EMVCo_Polling.c</in>
+        </df>
+        <df name="NfcrdlibEx8_HCE_T4T">
+          <df name="CMakeFiles">
+            <df name="NfcrdlibEx8_HCE_T4TPN512.dir">
+            </df>
+            <df name="NfcrdlibEx8_HCE_T4TPN5180.dir">
+            </df>
+          </df>
+          <df name="intfs">
+            <in>NfcrdlibEx8_HCE_T4T.h</in>
+          </df>
+          <in>NfcrdlibEx8_HCE_T4T.c</in>
+        </df>
+        <df name="NfcrdlibEx9_NTagI2C">
+          <df name="CMakeFiles">
+            <df name="NfcrdlibEx9_NTagI2CPN512.dir">
+            </df>
+            <df name="NfcrdlibEx9_NTagI2CPN5180.dir">
+            </df>
+            <df name="NfcrdlibEx9_NTagI2CRC663.dir">
+            </df>
+          </df>
+          <df name="intfs">
+            <in>phhwConfig.h</in>
+          </df>
+          <df name="src">
+            <in>phHwConfig_Lpc11u68.c</in>
+            <in>phHwConfig_Lpc1769.c</in>
+          </df>
+          <in>NfcrdlibEx9_NTagI2C.c</in>
+        </df>
+      </df>
+      <df name="linux">
+        <df name="CMakeFiles">
+          <df name="NxpRdLibLinuxPN512.dir">
+            <df name="__">
+              <df name="nxprdlib">
+                <df name="NxpRdLib">
+                  <df name="comps">
+                    <df name="phacDiscLoop">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalFelica">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalI15693">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalI18000p3m3">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalMfc">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalMfdf">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalMful">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalSli">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalT1T">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalTop">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phbalReg">
+                      <df name="src">
+                      </df>
+                    </df>
+                    <df name="phceT4T">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phhalHw">
+                      <df name="src">
+                        <df name="Pn5180">
+                        </df>
+                        <df name="Rc523">
+                        </df>
+                        <df name="Rc663">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phKeyStore">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phlnLlcp">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phLog">
+                      <df name="src">
+                      </df>
+                    </df>
+                    <df name="phnpSnep">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalEpcUid">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalFelica">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI14443p3a">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI14443p3b">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI14443p4">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI14443p4a">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI14443p4mC">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI18000p3m3">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI18092mPI">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI18092mT">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalMifare">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalSli15693">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phTools">
+                      <df name="src">
+                      </df>
+                    </df>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="comps">
+              <df name="phbalReg">
+                <df name="src">
+                  <df name="Linux">
+                  </df>
+                </df>
+              </df>
+              <df name="phOsal">
+                <df name="src">
+                  <df name="Posix">
+                  </df>
+                </df>
+              </df>
+              <df name="phPlatform">
+                <df name="src">
+                  <df name="Posix">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="shared">
+            </df>
+          </df>
+          <df name="NxpRdLibLinuxPN5180.dir">
+            <df name="__">
+              <df name="nxprdlib">
+                <df name="NxpRdLib">
+                  <df name="comps">
+                    <df name="phacDiscLoop">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalFelica">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalI15693">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalI18000p3m3">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalMfc">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalMfdf">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalMful">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalSli">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalT1T">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalTop">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phbalReg">
+                      <df name="src">
+                      </df>
+                    </df>
+                    <df name="phceT4T">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phhalHw">
+                      <df name="src">
+                        <df name="Pn5180">
+                        </df>
+                        <df name="Rc523">
+                        </df>
+                        <df name="Rc663">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phKeyStore">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phlnLlcp">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phLog">
+                      <df name="src">
+                      </df>
+                    </df>
+                    <df name="phnpSnep">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalEpcUid">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalFelica">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI14443p3a">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI14443p3b">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI14443p4">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI14443p4a">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI14443p4mC">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI18000p3m3">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI18092mPI">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI18092mT">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalMifare">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalSli15693">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phTools">
+                      <df name="src">
+                      </df>
+                    </df>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="comps">
+              <df name="phbalReg">
+                <df name="src">
+                  <df name="Linux">
+                  </df>
+                </df>
+              </df>
+              <df name="phOsal">
+                <df name="src">
+                  <df name="Posix">
+                  </df>
+                </df>
+              </df>
+              <df name="phPlatform">
+                <df name="src">
+                  <df name="Posix">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="shared">
+            </df>
+          </df>
+          <df name="NxpRdLibLinuxRC663.dir">
+            <df name="__">
+              <df name="nxprdlib">
+                <df name="NxpRdLib">
+                  <df name="comps">
+                    <df name="phacDiscLoop">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalFelica">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalI15693">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalI18000p3m3">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalMfc">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalMfdf">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalMful">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalSli">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalT1T">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phalTop">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phbalReg">
+                      <df name="src">
+                      </df>
+                    </df>
+                    <df name="phceT4T">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phhalHw">
+                      <df name="src">
+                        <df name="Pn5180">
+                        </df>
+                        <df name="Rc523">
+                        </df>
+                        <df name="Rc663">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phKeyStore">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phlnLlcp">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phLog">
+                      <df name="src">
+                      </df>
+                    </df>
+                    <df name="phnpSnep">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalEpcUid">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalFelica">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI14443p3a">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI14443p3b">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI14443p4">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI14443p4a">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI14443p4mC">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI18000p3m3">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI18092mPI">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalI18092mT">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalMifare">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phpalSli15693">
+                      <df name="src">
+                        <df name="Sw">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="phTools">
+                      <df name="src">
+                      </df>
+                    </df>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="comps">
+              <df name="phbalReg">
+                <df name="src">
+                  <df name="Linux">
+                  </df>
+                </df>
+              </df>
+              <df name="phOsal">
+                <df name="src">
+                  <df name="Posix">
+                  </df>
+                </df>
+              </df>
+              <df name="phPlatform">
+                <df name="src">
+                  <df name="Posix">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="shared">
+            </df>
+          </df>
+        </df>
+        <df name="comps">
+          <df name="phbalReg">
+            <df name="src">
+              <df name="Linux">
+                <in>phbalReg_Stub.c</in>
+                <in>phbalReg_Stub_Kernel.c</in>
+                <in>phbalReg_Stub_Utils.c</in>
+                <in>phbalReg_Stub_Utils.h</in>
+              </df>
+            </df>
+          </df>
+          <df name="phOsal">
+            <df name="src">
+              <df name="Posix">
+                <in>phOsal_Posix.c</in>
+                <in>phOsal_Posix_Int.h</in>
+              </df>
+            </df>
+          </df>
+          <df name="phPlatform">
+            <df name="src">
+              <df name="Posix">
+                <in>phPlatform.c</in>
+                <in>phPlatform.h</in>
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="intfs">
+          <in>phOsal_Posix_Thread.h</in>
+          <in>ph_NxpBuild_App.h</in>
+        </df>
+        <df name="shared">
+          <in>phhwConfig.c</in>
+          <in>phhwConfig.h</in>
+        </df>
+      </df>
+      <df name="nxprdlib">
+        <df name="NxpRdLib">
+          <df name="comps">
+            <df name="phacDiscLoop">
+              <df name="src">
+                <df name="Sw">
+                  <in>phacDiscLoop_Sw.c</in>
+                  <in>phacDiscLoop_Sw.h</in>
+                  <in>phacDiscLoop_Sw_Int.c</in>
+                  <in>phacDiscLoop_Sw_Int.h</in>
+                  <in>phacDiscLoop_Sw_Int_A.c</in>
+                  <in>phacDiscLoop_Sw_Int_A.h</in>
+                  <in>phacDiscLoop_Sw_Int_B.c</in>
+                  <in>phacDiscLoop_Sw_Int_B.h</in>
+                  <in>phacDiscLoop_Sw_Int_F.c</in>
+                  <in>phacDiscLoop_Sw_Int_F.h</in>
+                  <in>phacDiscLoop_Sw_Int_I18000p3m3.c</in>
+                  <in>phacDiscLoop_Sw_Int_I18000p3m3.h</in>
+                  <in>phacDiscLoop_Sw_Int_V.c</in>
+                  <in>phacDiscLoop_Sw_Int_V.h</in>
+                </df>
+                <in>phacDiscLoop.c</in>
+              </df>
+            </df>
+            <df name="phalFelica">
+              <df name="src">
+                <df name="Sw">
+                  <in>phalFelica_Sw.c</in>
+                  <in>phalFelica_Sw.h</in>
+                </df>
+                <in>phalFelica.c</in>
+                <in>phalFelica_Int.h</in>
+              </df>
+            </df>
+            <df name="phalI15693">
+              <df name="src">
+                <df name="Sw">
+                  <in>phalI15693_Sw.c</in>
+                  <in>phalI15693_Sw.h</in>
+                  <in>phalI15693_Sw_Int.h</in>
+                </df>
+                <in>phalI15693.c</in>
+              </df>
+            </df>
+            <df name="phalI18000p3m3">
+              <df name="src">
+                <df name="Sw">
+                  <in>phalI18000p3m3_Sw.c</in>
+                  <in>phalI18000p3m3_Sw.h</in>
+                  <in>phalI18000p3m3_Sw_Int.c</in>
+                  <in>phalI18000p3m3_Sw_Int.h</in>
+                </df>
+                <in>phalI18000p3m3.c</in>
+              </df>
+            </df>
+            <df name="phalMfc">
+              <df name="src">
+                <df name="Sw">
+                  <in>phalMfc_Sw.c</in>
+                  <in>phalMfc_Sw.h</in>
+                </df>
+                <in>phalMfc.c</in>
+                <in>phalMfc_Int.c</in>
+                <in>phalMfc_Int.h</in>
+              </df>
+            </df>
+            <df name="phalMfdf">
+              <df name="src">
+                <df name="Sw">
+                  <in>phalMfdf_Sw.c</in>
+                  <in>phalMfdf_Sw.h</in>
+                  <in>phalMfdf_Sw_Int.c</in>
+                  <in>phalMfdf_Sw_Int.h</in>
+                </df>
+                <in>phalMfdf.c</in>
+                <in>phalMfdf_Int.c</in>
+                <in>phalMfdf_Int.h</in>
+              </df>
+            </df>
+            <df name="phalMful">
+              <df name="src">
+                <df name="Sw">
+                  <in>phalMful_Sw.c</in>
+                  <in>phalMful_Sw.h</in>
+                </df>
+                <in>phalMful.c</in>
+                <in>phalMful_Int.c</in>
+                <in>phalMful_Int.h</in>
+              </df>
+            </df>
+            <df name="phalSli">
+              <df name="src">
+                <df name="Sw">
+                  <in>phalSli_Sw.c</in>
+                  <in>phalSli_Sw.h</in>
+                  <in>phalSli_Sw_Int.h</in>
+                </df>
+                <in>phalSli.c</in>
+                <in>phalSli_Int.h</in>
+              </df>
+            </df>
+            <df name="phalT1T">
+              <df name="src">
+                <df name="Sw">
+                  <in>phalT1T_Sw.c</in>
+                  <in>phalT1T_Sw.h</in>
+                </df>
+                <in>phalT1T.c</in>
+              </df>
+            </df>
+            <df name="phalTop">
+              <df name="src">
+                <df name="Sw">
+                  <in>phalTop_Sw.c</in>
+                  <in>phalTop_Sw.h</in>
+                  <in>phalTop_Sw_Int_T1T.c</in>
+                  <in>phalTop_Sw_Int_T1T.h</in>
+                  <in>phalTop_Sw_Int_T2T.c</in>
+                  <in>phalTop_Sw_Int_T2T.h</in>
+                  <in>phalTop_Sw_Int_T3T.c</in>
+                  <in>phalTop_Sw_Int_T3T.h</in>
+                  <in>phalTop_Sw_Int_T4T.c</in>
+                  <in>phalTop_Sw_Int_T4T.h</in>
+                  <in>phalTop_Sw_Int_T5T.c</in>
+                  <in>phalTop_Sw_Int_T5T.h</in>
+                </df>
+                <in>phalTop.c</in>
+              </df>
+            </df>
+            <df name="phbalReg">
+              <df name="src">
+                <df name="Stub">
+                  <in>phbalReg_Stub.h</in>
+                </df>
+                <in>phbalReg.c</in>
+              </df>
+            </df>
+            <df name="phceT4T">
+              <df name="src">
+                <df name="Sw">
+                  <in>phceT4T_Sw.c</in>
+                  <in>phceT4T_Sw.h</in>
+                  <in>phceT4T_Sw_Int.c</in>
+                  <in>phceT4T_Sw_Int.h</in>
+                </df>
+                <in>phceT4T.c</in>
+              </df>
+            </df>
+            <df name="phCidManager">
+              <df name="src">
+                <df name="Sw">
+                  <in>phCidManager_Sw.c</in>
+                  <in>phCidManager_Sw.h</in>
+                </df>
+                <in>phCidManager.c</in>
+              </df>
+            </df>
+            <df name="phhalHw">
+              <df name="src">
+                <df name="Pn5180">
+                  <in>phhalHw_Pn5180.c</in>
+                  <in>phhalHw_Pn5180.h</in>
+                  <in>phhalHw_Pn5180_Instr.c</in>
+                  <in>phhalHw_Pn5180_Int.c</in>
+                  <in>phhalHw_Pn5180_Int.h</in>
+                  <in>phhalHw_Pn5180_Wait.c</in>
+                  <in>phhalHw_Pn5180_Wait.h</in>
+                </df>
+                <df name="Rc523">
+                  <in>phhalHw_Rc523.c</in>
+                  <in>phhalHw_Rc523.h</in>
+                  <in>phhalHw_Rc523_Cmd.c</in>
+                  <in>phhalHw_Rc523_Config.h</in>
+                  <in>phhalHw_Rc523_Int.c</in>
+                  <in>phhalHw_Rc523_Int.h</in>
+                  <in>phhalHw_Rc523_Wait.c</in>
+                </df>
+                <df name="Rc663">
+                  <in>phhalHw_Rc663.c</in>
+                  <in>phhalHw_Rc663.h</in>
+                  <in>phhalHw_Rc663_Cmd.c</in>
+                  <in>phhalHw_Rc663_Config.h</in>
+                  <in>phhalHw_Rc663_Int.c</in>
+                  <in>phhalHw_Rc663_Int.h</in>
+                  <in>phhalHw_Rc663_Wait.c</in>
+                </df>
+                <in>phhalHw.c</in>
+              </df>
+            </df>
+            <df name="phKeyStore">
+              <df name="src">
+                <df name="Rc663">
+                  <in>phKeyStore_Rc663.c</in>
+                  <in>phKeyStore_Rc663.h</in>
+                  <in>phKeyStore_Rc663_Int.h</in>
+                </df>
+                <df name="Sw">
+                  <in>phKeyStore_Sw.c</in>
+                  <in>phKeyStore_Sw.h</in>
+                  <in>phKeyStore_Sw_Int.h</in>
+                </df>
+                <in>phKeyStore.c</in>
+                <in>phKeyStore_Int.h</in>
+              </df>
+            </df>
+            <df name="phlnLlcp">
+              <df name="src">
+                <df name="Sw">
+                  <in>phlnLlcp_Sw.c</in>
+                  <in>phlnLlcp_Sw.h</in>
+                  <in>phlnLlcp_Sw_Int.c</in>
+                  <in>phlnLlcp_Sw_Int.h</in>
+                  <in>phlnLlcp_Sw_Mac.c</in>
+                  <in>phlnLlcp_Sw_Mac.h</in>
+                  <in>phlnLlcp_Sw_Transport.c</in>
+                  <in>phlnLlcp_Sw_Transport_Connection.c</in>
+                  <in>phlnLlcp_Sw_Transport_Connectionless.c</in>
+                  <in>phlnLlcp_Timers.c</in>
+                  <in>phlnLlcp_Timers.h</in>
+                </df>
+                <in>phlnLlcp.c</in>
+              </df>
+            </df>
+            <df name="phLog">
+              <df name="src">
+                <in>phLog.c</in>
+                <in>phLog_Int.h</in>
+              </df>
+            </df>
+            <df name="phnpSnep">
+              <df name="src">
+                <df name="Sw">
+                  <in>phnpSnep_Sw.c</in>
+                  <in>phnpSnep_Sw.h</in>
+                </df>
+                <in>phnpSnep.c</in>
+              </df>
+            </df>
+            <df name="phOsal">
+              <df name="src">
+                <df name="Freertos">
+                  <in>phOsal_Freertos.c</in>
+                </df>
+                <df name="Nortos">
+                  <in>phOsal_Nortos.c</in>
+                </df>
+              </df>
+            </df>
+            <df name="phpalEpcUid">
+              <df name="src">
+                <df name="Sw">
+                  <in>phpalEpcUid_Sw.c</in>
+                  <in>phpalEpcUid_Sw.h</in>
+                  <in>phpalEpcUid_Sw_Int.h</in>
+                </df>
+                <in>phpalEpcUid.c</in>
+              </df>
+            </df>
+            <df name="phpalFelica">
+              <df name="src">
+                <df name="Sw">
+                  <in>phpalFelica_Sw.c</in>
+                  <in>phpalFelica_Sw.h</in>
+                  <in>phpalFelica_Sw_Int.h</in>
+                </df>
+                <in>phpalFelica.c</in>
+              </df>
+            </df>
+            <df name="phpalI14443p3a">
+              <df name="src">
+                <df name="Sw">
+                  <in>phpalI14443p3a_Sw.c</in>
+                  <in>phpalI14443p3a_Sw.h</in>
+                  <in>phpalI14443p3a_Sw_Int.h</in>
+                </df>
+                <in>phpalI14443p3a.c</in>
+              </df>
+            </df>
+            <df name="phpalI14443p3b">
+              <df name="src">
+                <df name="Sw">
+                  <in>phpalI14443p3b_Sw.c</in>
+                  <in>phpalI14443p3b_Sw.h</in>
+                  <in>phpalI14443p3b_Sw_Int.h</in>
+                </df>
+                <in>phpalI14443p3b.c</in>
+              </df>
+            </df>
+            <df name="phpalI14443p4">
+              <df name="src">
+                <df name="Sw">
+                  <in>phpalI14443p4_Sw.c</in>
+                  <in>phpalI14443p4_Sw.h</in>
+                  <in>phpalI14443p4_Sw_Int.h</in>
+                </df>
+                <in>phpalI14443p4.c</in>
+              </df>
+            </df>
+            <df name="phpalI14443p4a">
+              <df name="src">
+                <df name="Sw">
+                  <in>phpalI14443p4a_Sw.c</in>
+                  <in>phpalI14443p4a_Sw.h</in>
+                  <in>phpalI14443p4a_Sw_Int.h</in>
+                </df>
+                <in>phpalI14443p4a.c</in>
+              </df>
+            </df>
+            <df name="phpalI14443p4mC">
+              <df name="src">
+                <df name="Sw">
+                  <in>phpalI14443p4mC_Sw.c</in>
+                  <in>phpalI14443p4mC_Sw.h</in>
+                  <in>phpalI14443p4mC_Sw_Int.c</in>
+                  <in>phpalI14443p4mC_Sw_Int.h</in>
+                </df>
+                <in>phpalI14443p4mC.c</in>
+              </df>
+            </df>
+            <df name="phpalI18000p3m3">
+              <df name="src">
+                <df name="Sw">
+                  <in>phpalI18000p3m3_Sw.c</in>
+                  <in>phpalI18000p3m3_Sw.h</in>
+                  <in>phpalI18000p3m3_Sw_Int.h</in>
+                </df>
+                <in>phpalI18000p3m3.c</in>
+              </df>
+            </df>
+            <df name="phpalI18092mPI">
+              <df name="src">
+                <df name="Sw">
+                  <in>phpalI18092mPI_Sw.c</in>
+                  <in>phpalI18092mPI_Sw.h</in>
+                  <in>phpalI18092mPI_Sw_Int.c</in>
+                  <in>phpalI18092mPI_Sw_Int.h</in>
+                </df>
+                <in>phpalI18092mPI.c</in>
+              </df>
+            </df>
+            <df name="phpalI18092mT">
+              <df name="src">
+                <df name="Sw">
+                  <in>phpalI18092mT_Sw.c</in>
+                  <in>phpalI18092mT_Sw.h</in>
+                  <in>phpalI18092mT_Sw_Int.c</in>
+                  <in>phpalI18092mT_Sw_Int.h</in>
+                </df>
+                <in>phpalI18092mT.c</in>
+              </df>
+            </df>
+            <df name="phpalMifare">
+              <df name="src">
+                <df name="Sw">
+                  <in>phpalMifare_Sw.c</in>
+                  <in>phpalMifare_Sw.h</in>
+                </df>
+                <in>phpalMifare.c</in>
+                <in>phpalMifare_Int.h</in>
+              </df>
+            </df>
+            <df name="phpalSli15693">
+              <df name="src">
+                <df name="Sw">
+                  <in>phpalSli15693_Sw.c</in>
+                  <in>phpalSli15693_Sw.h</in>
+                  <in>phpalSli15693_Sw_Int.h</in>
+                </df>
+                <in>phpalSli15693.c</in>
+              </df>
+            </df>
+            <df name="phTools">
+              <df name="src">
+                <in>phTools.c</in>
+                <in>phTools_Q.c</in>
+              </df>
+            </df>
+          </df>
+          <df name="docs">
+            <df name="14_user_doc">
+            </df>
+            <df name="22_rel_doc">
+            </df>
+          </df>
+          <df name="intfs">
+            <in>NxpRdLib_Ver.h</in>
+            <in>phCidManager.h</in>
+            <in>phKeyStore.h</in>
+            <in>phLog.h</in>
+            <in>phOsal.h</in>
+            <in>phTools.h</in>
+            <in>phacDiscLoop.h</in>
+            <in>phalFelica.h</in>
+            <in>phalI15693.h</in>
+            <in>phalI18000p3m3.h</in>
+            <in>phalMfc.h</in>
+            <in>phalMfdf.h</in>
+            <in>phalMful.h</in>
+            <in>phalSli.h</in>
+            <in>phalT1T.h</in>
+            <in>phalTop.h</in>
+            <in>phbalReg.h</in>
+            <in>phceT4T.h</in>
+            <in>phhalHw.h</in>
+            <in>phhalHw_Pn5180_Instr.h</in>
+            <in>phhalHw_Pn5180_Reg.h</in>
+            <in>phhalHw_Rc523_Cmd.h</in>
+            <in>phhalHw_Rc523_Reg.h</in>
+            <in>phhalHw_Rc663_Cmd.h</in>
+            <in>phhalHw_Rc663_Reg.h</in>
+            <in>phlnLlcp.h</in>
+            <in>phnpSnep.h</in>
+            <in>phpalEpcUid.h</in>
+            <in>phpalFelica.h</in>
+            <in>phpalI14443p3a.h</in>
+            <in>phpalI14443p3b.h</in>
+            <in>phpalI14443p4.h</in>
+            <in>phpalI14443p4a.h</in>
+            <in>phpalI14443p4mC.h</in>
+            <in>phpalI18000p3m3.h</in>
+            <in>phpalI18092mPI.h</in>
+            <in>phpalI18092mT.h</in>
+            <in>phpalMifare.h</in>
+            <in>phpalSli15693.h</in>
+          </df>
+          <df name="types">
+            <in>ph_NxpBuild.h</in>
+            <in>ph_NxpBuild_Lpc.h</in>
+            <in>ph_NxpBuild_Pc.h</in>
+            <in>ph_RefDefs.h</in>
+            <in>ph_Status.h</in>
+            <in>ph_TypeDefs.h</in>
+          </df>
+        </df>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="NewConfiguration" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_signals>
+        </gdb_signals>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -c 15000</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -c 30000</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -c 1000</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -c 2000</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

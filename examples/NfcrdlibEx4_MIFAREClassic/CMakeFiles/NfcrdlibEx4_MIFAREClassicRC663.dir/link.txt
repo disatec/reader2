@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g3 -gdwarf-2    CMakeFiles/NfcrdlibEx4_MIFAREClassicRC663.dir/NfcrdlibEx4_MIFAREClassic.c.o  -o NfcrdlibEx4_MIFAREClassicRC663  -L/linux -rdynamic ../../linux/libNxpRdLibLinuxRC663.a -lpthread -lrt -Wl,-rpath,/linux 

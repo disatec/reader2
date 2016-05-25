@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g3 -gdwarf-2    CMakeFiles/NfcrdlibEx6_EMVCo_LoopbackRC663.dir/NfcrdlibEx6_EMVCo_Loopback.c.o  -o NfcrdlibEx6_EMVCo_LoopbackRC663  -L/linux -rdynamic ../../linux/libNxpRdLibLinuxRC663.a -lpthread -lrt -Wl,-rpath,/linux 

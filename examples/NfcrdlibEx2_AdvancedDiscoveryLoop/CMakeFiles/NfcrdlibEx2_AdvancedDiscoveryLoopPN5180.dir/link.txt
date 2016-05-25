@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g3 -gdwarf-2    CMakeFiles/NfcrdlibEx2_AdvancedDiscoveryLoopPN5180.dir/NfcrdlibEx2_AdvancedDiscoveryLoop.c.o CMakeFiles/NfcrdlibEx2_AdvancedDiscoveryLoopPN5180.dir/src/cards.c.o  -o NfcrdlibEx2_AdvancedDiscoveryLoopPN5180  -L/linux -rdynamic ../../linux/libNxpRdLibLinuxPN5180.a -lpthread -lrt -Wl,-rpath,/linux 

@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g3 -gdwarf-2    CMakeFiles/NfcrdlibEx8_HCE_T4TPN512.dir/NfcrdlibEx8_HCE_T4T.c.o  -o NfcrdlibEx8_HCE_T4TPN512  -L/linux -rdynamic ../../linux/libNxpRdLibLinuxPN512.a -lpthread -lrt -Wl,-rpath,/linux 

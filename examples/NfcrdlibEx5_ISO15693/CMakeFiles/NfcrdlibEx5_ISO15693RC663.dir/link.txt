@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g3 -gdwarf-2    CMakeFiles/NfcrdlibEx5_ISO15693RC663.dir/NfcrdlibEx5_ISO15693.c.o  -o NfcrdlibEx5_ISO15693RC663  -L/linux -rdynamic ../../linux/libNxpRdLibLinuxRC663.a -lpthread -lrt -Wl,-rpath,/linux 

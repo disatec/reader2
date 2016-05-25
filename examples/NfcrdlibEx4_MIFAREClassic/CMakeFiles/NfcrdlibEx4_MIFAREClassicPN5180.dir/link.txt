@@ -1,0 +1,1 @@
+/usr/bin/gcc  -g3 -gdwarf-2    CMakeFiles/NfcrdlibEx4_MIFAREClassicPN5180.dir/NfcrdlibEx4_MIFAREClassic.c.o  -o NfcrdlibEx4_MIFAREClassicPN5180  -L/linux -rdynamic ../../linux/libNxpRdLibLinuxPN5180.a -lpthread -lrt -Wl,-rpath,/linux 
