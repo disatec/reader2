@@ -129,6 +129,7 @@ int Set_Interface_Link(void);
 void Cleanup_Interface_Link(void);
 int Set_Interrupt();
 void Cleanup_Interrupt();
+void Exit_Interrupt();
 void Reset_reader_device(void);
 
 void Configure_Device(phhalHw_Nfc_Ic_DataParams_t* pHal);

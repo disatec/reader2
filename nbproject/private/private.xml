@@ -12,6 +12,9 @@
         <group>
             <file>file:/home/pi/projects/reader/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.c</file>
             <file>file:/home/pi/projects/reader/nxprdlib/NxpRdLib/intfs/phacDiscLoop.h</file>
+            <file>file:/home/pi/projects/reader/nxprdlib/NxpRdLib/intfs/phOsal.h</file>
+            <file>file:/home/pi/projects/reader/linux/comps/phOsal/src/Posix/phOsal_Posix.c</file>
+            <file>file:/home/pi/projects/reader/linux/intfs/phOsal_Posix_Thread.h</file>
             <file>file:/home/pi/projects/reader/examples/NfcrdlibEx8_HCE_T4T/NfcrdlibEx8_HCE_T4T.c</file>
         </group>
     </open-files>

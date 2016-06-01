@@ -448,6 +448,12 @@ void Cleanup_Interrupt()
 	pthread_join(_data.irqThread, NULL);
 }
 
+void Exit_Interrupt()
+{
+	pthread_cancel(_data.irqThread);
+}
+
+
 void Configure_Device(phhalHw_Nfc_Ic_DataParams_t* pHal)
 {
 #ifdef NXPBUILD__PHHAL_HW_RC523

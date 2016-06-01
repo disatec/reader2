@@ -35,6 +35,9 @@
 #define LENGHT_BUFFER 32000
 
 char buffer_message[LENGHT_BUFFER];
+int lenght_message;
+bool bStopThreads = false;
+bool bThreadsStarted = false;
 
 
 /* Check if all required reader library layers are enabled. */
@@ -117,6 +120,13 @@ phOsal_SemaphoreHandle_t appstart = NULL; /* Used to synchronize start of one
                                              cycle of application processing */
 phOsal_SemaphoreHandle_t appexit = NULL;  /* Used to synchronize end of one
                                              cycle of application processing */
+
+
+phOsal_SemaphoreHandle_t readerEnd = NULL;  /* Used to synchronize end of reader */
+
+phOsal_SemaphoreHandle_t applicationEnd = NULL;  /* Used to synchronize end of application */
+
+
 #if ISO_10373_6_PICC_TEST_BENCH
 phOsal_SemaphoreHandle_t timerwtx = NULL; /* Used in PICC ISO 10373-6 test bench
                                              to create WTX */
@@ -356,10 +366,17 @@ void TApplication(
 
     printf("Application thread started...\n");
 
-    while(1)
+    while(!bStopThreads)
     {
         /* Wait for trigger from reader library thread to start */
         status = phOsal_Semaphore_Take(appstart, 0xFFFFFFFF);
+        if (bStopThreads)
+        {
+            phOsal_Semaphore_Give(applicationEnd);
+            return;
+            
+        }    
+        
         if(status != PH_ERR_SUCCESS)
         {
             printf("AppThread: Getting Semaphore failed...\n");
@@ -431,11 +448,15 @@ void TReaderLibrary(
 #endif /* NXPBUILD__PHHAL_HW_PN5180 */
 
     /* Be in card emulation mode */
-    while(1)
+    while(!bStopThreads)
     {
         		/* T4T Card Emulation mode */
         T4TCardEmulation();
     }
+    
+    Exit_Interrupt();
+    Cleanup_Interrupt();
+    phOsal_Semaphore_Give(readerEnd);
 }
 
 /**
@@ -457,7 +478,7 @@ phStatus_t ConfigureCardEmulation(void)
 
     int i= 0;
     int languageLength = aNdefFile[9]; 
-    for (;i<32000 && buffer_message[i]!=0;i++)
+    for (;i<lenght_message;i++)
         aNdefFile[i+10+languageLength]=buffer_message[i];
     
     int lengthmessage = i+languageLength+1;
@@ -711,6 +732,22 @@ void Initialize(void)
         printf("Semaphore creation failed...\n");
     }
 
+    /* Create semaphore for sync. between threads */
+    applicationEnd = phOsal_Semaphore_Create(1, 0);
+    if(applicationEnd == NULL)
+    {
+        printf("Semaphore creation failed...\n");
+    }
+
+    /* Create semaphore for sync. between threads */
+    readerEnd = phOsal_Semaphore_Create(1, 0);
+    if(readerEnd == NULL)
+    {
+        printf("Semaphore creation failed...\n");
+    }
+
+    
+
 #if ISO_10373_6_PICC_TEST_BENCH
     /* Create semaphore for testing WTX */
     timerwtx = phOsal_Semaphore_Create(1, 0);
@@ -745,6 +782,62 @@ void error(const char *msg)
     exit(0);
 }
 
+
+// Start listening and card Emulation
+void StartThreads()
+{
+    int ret, *retval1, *retval2;
+    
+    ret = phOsal_Posix_Thread_Create(E_PH_OSAL_EVT_DEST_LIB, (void* (*)(void *))TReaderLibrary, NULL);
+	if(ret)
+	{
+		printf("Application thread creation failed...Error: %ld\n", ret);
+		return;
+	}
+
+	ret = phOsal_Posix_Thread_Create(E_PH_OSAL_EVT_DEST_APP, (void* (*)(void *))TApplication, NULL);
+	if(ret)
+	{
+		printf("Application thread creation failed...Error: %ld\n", ret);
+		return;
+	}
+	
+	phOsal_Posix_Thread_Join(E_PH_OSAL_EVT_DEST_LIB, (void *) retval1);
+    //phOsal_Posix_Thread_Join(E_PH_OSAL_EVT_DEST_APP, (void *) retval2);
+        bThreadsStarted = true;
+
+}
+
+void StopThreads()
+{
+    if (!bThreadsStarted)
+        return;
+    int * retval2;
+    bStopThreads = true;
+    phOsal_Semaphore_Give(appstart);
+
+
+    phStatus_t status = phOsal_Semaphore_Take(applicationEnd, 0xFFFFFFFF);
+    if(status != PH_ERR_SUCCESS)
+    {
+        printf("AppThread: Getting Semaphore failed...\n");
+    }
+    
+    status = phOsal_Semaphore_Take(readerEnd, 0xFFFFFFFF);
+    if(status != PH_ERR_SUCCESS)
+    {
+        printf("AppThread: Getting Semaphore failed...\n");
+    }
+
+    //phOsal_Posix_Thread_Join(E_PH_OSAL_EVT_DEST_APP, (void *) retval2);
+    bStopThreads = false;
+    bThreadsStarted = false;
+
+}
+
+
+
+// Returns bytes returned by read
 int readsocket(char* buffer, int lenbuffer)
 {
    int sockfd, newsockfd, portno, clilen;
@@ -781,38 +874,64 @@ int readsocket(char* buffer, int lenbuffer)
    listen(sockfd,5);
    clilen = sizeof(cli_addr);
    
-   /* Accept actual connection from the client */
-   newsockfd = accept(sockfd, (struct sockaddr *)&cli_addr, &clilen);
-	
-   if (newsockfd < 0) {
-      perror("ERROR on accept");
-      exit(1);
+   Initialize();
+   
+   while(1)
+   {
+
+        /* Accept actual connection from the client */
+        newsockfd = accept(sockfd, (struct sockaddr *)&cli_addr, &clilen);
+
+        if (newsockfd < 0) {
+           perror("ERROR on accept");
+           exit(1);
+        }
+
+
+        /* If connection is established then start communicating */
+        bzero(buffer,lenbuffer);
+        while ((n = read( newsockfd,buffer,lenbuffer )) > 0)
+        {
+   
+            StopThreads();
+            if (n < 0) {
+               perror("ERROR reading from socket");
+               exit(1);
+             }
+
+            printf("Here is the message: %s\n",buffer);
+
+            /* Write a response to the client */
+            /*n = write(newsockfd,"I got your message",18);
+
+            if (n < 0) {
+               perror("ERROR writing to socket");
+               exit(1);
+            }*/
+
+            lenght_message = n;
+            Initialize();
+
+            StartThreads();
+        }
+        close(newsockfd);
    }
-   
-   /* If connection is established then start communicating */
-   bzero(buffer,lenbuffer);
-   n = read( newsockfd,buffer,lenbuffer );
-   
-   if (n < 0) {
-      perror("ERROR reading from socket");
-      exit(1);
-   }
-   
-   printf("Here is the message: %s\n",buffer);
-   
-   /* Write a response to the client */
-   /*n = write(newsockfd,"I got your message",18);
-   
-   if (n < 0) {
-      perror("ERROR writing to socket");
-      exit(1);
-   }*/
-      
-   return 0;
+    return n;
 }
 
-
-
+/**
+ * Read socket thread. 
+ * */
+void TReadSocket(
+                    void *pParams
+                    )
+{
+    while (1)
+    {
+        lenght_message = readsocket(buffer_message, LENGHT_BUFFER);    
+        Initialize();
+    }
+}
 
 /*
  * Main Function
@@ -825,7 +944,17 @@ int main(int argc, char * argv[])
 	DEBUG_PRINTF("\nCard Emulation Type4 Application...\n");
 
     if (argc==1)
-        readsocket(buffer_message, LENGHT_BUFFER);
+    {
+        TReadSocket(NULL);
+        //ret = phOsal_Posix_Thread_Create(E_PH_OSAL_EVT_DEST_APP2, (void* (*)(void *))TReadSocket, NULL);
+    if (ret)
+    {
+		printf("Application thread creation failed...Error: %ld\n", ret);
+		return -1;
+        
+    }
+        
+    }
     else
     {
         if (strcmp(argv[0],"-c"))
@@ -836,28 +965,17 @@ int main(int argc, char * argv[])
                 buffer_message[i] = 'C';
             }
             buffer_message[nroChars] = 0;
+            lenght_message = nroChars;
         }
+
+        Initialize();
+
+        StartThreads();
+
     }
         
         /* Initialize platform (HW and library) */
-    Initialize();
 
-    ret = phOsal_Posix_Thread_Create(E_PH_OSAL_EVT_DEST_LIB, (void* (*)(void *))TReaderLibrary, NULL);
-	if(ret)
-	{
-		printf("Application thread creation failed...Error: %ld\n", ret);
-		return -1;
-	}
-
-	ret = phOsal_Posix_Thread_Create(E_PH_OSAL_EVT_DEST_APP, (void* (*)(void *))TApplication, NULL);
-	if(ret)
-	{
-		printf("Application thread creation failed...Error: %ld\n", ret);
-		return -1;
-	}
-	
-	phOsal_Posix_Thread_Join(E_PH_OSAL_EVT_DEST_LIB, (void *) retval1);
-    phOsal_Posix_Thread_Join(E_PH_OSAL_EVT_DEST_APP, (void *) retval2);
 
 #else /* NXPBUILD_EX8_MANDATORY_LAYERS */
     DEBUG_PRINTF("\n\tERROR: Missing required reader library components in build...");
@@ -865,6 +983,11 @@ int main(int argc, char * argv[])
 
     return 0;
 }
+
+
+
+
+
 
 /*******************************************************************************
 **                            End Of File

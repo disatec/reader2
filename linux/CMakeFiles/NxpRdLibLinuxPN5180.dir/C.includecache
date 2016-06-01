@@ -6,36 +6,52 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/projects/reader/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.h
-phceT4T.h
--
-
-/home/pi/projects/reader/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.c
-ph_RefDefs.h
+/home/pi/projects/reader/linux/shared/phhwConfig.c
+ph_TypeDefs.h
 -
 ph_Status.h
 -
-phpalI14443p4mC.h
+phbalReg.h
+-
+ph_Status.h
+-
+phhwConfig.h
+/home/pi/projects/reader/linux/shared/phhwConfig.h
+stdio.h
+-
+pthread.h
+-
+poll.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+unistd.h
+-
+phbalReg_Stub_Utils.h
+/home/pi/projects/reader/linux/shared/phbalReg_Stub_Utils.h
+
+/home/pi/projects/reader/linux/shared/phhwConfig.h
+phhalHw.h
+-
+ph_NxpBuild.h
 -
 phOsal.h
 -
-phceT4T_Sw.h
-/home/pi/projects/reader/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.h
-phceT4T_Sw_Int.h
-/home/pi/projects/reader/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.h
+stdio.h
+-
 
-/home/pi/projects/reader/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.h
-phceT4T.h
+linux/comps/phbalReg/src/Linux/phbalReg_Stub_Utils.h
+stddef.h
+-
+stdbool.h
 -
 
 linux/intfs/ph_NxpBuild_App.h
 
 nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
 ph_Status.h
--
-
-nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.h
-phceT4T.h
 -
 
 nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
@@ -54,10 +70,6 @@ nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
 ph_Status.h
 -
 phhalHw.h
--
-
-nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.h
-phpalI14443p4mC.h
 -
 
 nxprdlib/NxpRdLib/intfs/phLog.h
@@ -85,12 +97,6 @@ windows.h
 -
 ../comps/phbalReg/src/Stub/phbalReg_Stub.h
 nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
-
-nxprdlib/NxpRdLib/intfs/phceT4T.h
-ph_Status.h
--
-../comps/phceT4T/src/Sw/phceT4T_Sw.h
-nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.h
 
 nxprdlib/NxpRdLib/intfs/phhalHw.h
 ph_Status.h
@@ -140,14 +146,6 @@ nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Reg.h
 ph_Status.h
 -
 
-nxprdlib/NxpRdLib/intfs/phpalI14443p4mC.h
-ph_Status.h
--
-phhalHw.h
--
-../comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.h
-nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.h
-
 nxprdlib/NxpRdLib/types/ph_NxpBuild.h
 ph_NxpBuild_Pc.h
 -
@@ -159,10 +157,6 @@ ph_NxpBuild_App.h
 nxprdlib/NxpRdLib/types/ph_NxpBuild_Lpc.h
 
 nxprdlib/NxpRdLib/types/ph_NxpBuild_Pc.h
-
-nxprdlib/NxpRdLib/types/ph_RefDefs.h
-ph_TypeDefs.h
--
 
 nxprdlib/NxpRdLib/types/ph_Status.h
 ph_NxpBuild.h
