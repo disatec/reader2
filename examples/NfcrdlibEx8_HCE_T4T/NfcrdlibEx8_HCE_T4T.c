@@ -980,29 +980,30 @@ int readserial(char* buffer, int lenbuffer)
        /* Whole response*/
         bzero(buffer,lenbuffer);
 
+        int i = 0;
+        int prueba = 0;
         do {
+            i++;
             n = read( USB, &buf, 1 );
             sprintf( &buffer[spot], "%c", buf );
             
-            printf("%d\n", buf);
+            printf("%d: %c,%d\n", i, buf, buf);
             // Si es un caracter de control DLE(16),EOF(4) le devuelvo el estado
             if (buffer[spot-2] == 16 && buffer[spot-1] == 4)
             {
                 if (buf == 1)
                 {
                     unsigned char cmd[] = "0";
-                    cmd[0] = 18;
+                    cmd[0] = 22;
                     write(USB, cmd, 1);
-                    tcflush(USB, TCIOFLUSH);
-                    fflush(NULL);
+                    //tcflush(USB, TCIOFLUSH);
                 }
                 else // 2 to 6
                 {
                     unsigned char cmd[] = "0";
                     cmd[0] = 18;
                     write(USB, cmd, 1);
-                    tcflush(USB, TCIOFLUSH);
-                    fflush(NULL);
+                    //tcflush(USB, TCIOFLUSH);
                 }
 
             } else if (buffer[spot-2] == 16 && buffer[spot-1] == 5 )
@@ -1015,14 +1016,9 @@ int readserial(char* buffer, int lenbuffer)
             }
             else if (buffer[spot-2] == 29 && buffer[spot-1] == 'a')
             {
-                    unsigned char cmd[] = "0123";
-                    cmd[0] = 16;
-                    cmd[1] = 0;
-                    cmd[2] = 0;
-                    cmd[3] = 0;
-                    int nwrites = write(USB, cmd, 4);
-                    tcflush(USB, TCIOFLUSH);
-                    fflush(NULL);
+                    unsigned char cmd[] = {0x14, 0x00,0x00, 0x0F};
+                    int nwrites = write(USB, cmd, sizeof(cmd));
+                    //tcflush(USB, TCIOFLUSH);
             }
             else if (buffer[spot-2] == 29 && buffer[spot-1] == 'I')
             {
@@ -1031,85 +1027,82 @@ int readserial(char* buffer, int lenbuffer)
                     unsigned char cmd[] = "0";
                     cmd[0] = 0x20;
                     write(USB, cmd, 1);
-                    tcflush(USB, TCIOFLUSH);
-                    fflush(NULL);
+                    //tcflush(USB, TCIOFLUSH);
                 } else if (buf == 2) {
                     unsigned char cmd[] = "0";
                     cmd[0] = 0x02;
                     write(USB, cmd, 1);
-                    tcflush(USB, TCIOFLUSH);
-                    fflush(NULL);
+                    //tcflush(USB, TCIOFLUSH);
                 } else if (buf == 3) {
                     unsigned char cmd[] = "0";
                     cmd[0] = 0x64;
                     write(USB, cmd, 1);
-                    tcflush(USB, TCIOFLUSH);
-                    fflush(NULL);
+                    //tcflush(USB, TCIOFLUSH);
                 } else if (buf == 4) {
                     unsigned char cmd[] = "0";
                     cmd[0] = 0x00;
                     write(USB, cmd, 1);
-                    tcflush(USB, TCIOFLUSH);
-                    fflush(NULL);
+                    //tcflush(USB, TCIOFLUSH);
                 } else if (buf == 65) // firmware version
                 {
                     unsigned char cmd[] = {0x5F, 0x33, 0x30, 0x2E, 0x31, 0x32, 0x20, 0x45, 0x53, 0x43, 0x2F,0x50, 0x4F, 0x53, 0x00};
                     int nwrites = write(USB, cmd, sizeof(cmd));
-                    tcflush(USB, TCIOFLUSH);
-                    fflush(NULL);
+                    //tcflush(USB, TCIOFLUSH);
                 } else if (buf == 66) // firmware version
                 {
                     unsigned char cmd[] = {0x5F, 0x45,0x50,0x53,0x4F,0x4E,0x00};
                     int nwrites = write(USB, cmd, sizeof(cmd));
-                    tcflush(USB, TCIOFLUSH);
-                    fflush(NULL);
                 } else if (buf == 67) // firmware version
                 {
                     unsigned char cmd[] = {0x5F, 0x54,0x4D,0x2D,0x54,0x38,0x38, 0x56,0x00};
                     int nwrites = write(USB, cmd, sizeof(cmd));
-                    tcflush(USB, TCIOFLUSH);
-                    fflush(NULL);
 
                 } else if (buf == 68) // firmware version
                 {
                     unsigned char cmd[] = {0x5F, 0x4D,0x51,0x39,0x46,0x30,0x31,0x32,0x30,0x37,0x37, 0x00};
                     int nwrites = write(USB, cmd, sizeof(cmd));
-                    tcflush(USB, TCIOFLUSH);
-                    fflush(NULL);
                 } else if (buf == 69) // firmware version
                 {
                     unsigned char cmd[] = {0x5F, 0x00};
                     int nwrites = write(USB, cmd, sizeof(cmd));
-                    tcflush(USB, TCIOFLUSH);
-                    fflush(NULL);
-
                 } else  if (buf == 112)
                 {
-                    unsigned char cmd[] = "0123";
-                    cmd[0] = 0x5F;
-                    cmd[1] = 0x30;
-                    cmd[2] = 0;
-                    int nwrites = write(USB, cmd, 3);
-                    tcflush(USB, TCIOFLUSH);
-                    fflush(NULL);
+                    
+                    printf("prueba:%d\n", prueba);
+                    unsigned char cmd[] = {0x5F,0x40, 0x40, 0x40,0x40,0x00};
+                    /*write(USB, "0x5F", 1);
+                    for (int i=0;i<prueba;i++)
+                            write(USB, "0xF0", 1);
+                    write(USB,"0x00",1);*/
+                    prueba++;
+
+                    int nwrites = write(USB, cmd, sizeof(cmd));
                 } else if (buf == 113)
                 {
-                    unsigned char cmd[] = "0123";
-                    cmd[0] = 0x5F;
-                    cmd[1] = 0x31;
-                    cmd[2] = 0;
-                    int nwrites = write(USB, cmd, 3);
-                    tcflush(USB, TCIOFLUSH);
-                    fflush(NULL);
+                    unsigned char cmd[] = {0x5F,0x30,0x00};
+                    int nwrites = write(USB, cmd, sizeof(cmd));
                 }
                 
+            }
+            
+            // GS ( H ( fn 28) identificador de la aplicacion
+            else if (buf == 0x30 && buffer[spot-1] == 0x30 && buffer[spot-2] == 00 && buffer[spot-3] == 0x06 && buffer[spot-4] == 0x48 && buffer[spot-5]==0x28 && buffer[spot-6]==0x1D )
+            {
+                char identificador[4];
+                // leo los cuatro caracteres del buffer
+                 n = read( USB, identificador, 4 );
+
+                 unsigned char cmd[] = {0x37, 0x22, identificador[0], identificador[1], identificador[2], identificador[3], 0x00};
+                int nwrites = write(USB, cmd, sizeof(cmd));
+                //tcflush(USB, TCIOFLUSH);
+
             }
 
             
             
+            //endDocument = (buffer[spot-1]==27 && (buf == '@' /*|| buf=='i'*/));
             
             spot += n;
-            endDocument = (buffer[spot-2]==27 && (buf == '@' || buf=='i'));
         } while(!endDocument  && n > 0);
 
         if (n < 0) {
