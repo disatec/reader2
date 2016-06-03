@@ -29,6 +29,8 @@
         </df>
         <df name="CMakeTmp">
         </df>
+        <df name="Progress">
+        </df>
       </df>
       <df name="examples">
         <df name="CMakeFiles">
@@ -1349,8 +1351,6 @@
         <gdb_interceptlist>
           <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
         </gdb_interceptlist>
-        <gdb_signals>
-        </gdb_signals>
         <gdb_options>
           <DebugOptions>
           </DebugOptions>
@@ -1367,8 +1367,9 @@
           <runcommandpicklistitem>"${OUTPUT_PATH}" -c 1000</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}" -c 2000</runcommandpicklistitem>
           <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -s</runcommandpicklistitem>
         </runcommandpicklist>
-        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <runcommand>"${OUTPUT_PATH}" -s</runcommand>
         <rundir></rundir>
         <buildfirst>true</buildfirst>
         <terminal-type>0</terminal-type>

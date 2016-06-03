@@ -774,6 +774,10 @@ void Initialize(void)
 #include <string.h>
 #include <netdb.h>
 #include <stdio.h>
+#include <fcntl.h>      // File control definitions
+#include <errno.h>      // Error number definitions
+#include <termios.h>    // POSIX terminal control definitions
+
 
 
 void error(const char *msg)
@@ -919,6 +923,219 @@ int readsocket(char* buffer, int lenbuffer)
     return n;
 }
 
+
+// Returns bytes returned by read
+int readserial(char* buffer, int lenbuffer)
+{
+   int USB = open( "/dev/ttyAMA0", O_RDWR| O_NOCTTY );
+   
+   // set attributtes 
+   struct termios tty;
+    struct termios tty_old;
+    memset (&tty, 0, sizeof tty);
+
+    /* Error Handling */
+    if ( tcgetattr ( USB, &tty ) != 0 ) {
+        printf("Error from tty");
+        return 0;
+    }
+
+    /* Save old tty parameters */
+    tty_old = tty;
+
+    /* Set Baud Rate */
+    cfsetospeed (&tty, (speed_t)B115200);
+    cfsetispeed (&tty, (speed_t)B115200);
+
+    /* Setting other Port Stuff */
+    tty.c_cflag     &=  ~PARENB;            // Make 8n1
+    tty.c_cflag     &=  ~CSTOPB;
+    tty.c_cflag     &=  ~CSIZE;
+    tty.c_cflag     |=  CS8;
+
+    tty.c_cflag     &=  ~CRTSCTS;           // no flow control
+    tty.c_cc[VMIN]   =  1;                  // read doesn't block
+    tty.c_cc[VTIME]  =  5;                  // 0.5 seconds read timeout
+    tty.c_cflag     |=  CREAD | CLOCAL;     // turn on READ & ignore ctrl lines
+
+    /* Make raw */
+    cfmakeraw(&tty);
+
+    /* Flush Port, then applies attributes */
+    tcflush( USB, TCIFLUSH );
+    if ( tcsetattr ( USB, TCSANOW, &tty ) != 0) {
+        printf("Errom from set attr");
+        //std::cout << "Error " << errno << " from tcsetattr" << std::endl;
+    }
+
+   
+   int n = 0,
+    spot = 0;
+    char buf = '\0';
+
+   while(1)
+   {
+       spot = 0;
+       bool endDocument = false; 
+       /* Whole response*/
+        bzero(buffer,lenbuffer);
+
+        do {
+            n = read( USB, &buf, 1 );
+            sprintf( &buffer[spot], "%c", buf );
+            
+            printf("%d\n", buf);
+            // Si es un caracter de control DLE(16),EOF(4) le devuelvo el estado
+            if (buffer[spot-2] == 16 && buffer[spot-1] == 4)
+            {
+                if (buf == 1)
+                {
+                    unsigned char cmd[] = "0";
+                    cmd[0] = 18;
+                    write(USB, cmd, 1);
+                    tcflush(USB, TCIOFLUSH);
+                    fflush(NULL);
+                }
+                else // 2 to 6
+                {
+                    unsigned char cmd[] = "0";
+                    cmd[0] = 18;
+                    write(USB, cmd, 1);
+                    tcflush(USB, TCIOFLUSH);
+                    fflush(NULL);
+                }
+
+            } else if (buffer[spot-2] == 16 && buffer[spot-1] == 5 )
+            {
+                    unsigned char cmd[] = "0";
+                    cmd[0] = 18;
+                    //write(USB, &cmd[0], 1);
+                    //tcflush(USB, TCIOFLUSH);
+                
+            }
+            else if (buffer[spot-2] == 29 && buffer[spot-1] == 'a')
+            {
+                    unsigned char cmd[] = "0123";
+                    cmd[0] = 16;
+                    cmd[1] = 0;
+                    cmd[2] = 0;
+                    cmd[3] = 0;
+                    int nwrites = write(USB, cmd, 4);
+                    tcflush(USB, TCIOFLUSH);
+                    fflush(NULL);
+            }
+            else if (buffer[spot-2] == 29 && buffer[spot-1] == 'I')
+            {
+                // OJO, hardcodeado de lo que me devuelve la impresora
+                if (buf == 1) {
+                    unsigned char cmd[] = "0";
+                    cmd[0] = 0x20;
+                    write(USB, cmd, 1);
+                    tcflush(USB, TCIOFLUSH);
+                    fflush(NULL);
+                } else if (buf == 2) {
+                    unsigned char cmd[] = "0";
+                    cmd[0] = 0x02;
+                    write(USB, cmd, 1);
+                    tcflush(USB, TCIOFLUSH);
+                    fflush(NULL);
+                } else if (buf == 3) {
+                    unsigned char cmd[] = "0";
+                    cmd[0] = 0x64;
+                    write(USB, cmd, 1);
+                    tcflush(USB, TCIOFLUSH);
+                    fflush(NULL);
+                } else if (buf == 4) {
+                    unsigned char cmd[] = "0";
+                    cmd[0] = 0x00;
+                    write(USB, cmd, 1);
+                    tcflush(USB, TCIOFLUSH);
+                    fflush(NULL);
+                } else if (buf == 65) // firmware version
+                {
+                    unsigned char cmd[] = {0x5F, 0x33, 0x30, 0x2E, 0x31, 0x32, 0x20, 0x45, 0x53, 0x43, 0x2F,0x50, 0x4F, 0x53, 0x00};
+                    int nwrites = write(USB, cmd, sizeof(cmd));
+                    tcflush(USB, TCIOFLUSH);
+                    fflush(NULL);
+                } else if (buf == 66) // firmware version
+                {
+                    unsigned char cmd[] = {0x5F, 0x45,0x50,0x53,0x4F,0x4E,0x00};
+                    int nwrites = write(USB, cmd, sizeof(cmd));
+                    tcflush(USB, TCIOFLUSH);
+                    fflush(NULL);
+                } else if (buf == 67) // firmware version
+                {
+                    unsigned char cmd[] = {0x5F, 0x54,0x4D,0x2D,0x54,0x38,0x38, 0x56,0x00};
+                    int nwrites = write(USB, cmd, sizeof(cmd));
+                    tcflush(USB, TCIOFLUSH);
+                    fflush(NULL);
+
+                } else if (buf == 68) // firmware version
+                {
+                    unsigned char cmd[] = {0x5F, 0x4D,0x51,0x39,0x46,0x30,0x31,0x32,0x30,0x37,0x37, 0x00};
+                    int nwrites = write(USB, cmd, sizeof(cmd));
+                    tcflush(USB, TCIOFLUSH);
+                    fflush(NULL);
+                } else if (buf == 69) // firmware version
+                {
+                    unsigned char cmd[] = {0x5F, 0x00};
+                    int nwrites = write(USB, cmd, sizeof(cmd));
+                    tcflush(USB, TCIOFLUSH);
+                    fflush(NULL);
+
+                } else  if (buf == 112)
+                {
+                    unsigned char cmd[] = "0123";
+                    cmd[0] = 0x5F;
+                    cmd[1] = 0x30;
+                    cmd[2] = 0;
+                    int nwrites = write(USB, cmd, 3);
+                    tcflush(USB, TCIOFLUSH);
+                    fflush(NULL);
+                } else if (buf == 113)
+                {
+                    unsigned char cmd[] = "0123";
+                    cmd[0] = 0x5F;
+                    cmd[1] = 0x31;
+                    cmd[2] = 0;
+                    int nwrites = write(USB, cmd, 3);
+                    tcflush(USB, TCIOFLUSH);
+                    fflush(NULL);
+                }
+                
+            }
+
+            
+            
+            
+            spot += n;
+            endDocument = (buffer[spot-2]==27 && (buf == '@' || buf=='i'));
+        } while(!endDocument  && n > 0);
+
+        if (n < 0) {
+            printf("Error reading: %s" ,strerror(errno));
+        }
+        else if (n == 0) {
+            printf("Read nothing!");
+        }
+
+   
+        StopThreads();
+
+        //printf("Here is the message: %s\n",buffer);
+
+
+         lenght_message = spot;
+         Initialize();
+
+         StartThreads();
+        
+   }
+
+    return lenght_message;
+}
+
+
 /**
  * Read socket thread. 
  * */
@@ -929,7 +1146,7 @@ void TReadSocket(
     while (1)
     {
         lenght_message = readsocket(buffer_message, LENGHT_BUFFER);    
-        Initialize();
+        //Initialize();
     }
 }
 
@@ -947,16 +1164,20 @@ int main(int argc, char * argv[])
     {
         TReadSocket(NULL);
         //ret = phOsal_Posix_Thread_Create(E_PH_OSAL_EVT_DEST_APP2, (void* (*)(void *))TReadSocket, NULL);
-    if (ret)
-    {
-		printf("Application thread creation failed...Error: %ld\n", ret);
-		return -1;
-        
-    }
-        
+        if (ret)
+        {
+                    printf("Application thread creation failed...Error: %ld\n", ret);
+                    return -1;
+
+        }
+
     }
     else
     {
+        if (strcmp(argv[0],"-s"))
+        {
+            readserial(buffer_message, LENGHT_BUFFER);
+        }
         if (strcmp(argv[0],"-c"))
         {
             int nroChars = atoi(argv[2]);

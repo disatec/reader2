@@ -43,6 +43,12 @@ netdb.h
 -
 stdio.h
 -
+fcntl.h
+-
+errno.h
+-
+termios.h
+-
 
 examples/NfcrdlibEx8_HCE_T4T/intfs/NfcrdlibEx8_HCE_T4T.h
 ph_Status.h
