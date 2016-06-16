@@ -924,6 +924,13 @@ int readsocket(char* buffer, int lenbuffer)
 }
 
 
+int writeSerial(int serial, unsigned char* cmd, int nBytes )
+{
+    int nWrites = write(serial, cmd, nBytes);
+    tcflush(serial, TCOFLUSH);
+    return nWrites;
+}
+
 // Returns bytes returned by read
 int readserial(char* buffer, int lenbuffer)
 {
@@ -955,15 +962,17 @@ int readserial(char* buffer, int lenbuffer)
 
     tty.c_cflag     &=  ~CRTSCTS;           // no flow control
     tty.c_cc[VMIN]   =  1;                  // read doesn't block
-    tty.c_cc[VTIME]  =  5;                  // 0.5 seconds read timeout
+    tty.c_cc[VTIME]  =  0;                  // 0.5 seconds read timeout
     tty.c_cflag     |=  CREAD | CLOCAL;     // turn on READ & ignore ctrl lines
-
     /* Make raw */
-    cfmakeraw(&tty);
+    //cfmakeraw(&tty);
+    tty.c_oflag = 0;
+    tty.c_lflag = ISIG;
+    
 
     /* Flush Port, then applies attributes */
-    tcflush( USB, TCIFLUSH );
-    if ( tcsetattr ( USB, TCSANOW, &tty ) != 0) {
+    tcflush( USB, TCIOFLUSH );
+    if ( tcsetattr ( USB, TCSAFLUSH, &tty ) != 0) {
         printf("Errom from set attr");
         //std::cout << "Error " << errno << " from tcsetattr" << std::endl;
     }
@@ -987,7 +996,7 @@ int readserial(char* buffer, int lenbuffer)
             n = read( USB, &buf, 1 );
             sprintf( &buffer[spot], "%c", buf );
             
-            printf("%d: %c,%d\n", i, buf, buf);
+            printf("%d: %d,%c\n", i, buf, buf);
             // Si es un caracter de control DLE(16),EOF(4) le devuelvo el estado
             if (buffer[spot-2] == 16 && buffer[spot-1] == 4)
             {
@@ -1009,15 +1018,15 @@ int readserial(char* buffer, int lenbuffer)
             } else if (buffer[spot-2] == 16 && buffer[spot-1] == 5 )
             {
                     unsigned char cmd[] = "0";
-                    cmd[0] = 18;
-                    //write(USB, &cmd[0], 1);
+                    cmd[0] = 0x14;
+                    //write(USB, cmd, 1);
                     //tcflush(USB, TCIOFLUSH);
                 
             }
             else if (buffer[spot-2] == 29 && buffer[spot-1] == 'a')
             {
                     unsigned char cmd[] = {0x14, 0x00,0x00, 0x0F};
-                    int nwrites = write(USB, cmd, sizeof(cmd));
+                    int nwrites = writeSerial(USB, cmd, sizeof(cmd));
                     //tcflush(USB, TCIOFLUSH);
             }
             else if (buffer[spot-2] == 29 && buffer[spot-1] == 'I')
@@ -1068,18 +1077,20 @@ int readserial(char* buffer, int lenbuffer)
                 } else  if (buf == 112)
                 {
                     
-                    printf("prueba:%d\n", prueba);
-                    unsigned char cmd[] = {0x5F,0x40, 0x40, 0x40,0x40,0x00};
+                    //printf("prueba:%d\n", prueba);
+                    
+                    
                     /*write(USB, "0x5F", 1);
                     for (int i=0;i<prueba;i++)
                             write(USB, "0xF0", 1);
-                    write(USB,"0x00",1);*/
-                    prueba++;
+                    write(USB,"0x00",1);
+                    prueba++; */
 
+                    unsigned char cmd[] = {0x5F,0x30,0x00};
                     int nwrites = write(USB, cmd, sizeof(cmd));
                 } else if (buf == 113)
                 {
-                    unsigned char cmd[] = {0x5F,0x30,0x00};
+                    unsigned char cmd[] = {0x5F,0x31,0x00};
                     int nwrites = write(USB, cmd, sizeof(cmd));
                 }
                 
@@ -1091,16 +1102,139 @@ int readserial(char* buffer, int lenbuffer)
                 char identificador[4];
                 // leo los cuatro caracteres del buffer
                  n = read( USB, identificador, 4 );
+                 printf ("identificarApp: %d,%d,%d,%d\n", identificador[0], identificador[1], identificador[2], identificador[3]);
 
                  unsigned char cmd[] = {0x37, 0x22, identificador[0], identificador[1], identificador[2], identificador[3], 0x00};
                 int nwrites = write(USB, cmd, sizeof(cmd));
                 //tcflush(USB, TCIOFLUSH);
 
             }
+            // for printer ICG return values of control
+            else if (buffer[spot-2] == 0x1C && buffer[spot-1]==0x5E && buf == 0X3F)
+            {
+                char identificador[6];
+                // leo los cuatro caracteres del buffer
+                 n = read( USB, identificador, 6 );
+                
+                printf("Control bytes %d, %d, %d, %d, %d,%d\n ", identificador[0], identificador[1], identificador[2], identificador[3], identificador[4], identificador[5]);
 
+                unsigned char cmd[] = {identificador[0], identificador[1], identificador[2], identificador[3], identificador[4], identificador[5], 0x00};
+
+                int nwrites = write(USB, cmd, sizeof(cmd));
+                printf("Sending bytes control\n ");
+            }
+            else if (buffer[spot-2] == 27 && buffer[spot-1]==40 && buf == 115)
+            {
+                char identificador[6];
+                unsigned char byteControl;
+                // leo los cuatro caracteres del buffer
+                 n = read( USB, identificador, 6 );
+                
+                printf("Control bytes %d, %d, %d, %d, %d,%d\n ", identificador[0], identificador[1], identificador[2], identificador[3], identificador[4], identificador[5]);
+                byteControl == identificador[4];
+                //Leer los extra bytes si necesario
+                if (identificador[5]!=0)
+                {
+                    char extraBytes[4];
+                    n = read( USB, extraBytes, 4 );
+                
+                    printf("Extra bytes %d, %d, %d, %d\n ", extraBytes[0], extraBytes[1], extraBytes[2], extraBytes[3]);
+                    byteControl == extraBytes[3];
+                    
+                }
+                int nwrites = 0;
+                 if (byteControl == 2)
+                {
+                    unsigned char cmd[] = {0x7B, 0x20, 0x41, 0x34, 0x43, 0x35, 0x39, 0x35, 0x32, 0x34, 0x37, 0x34, 0x32, 0x34, 0x42, 0x34, 0x43, 0x35, 0x33, 0x00};
+                     nwrites = write(USB, cmd, sizeof(cmd));
+
+                }
+
+                else if (byteControl == 4)
+                {
+                    unsigned char cmd[] = {0x7B, 0x20, 0x41, 0x34, 0x38, 0x34, 0x31, 0x34, 0x43, 0x34, 0x37, 0x34, 0x36, 0x35, 0x31, 0x34, 0x43, 0x34, 0x46, 0x00};
+                     nwrites = write(USB, cmd, sizeof(cmd));
+
+                }
+                else if (byteControl == 22)
+                {
+                    unsigned char cmd[] = {0x7B, 0x20, 0x41, 0x35, 0x36, 0x35, 0x39, 0x34, 0x32, 0x34, 0x33, 0x35, 0x41, 0x35, 0x35, 0x34, 0x32, 0x35, 0x33, 0x00};
+                     nwrites = write(USB, cmd, sizeof(cmd));
+                
+                }
+                else if (byteControl == 24)
+                {
+                    unsigned char cmd[] = {0x7B, 0x20, 0x41, 0x35, 0x32, 0x34, 0x31, 0x34, 0x43, 0x35, 0x33, 0x34, 0x45, 0x35, 0x31, 0x34, 0x32, 0x35, 0x39, 0x00};
+                     nwrites = write(USB, cmd, sizeof(cmd));
+                
+                }
+                else if (byteControl == 26)
+                {
+                    unsigned char cmd[] = {0x7B, 0x20, 0x41, 0x35, 0x38, 0x34, 0x33, 0x35, 0x36, 0x35, 0x33, 0x35, 0x32, 0x35, 0x37, 0x34, 0x32, 0x35, 0x35, 0x00};
+                     nwrites = write(USB, cmd, sizeof(cmd));
+                
+                }
+                else if (byteControl == 31)
+                {
+                    unsigned char cmd[] = {0x7B, 0x20, 0x41, 0x34, 0x42, 0x35, 0x30, 0x34, 0x35, 0x34, 0x34, 0x34, 0x37, 0x35, 0x32, 0x35, 0x37, 0x35, 0x41, 0x00};
+                     nwrites = write(USB, cmd, sizeof(cmd));
+                
+                }
+
+                else if (byteControl == 35)
+                {
+                    unsigned char cmd[] = {0x7B, 0x20, 0x41, 0x34, 0x44, 0x34, 0x41, 0x34, 0x39, 0x34, 0x34, 0x34, 0x46, 0x35, 0x34, 0x35, 0x37, 0x34, 0x32, 0x00};
+                     nwrites = write(USB, cmd, sizeof(cmd));
+                
+                }
+                else if (byteControl == 36)
+                {
+                    unsigned char cmd[] = {0x7B, 020, 0x41, 0x34, 0x38, 0x34, 0x33, 0x34, 0x45, 0x35, 0x39, 0x34, 0x43, 0x35, 0x37, 0x35, 0x32, 0x35, 0x35, 0x00};
+                     nwrites = write(USB, cmd, sizeof(cmd));
+                
+                }
+                
+                else if (byteControl == 48)
+                {
+                    unsigned char cmd[] = {0x7B, 0x20, 0x41, 0x34, 0x45, 0x34, 0x35, 0x35, 0x30, 0x34, 0x35, 0x35, 0x34, 0x34, 0x33, 0x35, 0x32, 0x34, 0x31, 0x00};
+                     nwrites = write(USB, cmd, sizeof(cmd));
+
+                }                
+
+                else if (byteControl == 51)
+                {
+                    unsigned char cmd[] = {0x7B, 0x20, 0x41, 0x34, 0x35, 0x35, 0x30, 0x34, 0x46, 0x35, 0x41, 0x34, 0x35, 0x34, 0x32, 0x34, 0x44, 0x35, 0x41, 0x00};
+                     nwrites = write(USB, cmd, sizeof(cmd));
+                
+                }
+
+
+                else if (byteControl == 65)
+                {
+                    unsigned char cmd[] = {0x7B, 0x20, 0x41, 0x34, 0x37, 0x34, 0x41, 0x34, 0x31, 0x35, 0x36, 0x35, 0x31, 0x34, 0x34, 0x34, 0x33, 0x34, 0x32, 0x00};
+                     nwrites = write(USB, cmd, sizeof(cmd));
+
+                }
+                else if (byteControl == 75)
+                {
+                    unsigned char cmd[] = {0x7B, 0x20, 0x41, 0x35, 0x31, 0x35, 0x34, 0x35, 0x33, 0x34, 0x32, 0x35, 0x35, 0x34, 0x45, 0x34, 0x33, 0x34, 0x43, 0x00};
+                     nwrites = write(USB, cmd, sizeof(cmd));
+
+                }
+
+                else // 102
+                {
+                    unsigned char cmd[] = {0x7B, 0x20, 0x41, 0x35, 0x34, 0x34, 0x39, 0x34, 0x43, 0x34, 0x39, 0x34, 0x43, 0x34, 0x46, 0x34, 0x45, 0x34, 0x44, 0x00};
+                    nwrites = write(USB, cmd, sizeof(cmd));
+
+                }
+
+                printf("Sending bytes control %d bytes\n ", nwrites);
+                
+            }
             
             
-            //endDocument = (buffer[spot-1]==27 && (buf == '@' /*|| buf=='i'*/));
+            endDocument = (buffer[spot-1]==27 && (buf == '@' /*|| buf=='i'*/));
             
             spot += n;
         } while(!endDocument  && n > 0);
@@ -1167,11 +1301,11 @@ int main(int argc, char * argv[])
     }
     else
     {
-        if (strcmp(argv[0],"-s"))
+        if (strcmp(argv[1],"-s") == 0)
         {
             readserial(buffer_message, LENGHT_BUFFER);
         }
-        if (strcmp(argv[0],"-c"))
+        if (strcmp(argv[1],"-c") == 0)
         {
             int nroChars = atoi(argv[2]);
             for (int i=0;i<nroChars;i++)
@@ -1185,6 +1319,8 @@ int main(int argc, char * argv[])
         Initialize();
 
         StartThreads();
+        
+        phOsal_Posix_Thread_Join(E_PH_OSAL_EVT_DEST_APP, (void *) retval2);
 
     }
         

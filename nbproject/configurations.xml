@@ -2811,5 +2811,3791 @@
             flavor2="0">
       </item>
     </conf>
+    <conf name="NewConfiguration-2" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE}</buildCommand>
+          <cleanCommand>${MAKE} clean</cleanCommand>
+          <executablePath>examples/NfcrdlibEx1_BasicDiscoveryLoop/NfcrdlibEx1_BasicDiscoveryLoopPN512</executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="addition/kernel-space_bal-module/bal/bal.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="addition/kernel-space_bal-module/bal/include/linux/spi/bal_spi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx1_BasicDiscoveryLoop/NfcrdlibEx1_BasicDiscoveryLoop.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx1_BasicDiscoveryLoop/intfs/cards.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx1_BasicDiscoveryLoop/src/cards.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx2_AdvancedDiscoveryLoop/NfcrdlibEx2_AdvancedDiscoveryLoop.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx2_AdvancedDiscoveryLoop/intfs/cards.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx2_AdvancedDiscoveryLoop/src/cards.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx3_NFCForum/NfcrdlibEx3_NFCForum.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx3_NFCForum/intfs/NfcrdlibEx3_NFCForum.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx3_NFCForum/intfs/cards.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx3_NFCForum/src/cards.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx4_MIFAREClassic/NfcrdlibEx4_MIFAREClassic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx5_ISO15693/NfcrdlibEx5_ISO15693.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx6_EMVCo_Loopback/NfcrdlibEx6_EMVCo_Loopback.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx7_EMVCo_Polling/NfcrdlibEx7_EMVCo_Polling.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx8_HCE_T4T/NfcrdlibEx8_HCE_T4T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx8_HCE_T4T/intfs/NfcrdlibEx8_HCE_T4T.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx9_NTagI2C/NfcrdlibEx9_NTagI2C.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx9_NTagI2C/intfs/phhwConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx9_NTagI2C/src/phHwConfig_Lpc11u68.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx9_NTagI2C/src/phHwConfig_Lpc1769.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phOsal/src/Posix/phOsal_Posix.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phOsal/src/Posix/phOsal_Posix_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phPlatform/src/Posix/phPlatform.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phPlatform/src/Posix/phPlatform.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phbalReg/src/Linux/phbalReg_Stub.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phbalReg/src/Linux/phbalReg_Stub_Kernel.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phbalReg/src/Linux/phbalReg_Stub_Utils.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phbalReg/src/Linux/phbalReg_Stub_Utils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="linux/intfs/phOsal_Posix_Thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="linux/intfs/ph_NxpBuild_App.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="linux/shared/phhwConfig.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="linux/shared/phhwConfig.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phCidManager/src/Sw/phCidManager_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phCidManager/src/Sw/phCidManager_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phCidManager/src/phCidManager.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/Rc663/phKeyStore_Rc663.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/Rc663/phKeyStore_Rc663.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/Rc663/phKeyStore_Rc663_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phLog/src/phLog.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phLog/src/phLog_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phOsal/src/Freertos/phOsal_Freertos.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phOsal/src/Nortos/phOsal_Nortos.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phTools/src/phTools.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phTools/src/phTools_Q.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/phacDiscLoop.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalFelica/src/phalFelica.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalFelica/src/phalFelica_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI15693/src/phalI15693.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/phalI18000p3m3.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMful/src/phalMful.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalSli/src/phalSli.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalSli/src/phalSli_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalT1T/src/phalT1T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/phalTop.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phbalReg/src/phbalReg.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phceT4T/src/phceT4T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Instr.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Wait.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Wait.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Cmd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Wait.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/phhalHw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Transport.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Transport_Connection.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Transport_Connectionless.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Timers.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Timers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/phlnLlcp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phnpSnep/src/Sw/phnpSnep_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phnpSnep/src/Sw/phnpSnep_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phnpSnep/src/phnpSnep.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalEpcUid/src/phpalEpcUid.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalFelica/src/phpalFelica.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/phpalI14443p3b.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4/src/phpalI14443p4.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/phpalI14443p4a.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/phpalI14443p4mC.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/phpalI18092mPI.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mT/src/phpalI18092mT.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalSli15693/src/phpalSli15693.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/NxpRdLib_Ver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phCidManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phKeyStore.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phLog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phOsal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phTools.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phacDiscLoop.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalFelica.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalI15693.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalI18000p3m3.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalMfc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalMfdf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalMful.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalSli.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalT1T.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalTop.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phbalReg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phceT4T.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phhalHw.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Reg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Reg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phlnLlcp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phnpSnep.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalEpcUid.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalFelica.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI14443p3a.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI14443p3b.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI14443p4.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI14443p4a.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI14443p4mC.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI18000p3m3.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI18092mPI.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI18092mT.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalMifare.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalSli15693.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/types/ph_NxpBuild.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/types/ph_NxpBuild_Lpc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/types/ph_NxpBuild_Pc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/types/ph_RefDefs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/types/ph_Status.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/types/ph_TypeDefs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+    <conf name="NewConfiguration-Ex2" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE}</buildCommand>
+          <cleanCommand>${MAKE} clean</cleanCommand>
+          <executablePath>examples/NfcrdlibEx2_AdvancedDiscoveryLoop/NfcrdlibEx2_AdvancedDiscoveryLoopPN512</executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="addition/kernel-space_bal-module/bal/bal.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="addition/kernel-space_bal-module/bal/include/linux/spi/bal_spi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx1_BasicDiscoveryLoop/NfcrdlibEx1_BasicDiscoveryLoop.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx1_BasicDiscoveryLoop/intfs/cards.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx1_BasicDiscoveryLoop/src/cards.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx2_AdvancedDiscoveryLoop/NfcrdlibEx2_AdvancedDiscoveryLoop.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx2_AdvancedDiscoveryLoop/intfs/cards.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx2_AdvancedDiscoveryLoop/src/cards.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx3_NFCForum/NfcrdlibEx3_NFCForum.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx3_NFCForum/intfs/NfcrdlibEx3_NFCForum.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx3_NFCForum/intfs/cards.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx3_NFCForum/src/cards.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx4_MIFAREClassic/NfcrdlibEx4_MIFAREClassic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx5_ISO15693/NfcrdlibEx5_ISO15693.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx6_EMVCo_Loopback/NfcrdlibEx6_EMVCo_Loopback.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx7_EMVCo_Polling/NfcrdlibEx7_EMVCo_Polling.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx8_HCE_T4T/NfcrdlibEx8_HCE_T4T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx8_HCE_T4T/intfs/NfcrdlibEx8_HCE_T4T.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx9_NTagI2C/NfcrdlibEx9_NTagI2C.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx9_NTagI2C/intfs/phhwConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx9_NTagI2C/src/phHwConfig_Lpc11u68.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx9_NTagI2C/src/phHwConfig_Lpc1769.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phOsal/src/Posix/phOsal_Posix.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phOsal/src/Posix/phOsal_Posix_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phPlatform/src/Posix/phPlatform.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phPlatform/src/Posix/phPlatform.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phbalReg/src/Linux/phbalReg_Stub.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phbalReg/src/Linux/phbalReg_Stub_Kernel.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phbalReg/src/Linux/phbalReg_Stub_Utils.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phbalReg/src/Linux/phbalReg_Stub_Utils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="linux/intfs/phOsal_Posix_Thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="linux/intfs/ph_NxpBuild_App.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="linux/shared/phhwConfig.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="linux/shared/phhwConfig.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phCidManager/src/Sw/phCidManager_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phCidManager/src/Sw/phCidManager_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phCidManager/src/phCidManager.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/Rc663/phKeyStore_Rc663.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/Rc663/phKeyStore_Rc663.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/Rc663/phKeyStore_Rc663_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phLog/src/phLog.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phLog/src/phLog_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phOsal/src/Freertos/phOsal_Freertos.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phOsal/src/Nortos/phOsal_Nortos.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phTools/src/phTools.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phTools/src/phTools_Q.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/phacDiscLoop.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalFelica/src/phalFelica.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalFelica/src/phalFelica_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI15693/src/phalI15693.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/phalI18000p3m3.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMful/src/phalMful.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalSli/src/phalSli.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalSli/src/phalSli_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalT1T/src/phalT1T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/phalTop.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phbalReg/src/phbalReg.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phceT4T/src/phceT4T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Instr.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Wait.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Wait.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Cmd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Wait.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/phhalHw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Transport.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Transport_Connection.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Transport_Connectionless.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Timers.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Timers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/phlnLlcp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phnpSnep/src/Sw/phnpSnep_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phnpSnep/src/Sw/phnpSnep_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phnpSnep/src/phnpSnep.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalEpcUid/src/phpalEpcUid.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalFelica/src/phpalFelica.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/phpalI14443p3b.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4/src/phpalI14443p4.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/phpalI14443p4a.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/phpalI14443p4mC.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/phpalI18092mPI.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mT/src/phpalI18092mT.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalSli15693/src/phpalSli15693.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/NxpRdLib_Ver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phCidManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phKeyStore.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phLog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phOsal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phTools.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phacDiscLoop.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalFelica.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalI15693.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalI18000p3m3.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalMfc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalMfdf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalMful.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalSli.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalT1T.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalTop.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phbalReg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phceT4T.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phhalHw.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Reg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Reg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phlnLlcp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phnpSnep.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalEpcUid.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalFelica.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI14443p3a.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI14443p3b.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI14443p4.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI14443p4a.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI14443p4mC.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI18000p3m3.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI18092mPI.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI18092mT.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalMifare.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalSli15693.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/types/ph_NxpBuild.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/types/ph_NxpBuild_Lpc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/types/ph_NxpBuild_Pc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/types/ph_RefDefs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/types/ph_Status.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/types/ph_TypeDefs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+    <conf name="NewConfiguration-3" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE}</buildCommand>
+          <cleanCommand>${MAKE} clean</cleanCommand>
+          <executablePath>examples/NfcrdlibEx3_NFCForum/NfcrdlibEx3_NFCForumPN512</executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="addition/kernel-space_bal-module/bal/bal.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="addition/kernel-space_bal-module/bal/include/linux/spi/bal_spi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx1_BasicDiscoveryLoop/NfcrdlibEx1_BasicDiscoveryLoop.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx1_BasicDiscoveryLoop/intfs/cards.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx1_BasicDiscoveryLoop/src/cards.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx2_AdvancedDiscoveryLoop/NfcrdlibEx2_AdvancedDiscoveryLoop.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx2_AdvancedDiscoveryLoop/intfs/cards.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx2_AdvancedDiscoveryLoop/src/cards.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx3_NFCForum/NfcrdlibEx3_NFCForum.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx3_NFCForum/intfs/NfcrdlibEx3_NFCForum.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx3_NFCForum/intfs/cards.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx3_NFCForum/src/cards.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx4_MIFAREClassic/NfcrdlibEx4_MIFAREClassic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx5_ISO15693/NfcrdlibEx5_ISO15693.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx6_EMVCo_Loopback/NfcrdlibEx6_EMVCo_Loopback.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx7_EMVCo_Polling/NfcrdlibEx7_EMVCo_Polling.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx8_HCE_T4T/NfcrdlibEx8_HCE_T4T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx8_HCE_T4T/intfs/NfcrdlibEx8_HCE_T4T.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx9_NTagI2C/NfcrdlibEx9_NTagI2C.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx9_NTagI2C/intfs/phhwConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx9_NTagI2C/src/phHwConfig_Lpc11u68.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="examples/NfcrdlibEx9_NTagI2C/src/phHwConfig_Lpc1769.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phOsal/src/Posix/phOsal_Posix.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phOsal/src/Posix/phOsal_Posix_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phPlatform/src/Posix/phPlatform.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phPlatform/src/Posix/phPlatform.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phbalReg/src/Linux/phbalReg_Stub.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phbalReg/src/Linux/phbalReg_Stub_Kernel.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phbalReg/src/Linux/phbalReg_Stub_Utils.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="linux/comps/phbalReg/src/Linux/phbalReg_Stub_Utils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="linux/intfs/phOsal_Posix_Thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="linux/intfs/ph_NxpBuild_App.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="linux/shared/phhwConfig.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="linux/shared/phhwConfig.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phCidManager/src/Sw/phCidManager_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phCidManager/src/Sw/phCidManager_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phCidManager/src/phCidManager.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/Rc663/phKeyStore_Rc663.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/Rc663/phKeyStore_Rc663.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/Rc663/phKeyStore_Rc663_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phLog/src/phLog.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phLog/src/phLog_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phOsal/src/Freertos/phOsal_Freertos.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phOsal/src/Nortos/phOsal_Nortos.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phTools/src/phTools.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phTools/src/phTools_Q.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phacDiscLoop/src/phacDiscLoop.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalFelica/src/phalFelica.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalFelica/src/phalFelica_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI15693/src/phalI15693.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/phalI18000p3m3.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMful/src/phalMful.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalSli/src/phalSli.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalSli/src/phalSli_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalT1T/src/phalT1T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phalTop/src/phalTop.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phbalReg/src/phbalReg.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phceT4T/src/phceT4T.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Instr.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Wait.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Wait.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Cmd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Wait.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phhalHw/src/phhalHw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Transport.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Transport_Connection.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Transport_Connectionless.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Timers.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Timers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phlnLlcp/src/phlnLlcp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phnpSnep/src/Sw/phnpSnep_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phnpSnep/src/Sw/phnpSnep_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phnpSnep/src/phnpSnep.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalEpcUid/src/phpalEpcUid.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalFelica/src/phpalFelica.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/phpalI14443p3b.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4/src/phpalI14443p4.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/phpalI14443p4a.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/phpalI14443p4mC.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/phpalI18092mPI.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalI18092mT/src/phpalI18092mT.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw_Int.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/comps/phpalSli15693/src/phpalSli15693.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/NxpRdLib_Ver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phCidManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phKeyStore.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phLog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phOsal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phTools.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phacDiscLoop.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalFelica.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalI15693.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalI18000p3m3.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalMfc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalMfdf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalMful.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalSli.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalT1T.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phalTop.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phbalReg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phceT4T.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phhalHw.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Reg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Reg.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phlnLlcp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phnpSnep.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalEpcUid.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalFelica.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI14443p3a.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI14443p3b.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI14443p4.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI14443p4a.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI14443p4mC.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI18000p3m3.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI18092mPI.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalI18092mT.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalMifare.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/intfs/phpalSli15693.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/types/ph_NxpBuild.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/types/ph_NxpBuild_Lpc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/types/ph_NxpBuild_Pc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/types/ph_RefDefs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/types/ph_Status.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nxprdlib/NxpRdLib/types/ph_TypeDefs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
   </confs>
 </configurationDescriptor>

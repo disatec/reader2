@@ -21,6 +21,18 @@
                     <name>NewConfiguration</name>
                     <type>0</type>
                 </confElem>
+                <confElem>
+                    <name>NewConfiguration-2</name>
+                    <type>0</type>
+                </confElem>
+                <confElem>
+                    <name>NewConfiguration-Ex2</name>
+                    <type>0</type>
+                </confElem>
+                <confElem>
+                    <name>NewConfiguration-3</name>
+                    <type>0</type>
+                </confElem>
             </confList>
             <formatting>
                 <project-formatting-style>false</project-formatting-style>

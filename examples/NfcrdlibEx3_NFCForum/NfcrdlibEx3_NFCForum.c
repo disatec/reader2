@@ -40,6 +40,17 @@
 * */
 #include <phhwConfig.h>
 #include <cards.h>
+#include <sys/types.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <string.h>
+#include <netdb.h>
+#include <stdio.h>
+#include <fcntl.h>      // File control definitions
+#include <errno.h>      // Error number definitions
+#include <termios.h>    // POSIX terminal control definitions
 
 #include <phOsal_Posix_Thread.h>
 
@@ -211,10 +222,12 @@ static uint8_t  poll_res[18]    = {0x01, 0xFE, 0xB2, 0xB3, 0xB4, 0xB5,
 */
 static uint16_t bSavePollTechCfg  = 0;
 
+#define LENGHT_BUFFER 32000
+
 
 #ifdef NDEF_TEXT
 /* SNEP PUT text message used in this example. */
-static const uint8_t baSnepAppBuf[] = {
+uint8_t baSnepAppBuf[] = {
     0xC1,                   /* NDEF Record Structure */
     0x01,                   /* TYPE LENGTH */
     0x00, 0x00, 0x04, 0x01, /* PAYLOAD LENGTH */
@@ -258,7 +271,9 @@ static const uint8_t baSnepAppBuf[] = {
     ,'r','.'
 };
 
-#else
+#endif
+
+#ifdef NDEF_URI
 /* Short SNEP PUT URI message used in this example. */
 static const uint8_t baSnepAppBuf[] = {
     0xC1,                   /* NDEF record structure */
@@ -268,8 +283,22 @@ static const uint8_t baSnepAppBuf[] = {
     0x01,                   /* ID UTF8 */
     'n','x','p','.','c','o','m'
 };
+#else // text ndef
+uint8_t baSnepAppBuf[LENGHT_BUFFER] = {
+    0xC1, 0x01, 
+    0x00,0x00,0x00,14, 
+    0x54, 
+    0x02,
+    'E','s',
+    0x77, 0x77, 0x77, 0x2E, 0x6E, 0x78, 0x70, 0x2E, 0x63, 0x6F, 0x6D, 0x6D, 0x6D};
+
 #endif /* NDEF_TEXT */
 
+// Caracteristicas especiales para la aplicación para cargar los mensajes
+
+
+char buffer_message[LENGHT_BUFFER];
+uint32_t lenght_message = 0;
 uint32_t   dwDataLen = sizeof(baSnepAppBuf);
 
 /*
@@ -1842,7 +1871,42 @@ void *TSNEPServer(void * pLlcp)
 }
 #endif /* SNEP_SERVER */
 
+void copyBufferToMessasge()
+{
+  /*  static const uint8_t baSnepAppBuf[LENGHT_BUFFER] = {
+    0xC1, 0x01, 
+    0x00,0x00,0x00,14, 
+    0x54, 
+    0x01, 
+    0x77, 0x77, 0x77, 0x2E, 0x6E, 0x78, 0x70, 0x2E, 0x63, 0x6F, 0x6D, 0x6D, 0x6D};
+*/
+    int i= 0;
+    int languageLength = baSnepAppBuf[7]; 
+    /*if (languageLength == 1)
+        languageLength = 0;*/
+    for (;i<lenght_message;i++)
+        baSnepAppBuf[i+8+languageLength]=buffer_message[i];
+    
+    int lengthmessage = i+languageLength+1;
+    baSnepAppBuf [4] = (lengthmessage & 0xFF00) >> 8;
+    baSnepAppBuf [5] = (lengthmessage & 0xFF);
+    dwDataLen = lengthmessage + 7;
+    
+    //int lenghttotal = i + languageLength + 8;
+    //aNdefFile [0] = (lenghttotal & 0xFF00) >> 8;
+    //aNdefFile [1] = (lenghttotal & 0xFF);
+    
+    baSnepAppBuf[dwDataLen] = 0;
+    printf("longitud mensaje %i\n", dwDataLen);
+    for (int i=0;i<dwDataLen;i++)
+    {
+        printf("%d - %02x - %c\n", baSnepAppBuf[i], baSnepAppBuf[i], baSnepAppBuf[i]);
+    }
+
+}
+
 #ifdef SNEP_CLIENT
+
 /**
 * Task 4 : SNEP client task.
 * This task gets created from TSnepDispatch and will register client socket on LLCP running in reader
@@ -1861,6 +1925,7 @@ void *TSNEPClient(void * pLlcp)
             bClientRxBuffer, dwClientRxBuffLength);
     if (status == PH_ERR_SUCCESS)
     {
+        copyBufferToMessasge();
         status = phnpSnep_Put(&snpSnepClient, (uint8_t *)baSnepAppBuf, dwDataLen);
         ClientSocket.fReady = true;
 
@@ -1877,6 +1942,7 @@ void *TSNEPClient(void * pLlcp)
         }
         else
         {
+            printf("Error putting message\n");
             status = phlnLlcp_Transport_Socket_Unregister(snpSnepClient.plnLlcpDataParams,
                     snpSnepClient.psSocket);
             CHECK_STATUS(status);
@@ -1888,9 +1954,10 @@ void *TSNEPClient(void * pLlcp)
 
         /* Client initialization is un-successful as failed to connect to remote server.
          * Release RTOS memory by performing socket unregister. */
+        printf("Error initializing SNEP\n");
+        CHECK_STATUS(status);
         status = phlnLlcp_Transport_Socket_Unregister(snpSnepClient.plnLlcpDataParams,
                 snpSnepClient.psSocket);
-        CHECK_STATUS(status);
     }
 } 
 
@@ -1939,13 +2006,371 @@ void *TSnepDispatch(void * pLlcp)
     }
 }
 
+
+
+/*******************************************************************************
+**   Read messages from socket and serial
+*******************************************************************************/
+
+
+
+// Returns bytes returned by read
+int readsocket(char* buffer, int lenbuffer)
+{
+   int sockfd, newsockfd, portno, clilen;
+   //char buffer[256];
+   struct sockaddr_in serv_addr, cli_addr;
+   int  n;
+   
+   /* First call to socket() function */
+   sockfd = socket(AF_INET, SOCK_STREAM, 0);
+   
+   if (sockfd < 0) {
+      perror("ERROR opening socket");
+      exit(1);
+   }
+   
+   /* Initialize socket structure */
+   bzero((char *) &serv_addr, sizeof(serv_addr));
+   portno = 5001;
+   
+   serv_addr.sin_family = AF_INET;
+   serv_addr.sin_addr.s_addr = INADDR_ANY;
+   serv_addr.sin_port = htons(portno);
+   
+   /* Now bind the host address using bind() call.*/
+   if (bind(sockfd, (struct sockaddr *) &serv_addr, sizeof(serv_addr)) < 0) {
+      perror("ERROR on binding");
+      exit(1);
+   }
+      
+   /* Now start listening for the clients, here process will
+      * go in sleep mode and will wait for the incoming connection
+   */
+   
+   listen(sockfd,5);
+   clilen = sizeof(cli_addr);
+   
+   
+   while(1)
+   {
+
+        /* Accept actual connection from the client */
+        newsockfd = accept(sockfd, (struct sockaddr *)&cli_addr, &clilen);
+
+        if (newsockfd < 0) {
+           perror("ERROR on accept");
+           exit(1);
+        }
+
+
+        /* If connection is established then start communicating */
+        bzero(buffer,lenbuffer);
+        while ((n = read( newsockfd,buffer,lenbuffer )) > 0)
+        {
+   
+            if (n < 0) {
+               perror("ERROR reading from socket");
+               exit(1);
+             }
+
+            printf("Here is the message: %s\n",buffer);
+
+            /* Write a response to the client */
+            /*n = write(newsockfd,"I got your message",18);
+
+            if (n < 0) {
+               perror("ERROR writing to socket");
+               exit(1);
+            }*/
+
+            lenght_message = n;
+        }
+        close(newsockfd);
+   }
+    return n;
+}
+
+
+
+
+int writeSerial(int serial, unsigned char* cmd, int nBytes )
+{
+    int nWrites = write(serial, cmd, nBytes);
+    tcflush(serial, TCOFLUSH);
+    return nWrites;
+}
+
+// Returns bytes returned by read
+int readserial(char* buffer, int lenbuffer)
+{
+   int USB = open( "/dev/ttyAMA0", O_RDWR| O_NOCTTY );
+   
+   // set attributtes 
+   struct termios tty;
+    struct termios tty_old;
+    memset (&tty, 0, sizeof tty);
+
+    /* Error Handling */
+    if ( tcgetattr ( USB, &tty ) != 0 ) {
+        printf("Error from tty");
+        return 0;
+    }
+
+    /* Save old tty parameters */
+    tty_old = tty;
+
+    /* Set Baud Rate */
+    cfsetospeed (&tty, (speed_t)B115200);
+    cfsetispeed (&tty, (speed_t)B115200);
+
+    /* Setting other Port Stuff */
+    tty.c_cflag     &=  ~PARENB;            // Make 8n1
+    tty.c_cflag     &=  ~CSTOPB;
+    tty.c_cflag     &=  ~CSIZE;
+    tty.c_cflag     |=  CS8;
+
+    tty.c_cflag     &=  ~CRTSCTS;           // no flow control
+    tty.c_cc[VMIN]   =  1;                  // read doesn't block
+    tty.c_cc[VTIME]  =  0;                  // 0.5 seconds read timeout
+    tty.c_cflag     |=  CREAD | CLOCAL;     // turn on READ & ignore ctrl lines
+    /* Make raw */
+    cfmakeraw(&tty);
+    //tty.c_oflag = 0;
+    //tty.c_lflag = ISIG;
+    
+
+    /* Flush Port, then applies attributes */
+    tcflush( USB, TCIOFLUSH );
+    if ( tcsetattr ( USB, TCSAFLUSH, &tty ) != 0) {
+        printf("Error from set attr");
+    }
+
+   
+   int n = 0,
+    spot = 0;
+    char buf = '\0';
+
+   while(1)
+   {
+       spot = 0;
+       bool endDocument = false; 
+       /* Whole response*/
+        //bzero(buffer,lenbuffer);
+
+        int i = 0;
+        int prueba = 0;
+        do {
+            i++;
+            n = read( USB, &buf, 1 );
+            sprintf( &buffer[spot], "%c", buf );
+            
+            printf("%d: %d,%c\n", i, buf, buf);
+            // Si es un caracter de control DLE(16),EOF(4) le devuelvo el estado
+            if (buffer[spot-2] == 16 && buffer[spot-1] == 4)
+            {
+                if (buf == 1)
+                {
+                    unsigned char cmd[] = "0";
+                    cmd[0] = 22;
+                    write(USB, cmd, 1);
+                    //tcflush(USB, TCIOFLUSH);
+                }
+                else // 2 to 6
+                {
+                    unsigned char cmd[] = "0";
+                    cmd[0] = 18;
+                    write(USB, cmd, 1);
+                    //tcflush(USB, TCIOFLUSH);
+                }
+
+            } else if (buffer[spot-2] == 16 && buffer[spot-1] == 5 )
+            {
+                    unsigned char cmd[] = "0";
+                    cmd[0] = 0x14;
+                    //write(USB, cmd, 1);
+                    //tcflush(USB, TCIOFLUSH);
+                
+            }
+            else if (buffer[spot-2] == 29 && buffer[spot-1] == 'a')
+            {
+                    unsigned char cmd[] = {0x14, 0x00,0x00, 0x0F};
+                    int nwrites = writeSerial(USB, cmd, sizeof(cmd));
+                    //tcflush(USB, TCIOFLUSH);
+            }
+            else if (buffer[spot-2] == 29 && buffer[spot-1] == 'I')
+            {
+                // OJO, hardcodeado de lo que me devuelve la impresora
+                if (buf == 1) {
+                    unsigned char cmd[] = "0";
+                    cmd[0] = 0x20;
+                    write(USB, cmd, 1);
+                    //tcflush(USB, TCIOFLUSH);
+                } else if (buf == 2) {
+                    unsigned char cmd[] = "0";
+                    cmd[0] = 0x02;
+                    write(USB, cmd, 1);
+                    //tcflush(USB, TCIOFLUSH);
+                } else if (buf == 3) {
+                    unsigned char cmd[] = "0";
+                    cmd[0] = 0x64;
+                    write(USB, cmd, 1);
+                    //tcflush(USB, TCIOFLUSH);
+                } else if (buf == 4) {
+                    unsigned char cmd[] = "0";
+                    cmd[0] = 0x00;
+                    write(USB, cmd, 1);
+                    //tcflush(USB, TCIOFLUSH);
+                } else if (buf == 65) // firmware version
+                {
+                    unsigned char cmd[] = {0x5F, 0x33, 0x30, 0x2E, 0x31, 0x32, 0x20, 0x45, 0x53, 0x43, 0x2F,0x50, 0x4F, 0x53, 0x00};
+                    int nwrites = write(USB, cmd, sizeof(cmd));
+                    //tcflush(USB, TCIOFLUSH);
+                } else if (buf == 66) // firmware version
+                {
+                    unsigned char cmd[] = {0x5F, 0x45,0x50,0x53,0x4F,0x4E,0x00};
+                    int nwrites = write(USB, cmd, sizeof(cmd));
+                } else if (buf == 67) // firmware version
+                {
+                    unsigned char cmd[] = {0x5F, 0x54,0x4D,0x2D,0x54,0x38,0x38, 0x56,0x00};
+                    int nwrites = write(USB, cmd, sizeof(cmd));
+
+                } else if (buf == 68) // firmware version
+                {
+                    unsigned char cmd[] = {0x5F, 0x4D,0x51,0x39,0x46,0x30,0x31,0x32,0x30,0x37,0x37, 0x00};
+                    int nwrites = write(USB, cmd, sizeof(cmd));
+                } else if (buf == 69) // firmware version
+                {
+                    unsigned char cmd[] = {0x5F, 0x00};
+                    int nwrites = write(USB, cmd, sizeof(cmd));
+                } else  if (buf == 112)
+                {
+                    
+                    //printf("prueba:%d\n", prueba);
+                    
+                    
+                    /*write(USB, "0x5F", 1);
+                    for (int i=0;i<prueba;i++)
+                            write(USB, "0xF0", 1);
+                    write(USB,"0x00",1);
+                    prueba++; */
+
+                    unsigned char cmd[] = {0x5F,0x30,0x00};
+                    int nwrites = write(USB, cmd, sizeof(cmd));
+                } else if (buf == 113)
+                {
+                    unsigned char cmd[] = {0x5F,0x31,0x00};
+                    int nwrites = write(USB, cmd, sizeof(cmd));
+                }
+                
+            }
+            
+            // GS ( H ( fn 28) identificador de la aplicacion
+            else if (buf == 0x30 && buffer[spot-1] == 0x30 && buffer[spot-2] == 00 && buffer[spot-3] == 0x06 && buffer[spot-4] == 0x48 && buffer[spot-5]==0x28 && buffer[spot-6]==0x1D )
+            {
+                char identificador[4];
+                // leo los cuatro caracteres del buffer
+                 n = read( USB, identificador, 4 );
+                 printf ("identificarApp: %d,%d,%d,%d\n", identificador[0], identificador[1], identificador[2], identificador[3]);
+
+                 unsigned char cmd[] = {0x37, 0x22, identificador[0], identificador[1], identificador[2], identificador[3], 0x00};
+                int nwrites = write(USB, cmd, sizeof(cmd));
+                //tcflush(USB, TCIOFLUSH);
+
+            }
+            
+            
+            endDocument = (buffer[spot-1]==27 && (buf == '@' /*|| buf=='i'*/));
+            
+            spot += n;
+        } while(!endDocument  && n > 0);
+
+        if (n < 0) {
+            printf("Error reading: %s" ,strerror(errno));
+        }
+        else if (n == 0) {
+            printf("Read nothing!");
+        }
+
+   
+         lenght_message = spot;
+   }
+
+    return lenght_message;
+}
+
+
+
+/**
+ * Read socket thread. 
+ * */
+void TReadSocket(
+                    void *pParams
+                    )
+{
+        lenght_message = readsocket(buffer_message, LENGHT_BUFFER);    
+}
+
+/**
+ * Read serial thread. 
+ * */
+void TReadSerial(
+                    void *pParams
+                    )
+{
+        lenght_message = readserial(buffer_message, LENGHT_BUFFER); 
+}
+
+
 /*******************************************************************************
 **   Main Function
 *******************************************************************************/
-int main (void)
+int main (int argc, char * argv[])
 {
     phStatus_t ret = 0;
 
+    memset(buffer_message, 0, LENGHT_BUFFER);
+    buffer_message[0] = 'H';
+    buffer_message[1] = 'e';
+    buffer_message[2] = 'l';
+    buffer_message[3] = 'l';
+    buffer_message[4] = 'o';
+
+    lenght_message = 5;
+    
+    if (argc==1)
+    {
+        //TReadSocket(NULL);
+        ret = phOsal_Posix_Thread_Create(E_PH_OSAL_EVT_DEST_APP2, (void* (*)(void *))TReadSocket, NULL);
+        if (ret)
+        {
+                    printf("Application thread creation failed...Error: %ld\n", ret);
+                    return -1;
+
+        }
+
+    }
+    else
+    {
+        if (strcmp(argv[1],"-s") == 0)
+        {
+            ret = phOsal_Posix_Thread_Create(E_PH_OSAL_EVT_DEST_APP2, (void* (*)(void *))TReadSerial, NULL);
+            //readserial(buffer_message, LENGHT_BUFFER);
+        }
+        if (strcmp(argv[1],"-c") == 0)
+        {
+            int nroChars = atoi(argv[2]);
+            for (int i=0;i<nroChars;i++)
+            {
+                buffer_message[i] = 'C';
+            }
+            buffer_message[nroChars] = 0;
+            lenght_message = nroChars;
+        }
+    }
+    
+
+    
     /* Set the interface link for the internal chip communication */
     ret = Set_Interface_Link();
     if(ret)
