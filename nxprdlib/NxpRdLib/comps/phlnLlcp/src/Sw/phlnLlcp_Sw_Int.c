@@ -24,6 +24,7 @@
 */
 
 #include <phlnLlcp.h>
+#include <stdio.h>
 
 #ifdef NXPBUILD__PHLN_LLCP_SW
 
@@ -87,6 +88,9 @@ phStatus_t phlnLlcp_Sw_Int_Transport_Socket_Register(
     {
         return (PH_ERR_LLCP_SOCKET_REGISTER_FAILED | PH_COMP_LN_LLCP);
     }
+    
+    
+    printf("Registering socket, uri %s\n", pSocket->pUri);
 
     if (gpphlnLlcp_Socket_RegSockets == NULL)
     {
@@ -457,6 +461,7 @@ phlnLlcp_Transport_Socket_t *phlnLlcp_Transport_Socket_SearchUri(uint8_t *pUri,
         return NULL;
     }
 
+    //printf("Searching socket uri, %s\n", pUri);
     /* Check for Uri */
     pSockets = gpphlnLlcp_Socket_RegSockets;
 
@@ -707,11 +712,18 @@ phStatus_t phlnLlcp_Sw_Int_Pdu_Process(phlnLlcp_Sw_DataParams_t * pDataParams,
         }
         else
         {
+
+            uint8_t    PH_MEMLOC_REM aDefaultSnepURI[] = "urn:nfc:sn:snep";
+
             /* Received CONNECT or SNL PDU with SDREQ TLV on SAP 0x01.
             * Search for socket using URI, and discard TID (Transaction Identifier) in case of SDREQ
             * and also check if SDREQ TLV is present in SNL PDU. */
             pUri = phlnLlcp_Sw_Int_GetUri(&pRxBuffer[2], (uint16_t)(dwLength - 2), &bUriLen, NULL, &bSDREQPresent);
             psSocket  = phlnLlcp_Transport_Socket_SearchUri(pUri, bUriLen);
+            if (!psSocket)
+                return wStatus; 
+            //psSocket  = phlnLlcp_Transport_Socket_Search(0, bRsap, PH_ON);
+
         }
     }
     else if (epType == PHLN_LLCP_PTYPE_UI)
@@ -748,6 +760,7 @@ phStatus_t phlnLlcp_Sw_Int_Pdu_Process(phlnLlcp_Sw_DataParams_t * pDataParams,
         (*ppsSocket)->bState = PHLN_LLCP_SOCKET_INFO_EX;
         (void)phlnLlcp_Sw_Int_ParseGenBytes(&pRxBuffer[2], (uint16_t)(dwLength - 2), &sLMBytes);
         (*ppsSocket)->bRsap = bRsap; /* Helps while connected through Uri */
+        //(*ppsSocket)->wRMiu = sLMBytes.wMiu + 128;
         (*ppsSocket)->wRMiu = sLMBytes.wMiu + 128;
         break;
 
@@ -1066,10 +1079,15 @@ uint16_t phlnLlcp_Sw_Int_PostEvents(phStatus_t wProcessStatus,
 {
     phStatus_t PH_MEMLOC_REM wStatus = PH_ERR_SUCCESS;
     uint16_t   PH_MEMLOC_REM wTxFlag = PH_ON;
+    
+    printf("postEvent %d, wProcessStatus %d\n", epType, wProcessStatus);
 
     if((wProcessStatus == PH_ERR_LLCP_SOCKET_NOT_REGISTERED) || (wProcessStatus == PH_ERR_LLCP_BUSY))
     {
+        // Me he quedado sin socket !!!! !!! que hacer!!!
+        
         return wTxFlag;
+        
     }
     else if ((wProcessStatus == PH_ERR_LLCP_PDU_RX_SEQ_ERR) || (wProcessStatus == PH_ERR_LLCP_PDU_TX_SEQ_ERR) ||
         (wProcessStatus == PH_ERR_LLCP_PDU_INFO_ERR))

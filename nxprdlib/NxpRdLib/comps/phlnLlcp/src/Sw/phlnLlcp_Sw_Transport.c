@@ -26,6 +26,7 @@
 #include <ph_Status.h>
 #include <ph_RefDefs.h>
 #include <phlnLlcp.h>
+#include <stdio.h>
 
 #ifdef NXPBUILD__PHLN_LLCP_SW
 
@@ -43,6 +44,7 @@ phStatus_t phlnLlcp_Sw_Int_Socket_SendInt(phlnLlcp_Transport_Socket_t* psSocket,
     uint32_t      PH_MEMLOC_REM dwBlockTime = 0xFFFFFFFFUL;
     phStatus_t    PH_MEMLOC_REM wStatus = PH_ERR_SUCCESS;
 
+    dwBlockTime = 2000;
     /* Just forward the buffer data to LLCP context using LLCP Queue mechanism.
     * Get the Queue */
     psMsgQueue = phTools_Q_Get(dwBlockTime, PH_OFF);
@@ -54,6 +56,7 @@ phStatus_t phlnLlcp_Sw_Int_Socket_SendInt(phlnLlcp_Transport_Socket_t* psSocket,
     psMsgQueue->pbData = pTxBuffer;
     psMsgQueue->dwLength = dwLength;
 
+    
     /* Send the Queue */
     psMsgQueue->wFrameOpt = wFrameOpt;
     psMsgQueue->pSender = (void *)psSocket;
@@ -64,8 +67,12 @@ phStatus_t phlnLlcp_Sw_Int_Socket_SendInt(phlnLlcp_Transport_Socket_t* psSocket,
     /* Check for PHLN_LLCP_NO_MORE_FRAG and block on Queue(Semaphore) to be sent */
     if((wFrameOpt == PH_TRANSMIT_DEFAULT) || (wFrameOpt == PH_TRANSMIT_BUFFER_LAST))
     {
+        printf("Wait Semaphore socket\n");
+        
         PH_CHECK_SUCCESS_FCT(wStatus, phOsal_Semaphore_Take(psSocket->xSema, dwBlockTime));
         wStatus = psSocket->wStatus;
+        printf("End Wait Semaphore socket\n");
+
     }
     return PH_ADD_COMPCODE(wStatus, PH_COMP_LN_LLCP);
 }

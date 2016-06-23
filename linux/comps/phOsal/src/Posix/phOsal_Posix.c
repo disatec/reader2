@@ -373,6 +373,7 @@ phStatus_t phOsal_Semaphore_Take(phOsal_SemaphoreHandle_t semHandle,
     if( ret != 0 )
     {
     	//Timeout
+        printf("Semaphore timeout\n");
     	return PH_ADD_COMPCODE(PH_ERR_OSAL_ERROR, PH_COMP_OSAL);
     }
 
@@ -383,7 +384,8 @@ phStatus_t phOsal_Semaphore_Take(phOsal_SemaphoreHandle_t semHandle,
     	//Free-up used resource
     	sem_post(&pSem->inc);
 
-    	return PH_ADD_COMPCODE(PH_ERR_OSAL_ERROR, PH_COMP_OSAL);
+    	printf("Semaphoore invalid\n");
+        return PH_ADD_COMPCODE(PH_ERR_OSAL_ERROR, PH_COMP_OSAL);
     }
 
     return PH_ERR_SUCCESS;

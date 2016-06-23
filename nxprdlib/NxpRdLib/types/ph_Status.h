@@ -31,6 +31,7 @@
 #endif /* NXPBUILD_DELETE */
 
 #include <ph_TypeDefs.h>
+#include <stdio.h>
 
 #ifdef _WIN32
 #pragma warning(push)           /* PRQA S 3116 */
@@ -193,7 +194,7 @@
 /**
 * Macro for error handling of underlying layer and exit.
 */
-#define PH_CHECK_SUCCESS(status)         {if ((status) != PH_ERR_SUCCESS) {return (status);}}
+#define PH_CHECK_SUCCESS(status)         {if ((status) != PH_ERR_SUCCESS) { return (status);}}
 #define PH_CHECK_SUCCESS_FCT(status,fct) {(status) = (fct); PH_CHECK_SUCCESS(status);}
 #define PH_CHECK_SUCCESS_FCT_POS(status,fct) {(status) = (fct);}
 

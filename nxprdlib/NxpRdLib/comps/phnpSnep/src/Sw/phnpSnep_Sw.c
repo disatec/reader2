@@ -25,6 +25,7 @@
 
 #include <ph_Status.h>
 #include <phnpSnep.h>
+#include <stdio.h>
 
 #ifdef NXPBUILD__PHNP_SNEP_SW
 
@@ -112,6 +113,7 @@ phStatus_t phnpSnep_Sw_ClientInit(
             pDataParams->psSocket, pNonDefaultUri));
     }
 
+    printf("Status socket client %d\n", wStatus);
     return wStatus;
 }
 
@@ -474,6 +476,7 @@ phStatus_t phnpSnep_Sw_Put(
     /* Check for Valid input parameters. */
     if ((pTxBuffer == NULL) || (dwTxBufferSize == 0))
     {
+        printf("Buffer null\n");
         return (PH_ERR_INVALID_PARAMETER | PH_COMP_NP_SNEP);
     }
 
@@ -484,6 +487,7 @@ phStatus_t phnpSnep_Sw_Put(
 
     if ((dwTxBufferSize + PHNP_SNEP_HEADER_SIZE) > pLocSocket->wRMiu)
     {
+        printf("fragmentation requeired, buffer %d, miu %d\n", dwTxBufferSize + PHNP_SNEP_HEADER_SIZE, pLocSocket->wRMiu);
         /* Fragmentation is required as the frame size is greater than MIU */
         /* Send/Append the Header and the NDEF Message*/
         dwLength = pLocSocket->wRMiu - PHNP_SNEP_HEADER_SIZE;
@@ -496,6 +500,7 @@ phStatus_t phnpSnep_Sw_Put(
             wStatus = phlnLlcp_Transport_Socket_Receive(pDataParams->plnLlcpDataParams, pLocSocket);
             if (wStatus != PH_ERR_SUCCESS)
             {
+                printf("Error receiving CONTINUE from the server\n");
                 /* Set the Ready flag in Socket to True to receive next Packet and return with error. */
                 pLocSocket->fReady = true;
                 return wStatus;
@@ -507,6 +512,7 @@ phStatus_t phnpSnep_Sw_Put(
         }
         else
         {
+            printf("Other error in sending MIU\n");
             /* Return in case of any other error. */
             return wStatus;
         }
@@ -519,13 +525,16 @@ phStatus_t phnpSnep_Sw_Put(
         if ((pLocSocket->dwLength != PHNP_SNEP_HEADER_SIZE)
             || (bRxResponse != PHNP_SNEP_RES_CONT))
         {
+            printf("CONTINUE not received from SNEP Server\n");
             return (PH_ERR_PROTOCOL_ERROR | PH_COMP_NP_SNEP);
         }
 
         /* Continue sending the remaining bytes to the SNEP server */
         dwRemBytesToSend -= dwLength;
         while (dwRemBytesToSend)
+            
         {
+            printf("Sending remaining bytes %d", dwRemBytesToSend);
             dwLength = (dwRemBytesToSend > pLocSocket->wRMiu) ? pLocSocket->wRMiu : dwRemBytesToSend;
             if (dwRemBytesToSend == dwLength)
             {
@@ -542,6 +551,7 @@ phStatus_t phnpSnep_Sw_Put(
     }
     else
     {
+        printf("Sending full message\n");
         /* No need of Fragmentation, just use lower layer to send the SNEP frame. */
         wStatus = phlnLlcp_Transport_Socket_Send(pDataParams->plnLlcpDataParams, pLocSocket, pTxBuffer,
             dwTxBufferSize, PH_TRANSMIT_BUFFER_LAST);
@@ -553,6 +563,7 @@ phStatus_t phnpSnep_Sw_Put(
         wStatus = phlnLlcp_Transport_Socket_Receive(pDataParams->plnLlcpDataParams, pLocSocket);
         if (wStatus != PH_ERR_SUCCESS)
         {
+            printf("Error receiving response after send\n");
             /* Set the Ready flag in Socket to True to receive next Packet and return with error. */
             pLocSocket->fReady = true;
             return wStatus;
@@ -560,10 +571,12 @@ phStatus_t phnpSnep_Sw_Put(
     }
     else if ((wStatus & PH_ERR_MASK) == PH_ERR_SUCCESS_INFO_RECEIVED)
     {
+        printf("Info received\n");
         /* Do nothing as next I-PDU is received as response to the sent I-PDU. */
     }
     else
     {
+        printf("Other error sending\n");
         /* Return in case of any other error. */
         return wStatus;
     }
@@ -575,6 +588,7 @@ phStatus_t phnpSnep_Sw_Put(
     /* Check for the SUCCESS response from the SNEP server. */
     if (!(bRxResponse == PHNP_SNEP_RES_SUCCESS))
     {
+        printf("Not success response from SNEP server\n");
         return (PH_ERR_PROTOCOL_ERROR | PH_COMP_NP_SNEP);
     }
 

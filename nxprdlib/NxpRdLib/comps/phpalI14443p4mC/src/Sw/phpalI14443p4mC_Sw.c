@@ -370,6 +370,68 @@ phStatus_t phpalI14443p4mC_Sw_Activate(
     return PH_ERR_SUCCESS;
 }
 
+phStatus_t phpalI14443p4mC_Sw_AtrActivate(
+                                       phpalI14443p4mC_Sw_DataParams_t * pDataParams,
+                                       uint8_t * pRats,
+                                       uint8_t bRatsLength,
+                                       uint8_t * pAtr,
+                                       uint16_t wAtrResLength
+                                       )
+{
+    phStatus_t  PH_MEMLOC_REM status = PH_ERR_INTERNAL_ERROR;
+    uint8_t PH_MEMLOC_REM bIndex;
+
+    /* Check for valid state */
+    if(pDataParams->bStateNow != PHPAL_I14443P4MC_STATE_NONE)
+    {
+        return (PH_ERR_USE_CONDITION | PH_COMP_PAL_I14443P4MC);
+    }
+
+    /* Validate ATR_REQ */
+    if(pRats[1] == 0xD4)
+    {
+        printf("NFC-DEP Protocol, ATR_REQ\n");
+
+        pAtr[0] = pRats[0]+1;
+        pAtr[1] = 0xD5;
+        pAtr[2] = 0x01;
+        for (int i= 3; i<16; i++)
+            pAtr[i] = pRats[i];
+        
+        pAtr[16] = 0x0F;
+        for (int i= 17; i< bRatsLength + 1; i++)
+        {
+            pAtr[i] = pRats[i-1];
+        }
+        wAtrResLength = bRatsLength + 1;
+            /* Send ATR_REP */
+        PH_CHECK_SUCCESS_FCT(status, phhalHw_Transmit(
+        pDataParams->pHalDataParams,
+        PH_TRANSMIT_BUFFER_LAST,
+        pAtr,
+        wAtrResLength));
+        
+        return PH_ERR_SUCCESS;
+    }
+
+    /* Send ATS */
+    /*PH_CHECK_SUCCESS_FCT(status, phhalHw_Transmit(
+        pDataParams->pHalDataParams,
+        PH_TRANSMIT_BUFFER_LAST,
+        pAts,
+        wAtsLength));*/
+
+    /* Set internal state */
+   // pDataParams->bStateNow = PHPAL_I14443P4MC_STATE_ATS;
+
+    return PH_ERR_USE_CONDITION;
+}
+
+
+
+
+
+
 phStatus_t phpalI14443p4mC_Sw_Receive(
                                       phpalI14443p4mC_Sw_DataParams_t * pDataParams,
                                       uint16_t wOption,

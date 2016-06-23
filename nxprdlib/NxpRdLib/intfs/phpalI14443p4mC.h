@@ -155,6 +155,10 @@ phStatus_t phpalI14443p4mC_Sw_Init(
 #define phpalI14443p4mC_Activate( pDataParams, pRats, wRatsLength, pAts, wAtsLength) \
         phpalI14443p4mC_Sw_Activate((phpalI14443p4mC_Sw_DataParams_t *)pDataParams, pRats, wRatsLength, pAts, wAtsLength)
 
+#define phpalI14443p4mC_AtrActivate( pDataParams, pRats, wRatsLength, pAts, wAtsLength) \
+        phpalI14443p4mC_Sw_AtrActivate((phpalI14443p4mC_Sw_DataParams_t *)pDataParams, pRats, wRatsLength, pAts, wAtsLength)
+
+
 #define phpalI14443p4mC_SetConfig( pDataParams, wConfig, wValue) \
         phpalI14443p4mC_Sw_SetConfig((phpalI14443p4mC_Sw_DataParams_t *)pDataParams, wConfig, wValue)
 

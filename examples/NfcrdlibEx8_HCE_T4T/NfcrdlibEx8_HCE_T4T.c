@@ -80,6 +80,23 @@ uint8_t aAtsRes[5]  = {0x05, 0x77, 0x00, 0x88, 0x00}; /* ATS Response send for
                                                        */
 uint16_t wAtsLength = 5;                              /* ATS length */
 
+
+
+uint8_t aAtrRes[100]  = {18, 0xD5, 0x01, 
+    0x08, 0x01, 0x01, 0x01, 0x01,
+    0x01, 0x01, 0x01, 0x01, 0x01,     /* NFCID3  */                                                   
+    0x00,  // DID
+    0X0F,0X0F, //BS, BR
+    0X0F, // TO
+    0X32, //PPT
+    0x00}; /* ATS Response send for
+                                                       * RATS: |TL|T0|TA|TB|TC|
+                                                       */
+uint16_t wAtrLength = 100;                              /* ATS length */
+
+
+
+
 /**
  * Parameters for T4T CE (card emulation layer)
  * */
@@ -178,6 +195,7 @@ phStatus_t AppProcessCmdCallback(
     uint8_t aWaitForWtx[4] = {0xDE, 0xAD, 0xFE, 0xED};
 #endif /* ISO_10373_6_PICC_TEST_BENCH */
 
+
     if(bState == PHCE_T4T_STATE_FILE_UPDATE)
     {
         /* Get Selected file info */
@@ -256,6 +274,12 @@ void T4TCardEmulation(void)
         &NxpRdLib.sDiscLoop,
         PHAC_DISCLOOP_ENTRY_POINT_LISTEN);
 
+/*    status = phacDiscLoop_Run(
+        &NxpRdLib.sDiscLoop,
+        PHAC_DISCLOOP_ENTRY_POINT_POLL);*/
+
+
+
     if((status & PH_ERR_MASK) == PHAC_DISCLOOP_EXTERNAL_RFOFF)
     {
         /* Reset SLEEP_AF state (Respond to WupA ("52")/ReqA ("26")) as Field
@@ -275,18 +299,33 @@ void T4TCardEmulation(void)
 
     if((status & PH_ERR_MASK) == PHAC_DISCLOOP_ACTIVATED_BY_PEER)
     {
-        /* Validate RATS and send ATS */
-        status = phpalI14443p4mC_Activate(
+        /************************* PRUEBA ATR NFC-DEP*****************************************/
+        /*status = phpalI14443p4mC_AtrActivate(
             &NxpRdLib.sPalI14443p4mC,
             NxpRdLib.sDiscLoop.sTargetParams.pRxBuffer,
             (uint8_t)NxpRdLib.sDiscLoop.sTargetParams.wRxBufferLen,
-            aAtsRes,
-            wAtsLength);
+            aAtrRes,
+            wAtrLength); 
+
+        printf("status attrActivate %d - %x\n", status, status);
+        if((status & PH_ERR_MASK) != PH_ERR_SUCCESS)
+        {*/
+        /***********************************************************************/
+            /* Validate RATS and send ATS */
+            status = phpalI14443p4mC_Activate(
+                &NxpRdLib.sPalI14443p4mC,
+                NxpRdLib.sDiscLoop.sTargetParams.pRxBuffer,
+                (uint8_t)NxpRdLib.sDiscLoop.sTargetParams.wRxBufferLen,
+                aAtsRes,
+                wAtsLength); 
+        //}
+        
 
         if((status & PH_ERR_MASK) != PH_ERR_SUCCESS)
         {
             if(status == (PH_COMP_PAL_I14443P4MC | PH_ERR_PROTOCOL_ERROR))
             {
+                printf("Invalid RATS\n");
                 /* Invalid RATS: Set to SLEEP_AF state if needed. */
             }
             else if(status == (PH_COMP_PAL_I14443P4MC | PH_ERR_INVALID_PARAMETER))
@@ -296,10 +335,11 @@ void T4TCardEmulation(void)
             }
             else
             {
+                printf("Invalid status\n")
                 DEBUG_ERROR_PRINT(status);
             }
         }
-        else
+        else 
         {
             /* Trigger AppProcessCmd in Application thread to start */
             status = phOsal_Semaphore_Give(appstart);
@@ -307,6 +347,7 @@ void T4TCardEmulation(void)
             {
                 printf("ReaderLibThread: Releasing Semaphore failed...\n");
             }
+            
 
             /* Activates HCE. This handles all the main functionalities of
              * card emulation...receive request from reader...process
@@ -316,6 +357,7 @@ void T4TCardEmulation(void)
             status = phceT4T_Activate(&NxpRdLib.sCeT4T);
             if ((status & PH_ERR_MASK) == PH_ERR_SUCCESS_DESELECTED)
             {
+                printf("Activate SLEEP_AF state\n");
                 /* Set SLEEP_AF state (Respond only to WupA ("52"), not to
                  * ReqA ("26")), so set MFHalted bit. After this setting is
                  * done "phhalHw_Autocoll" should be called immediately from

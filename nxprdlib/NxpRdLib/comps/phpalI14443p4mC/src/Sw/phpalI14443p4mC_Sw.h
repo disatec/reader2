@@ -75,8 +75,25 @@ phStatus_t phpalI14443p4mC_Sw_Activate(
     uint16_t  wAtsLength                                    /**< [In] ATS length */
     );
 
+
 /**
-* \brief Perform receive operation and validate received block.
+* \brief 2016, para controlar los eventos de NDEF_PROT
+* \return Status code
+* \retval #PH_ERR_SUCCESS Operation successful.
+* \retval #PH_ERR_PROTOCOL_ERROR Protocol Error.
+* \retval Other Depending on implementation and underlaying component.
+*/
+phStatus_t phpalI14443p4mC_Sw_AtrActivate(
+    phpalI14443p4mC_Sw_DataParams_t * pDataParams,          /**< [In] Pointer to this layer's parameter structure */
+    uint8_t * pRats,                                        /**< [In] Pointer to RATS receive Buffer */
+    uint8_t  bRatsLength,                                   /**< [In] RATS receive Buffer Length*/
+    uint8_t * pAts,                                         /**< [In] ATS to be sent */
+    uint16_t  wAtsLength                                    /**< [In] ATS length */
+    );
+
+
+/**
+* \brief 
 *
 * Response to S-block and R-Block are send internally. Response to I-Block can
 * be send using \ref phpalI14443p4mC_Transmit.

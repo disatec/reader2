@@ -57,7 +57,7 @@
 /* Local headers */
 #include "NfcrdlibEx3_NFCForum.h"
 
-#define LISTEN_PHASE_TIME_MS        300     /**< Listen Phase TIME */
+#define LISTEN_PHASE_TIME_MS        300     /**< Listen Phase TIME, IT WAS 300 (PP) */
 
 /* Enable Discovery Loop Active mode. */
 #define ACTIVE_MODE
@@ -75,7 +75,7 @@
 #define SNEP_CLIENT
 
 /* Enable SNEP server to receive a SNEP PUT message in this example. */
-#define SNEP_SERVER
+//#define SNEP_SERVER
 
 /* Un-comment following line to enable SNEP PUT of 1K text message else SNEP PUT of URI (www.nxp.com) will be enabled by default.  */
 /* #define NDEF_TEXT */
@@ -1898,10 +1898,10 @@ void copyBufferToMessasge()
     
     baSnepAppBuf[dwDataLen] = 0;
     printf("longitud mensaje %i\n", dwDataLen);
-    for (int i=0;i<dwDataLen;i++)
+   /* for (int i=0;i<dwDataLen;i++)
     {
         printf("%d - %02x - %c\n", baSnepAppBuf[i], baSnepAppBuf[i], baSnepAppBuf[i]);
-    }
+    }*/
 
 }
 
@@ -1943,9 +1943,9 @@ void *TSNEPClient(void * pLlcp)
         else
         {
             printf("Error putting message\n");
+            CHECK_STATUS(status);
             status = phlnLlcp_Transport_Socket_Unregister(snpSnepClient.plnLlcpDataParams,
                     snpSnepClient.psSocket);
-            CHECK_STATUS(status);
         }
     }
     else
@@ -2000,7 +2000,7 @@ void *TSnepDispatch(void * pLlcp)
 	    }
 #endif /* SNEP_CLIENT */
         
-        phOsal_Posix_Thread_Join_Extra(&thread_SnepServer, NULL);
+        //phOsal_Posix_Thread_Join_Extra(&thread_SnepServer, NULL);
         phOsal_Posix_Thread_Join_Extra(&thread_SnepClient, NULL);
         phOsal_Event_Consume(E_PH_OSAL_EVT_LLCP_ACTIVATED, E_PH_OSAL_EVT_SRC_LIB);
     }
@@ -2163,6 +2163,7 @@ int readserial(char* buffer, int lenbuffer)
         do {
             i++;
             n = read( USB, &buf, 1 );
+                //buf = 'C';
             sprintf( &buffer[spot], "%c", buf );
             
             printf("%d: %d,%c\n", i, buf, buf);
@@ -2278,6 +2279,7 @@ int readserial(char* buffer, int lenbuffer)
                 //tcflush(USB, TCIOFLUSH);
 
             }
+            
             
             
             endDocument = (buffer[spot-1]==27 && (buf == '@' /*|| buf=='i'*/));
