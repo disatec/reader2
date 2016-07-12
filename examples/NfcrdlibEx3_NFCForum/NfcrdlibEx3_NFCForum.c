@@ -1313,6 +1313,7 @@ void *TReaderLibrary(void  *pDataParams)
                         bDeactivation = 1;
                     }
 
+                    DEBUG_PRINTF("DeInit 1\n");
                     /* Perform LLCP DeInit procedure to release acquired resources. */
                     status = phlnLlcp_DeInit(&slnLlcp);
                     CHECK_STATUS(status);
@@ -1455,6 +1456,7 @@ void *TReaderLibrary(void  *pDataParams)
 #else
                         /* Error print is not performed when Testing with 2 Pn512, as WUP and RLS request needs to be
                          * sent for proper De-Activation of LLCP else LTO Timeout is expected to happen on Target. */
+                        PRINT_ERROR("LLCP exited because of LTO timeout. \n");
 #endif /* TEST_ACTIVE_BOARDS */
                     }
                     else if ((status & PH_ERR_MASK) == PH_ERR_EXT_RF_ERROR)
@@ -1501,6 +1503,7 @@ void *TReaderLibrary(void  *pDataParams)
                 bSNEPClient = 0;
                 bSNEPServer = 0;
 
+                DEBUG_PRINTF("DeInit SNEP Server\n");
                 /* Perform LLCP DeInit procedure to release acquired resources. */
                 status = phlnLlcp_DeInit(&slnLlcp);
                 CHECK_STATUS(status);
@@ -1634,6 +1637,8 @@ void *TReaderLibrary(void  *pDataParams)
                 {
                     bDeactivation = 1;
                 }
+
+                DEBUG_PRINTF("DeInit 3\n");
 
                 /* Perform LLCP DeInit procedure to release acquired resources. */
                 status = phlnLlcp_DeInit(&slnLlcp);
@@ -2320,7 +2325,7 @@ void TReadSerial(
                     void *pParams
                     )
 {
-        lenght_message = readserial(buffer_message, LENGHT_BUFFER); 
+         lenght_message = readserial(buffer_message, LENGHT_BUFFER); 
 }
 
 

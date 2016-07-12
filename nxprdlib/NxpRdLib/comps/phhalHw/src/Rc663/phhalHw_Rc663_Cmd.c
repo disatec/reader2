@@ -978,6 +978,8 @@ phStatus_t phhalHw_Rc663_WriteRegister(
     /* Check number of received bytes */
     if (wBytesRead != bNumExpBytes)
     {
+        printf("WriteReg3: Received bytes different than expected, expected %d, readed %d\n", bNumExpBytes, wBytesRead);
+
         return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_HAL);
     }
 
@@ -987,6 +989,8 @@ phStatus_t phhalHw_Rc663_WriteRegister(
         /* Returned address should match */
         if (bDataBuffer[0] != bAddress)
         {
+            printf("WriteReg3: Address should match");
+
             return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_HAL);
         }
     }
@@ -1065,6 +1069,8 @@ phStatus_t phhalHw_Rc663_ReadRegister(
     /* Check number of received bytes */
     if (wBytesRead != bNumExpBytes)
     {
+        printf("ReadReg3: Received bytes different than expected, expected %d, readed %d\n", bNumExpBytes, wBytesRead);
+
         return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_HAL);
     }
 

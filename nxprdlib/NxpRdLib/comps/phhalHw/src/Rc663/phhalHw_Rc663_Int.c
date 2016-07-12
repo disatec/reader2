@@ -648,6 +648,8 @@ phStatus_t phhalHw_Rc663_WriteData(
         /* check number of received bytes */
         if (wBytesRead != wLength)
         {
+            printf("WriteData3: Received bytes different than expected, expected %d, readed %d\n", wLength, wBytesRead);
+
             return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_HAL);
         }
     }
@@ -733,6 +735,8 @@ phStatus_t phhalHw_Rc663_ReadData(
         /* check number of received bytes */
         if (wBytesRead != wLength)
         {
+            printf("ReadData4: Received bytes different than expected, expected %d, readed %d\n", wLength, wBytesRead);
+
             return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_HAL);
         }
     }
@@ -755,6 +759,8 @@ phStatus_t phhalHw_Rc663_ReadData(
         /* check number of received bytes */
         if (wBytesRead != wLength)
         {
+            printf("WriteReg2: Received bytes different than expected, expected %d, readed %d\n", wLength, wBytesRead);
+
             return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_HAL);
         }
     }

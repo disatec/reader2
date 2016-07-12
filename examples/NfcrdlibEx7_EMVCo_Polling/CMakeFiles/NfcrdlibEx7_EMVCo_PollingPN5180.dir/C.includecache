@@ -25,6 +25,8 @@ phpalI14443p4a.h
 -
 phacDiscLoop.h
 -
+sys/time.h
+-
 
 linux/comps/phPlatform/src/Posix/phPlatform.h
 ph_Status.h

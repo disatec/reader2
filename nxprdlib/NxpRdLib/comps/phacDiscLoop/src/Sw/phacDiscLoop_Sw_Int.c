@@ -138,6 +138,7 @@ phStatus_t phacDiscLoop_Sw_Int_ListenMode(
     /* Return RF OFF error, if external RF is OFF */
     if((status & PH_ERR_MASK) == PH_ERR_EXT_RF_ERROR)
     {
+        //printf("PHAC_DISCLOOP_EXTERNAL_RFOFF\n");
         return PH_ADD_COMPCODE(PHAC_DISCLOOP_EXTERNAL_RFOFF, PH_COMP_AC_DISCLOOP);
     }
     else

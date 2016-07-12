@@ -364,6 +364,7 @@ phStatus_t phhalHw_Rc523_WriteRegister(
     /* Check number of received bytes */
     if (wBytesRead != bNumExpBytes)
     {
+        printf("WriteReg2: Received bytes different than expected, expected %d, readed %d\n", bNumExpBytes, wBytesRead);
         return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_HAL);
     }
 
@@ -373,6 +374,7 @@ phStatus_t phhalHw_Rc523_WriteRegister(
         /* Returned address should match */
         if (bDataBuffer[0] != bAddress)
         {
+            printf("WriteReg2: address doesn't match\n");
             return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_HAL);
         }
     }
@@ -451,13 +453,17 @@ phStatus_t phhalHw_Rc523_ReadRegister(
     /* Check number of received bytes */
     if (wBytesRead != bNumExpBytes)
     {
+        printf("ReadReg2: Received bytes different than expected, expected %d, readed %d\n", bNumExpBytes, wBytesRead);
         return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_HAL);
     }
 
+    //if (wBytesRead != 2)
+    //    printf("Readed %d bytes\n", wBytesRead);
     /* in case of SPI 2 bytes are received from a read */
     if (pDataParams->bBalConnectionType == PHHAL_HW_BAL_CONNECTION_SPI)
     {
         *pValue = bTxBuffer[1];
+        //printf("Readed byte %02x\n", *pValue);
     }
     else
     {

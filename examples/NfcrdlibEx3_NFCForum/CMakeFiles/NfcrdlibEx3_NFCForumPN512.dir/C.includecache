@@ -38,6 +38,12 @@ phOsal_Posix_Thread.h
 NfcrdlibEx3_NFCForum.h
 /home/pi/projects/reader/examples/NfcrdlibEx3_NFCForum/NfcrdlibEx3_NFCForum.h
 
+/home/pi/projects/reader/examples/NfcrdlibEx3_NFCForum/src/cards.c
+phhwConfig.h
+-
+cards.h
+/home/pi/projects/reader/examples/NfcrdlibEx3_NFCForum/src/cards.h
+
 examples/NfcrdlibEx3_NFCForum/intfs/NfcrdlibEx3_NFCForum.h
 ph_Status.h
 -

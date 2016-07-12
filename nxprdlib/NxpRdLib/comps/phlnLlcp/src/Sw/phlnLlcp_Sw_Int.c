@@ -842,6 +842,8 @@ phStatus_t phlnLlcp_Sw_Int_Pdu_Process(phlnLlcp_Sw_DataParams_t * pDataParams,
     case PHLN_LLCP_PTYPE_SYMM:
         if ((*ppsSocket)->bState == PHLN_LLCP_SOCKET_DISC)
         {
+           printf("PHLN_LLCP_SOCKET_DISC -> PH_ERR_LLCP_DEACTIVATED\n");
+
             /* Check if LLCP LM Socket status to check if we have sent DISC PDU
             * over LSAP = 0 and RSAP = 0 then perform MAC Link De-Activation. */
             wStatus = (PH_ERR_LLCP_DEACTIVATED | PH_COMP_LN_LLCP);
@@ -1191,6 +1193,7 @@ uint16_t phlnLlcp_Sw_Int_PostEvents(phStatus_t wProcessStatus,
             break;
 
         case PHLN_LLCP_PTYPE_DM:
+            printf("PHLN_LLCP_PTYPE_DM -> PH_ERR_LLCP_DEACTIVATED\n");
             psSocket->wStatus = PH_ERR_LLCP_DEACTIVATED;
             PH_CHECK_SUCCESS_FCT(wStatus, phOsal_Semaphore_Give(psSocket->xSema));
             wTxFlag = PH_OFF;

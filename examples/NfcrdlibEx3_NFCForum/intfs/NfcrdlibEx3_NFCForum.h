@@ -79,7 +79,7 @@
 
 /* Enable(1) / Disable(0) printing error in detection (discovery loop
  * poll mode) */
-#define DETECT_ERROR 0
+#define DETECT_ERROR 1
 
 #if DETECT_ERROR
     #define DEBUG_ERROR_PRINT CHECK_STATUS

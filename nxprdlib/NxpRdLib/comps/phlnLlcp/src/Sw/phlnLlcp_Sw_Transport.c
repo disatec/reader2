@@ -171,6 +171,7 @@ phStatus_t phlnLlcp_Sw_Int_Pdu_DiscOrDm(phlnLlcp_Transport_Socket_t *psSocket,
     uint16_t PH_MEMLOC_REM wLength;
     uint8_t  PH_MEMLOC_REM pDiscPdu[3];
 
+    printf("Llcp disconnected, type %04x,  reason, %d\n", bPtype, bReason);
     /* Frame the Disconnect pdu */
     wLength = phlnLlcp_Sw_Int_Pdu_FrameHeader(bPtype, psSocket->bRsap, psSocket->bLsap, 0, 0, (uint8_t *)pDiscPdu);
 

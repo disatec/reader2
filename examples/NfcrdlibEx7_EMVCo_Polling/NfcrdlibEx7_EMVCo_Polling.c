@@ -54,6 +54,7 @@
 
 
 #include <phacDiscLoop.h>
+#include <sys/time.h>
 
 #define PRETTY_PRINTING                                         /**< Enable pretty printing */
 #define MiN_VALID_DATA_SIZE                     6
@@ -95,11 +96,11 @@ static uint8_t PPSE_SELECT_APDU[] = { 0x00, 0xA4, 0x04, 0x00, 0x0E, 0x32, 0x50, 
 uint8_t PPSE_response_buffer[256];
 uint8_t PPSE_respsize;
 /*Define Macro for the PPSE command with different P2 value in PPSE command*/
-#define PPSE_FCI
+//#define PPSE_FCI
 //#define PPSE_FMD
 //#define PPSE_FCP
 //#define PPSE_NO_LE
-
+#define PPSE_TICKET
 
 /* CLA = 0x00
  *  INS = 0xA4
@@ -115,6 +116,25 @@ uint8_t PPSE_respsize;
  *  000010xxb = Return FMD template, mandatory use of FMD tag and length,
  *  000011xxb = No response data if Le field absent, or proprietary if Le field present
  * */
+
+#ifdef PPSE_TICKET
+/* EMVCo: Select PPSE Command */
+static uint8_t PPSE_SELECT_APDU[] = { 0x00, 0xA4, 0x04, 0x00, 0x05, 0xF2, 0x22, 0x22, 0x22,
+        0x22 };
+
+
+
+uint8_t partMessage[255] = { 0x00, 0xDA };
+uint8_t partMessageEnd[255] = { 0x00, 0xDB };
+
+
+uint8_t message_to_send[32000] = { 0x00, 0xDA, 0x04, 0x00, 0x05, 0xF2, 0x22, 0x22, 0x22,
+        0x22 };
+uint16_t length_message = 1000;
+
+
+#endif
+
 #ifdef PPSE_FCI
 /* EMVCo: Select PPSE Command */
 static uint8_t PPSE_SELECT_APDU[] = { 0x00, 0xA4, 0x04, 0x00, 0x0E, 0x32, 0x50, 0x41, 0x59,
@@ -214,7 +234,7 @@ static phStatus_t EmvcoRfReset(void)
 * \retval #PH_ERR_SUCCESS Operation successful.
 * \retval Other Depending on implementation and underlying component.
 */
-static phStatus_t EmvcoDataExchange(uint8_t * com_buffer, uint8_t cmdsize, uint8_t ** resp_buffer, uint32_t * wRxLength)
+static phStatus_t EmvcoDataExchange(uint8_t * com_buffer, uint16_t cmdsize, uint8_t ** resp_buffer, uint32_t * wRxLength)
 {
     phStatus_t status;
     uint8_t *ppRxBuffer;
@@ -237,6 +257,67 @@ static phStatus_t EmvcoDataExchange(uint8_t * com_buffer, uint8_t cmdsize, uint8
     return status;
 }
 
+
+
+static phStatus_t SendTicket()
+{   
+    struct timeval t1,t2;
+    double elapsedTime;
+    uint32_t respsize;
+    phStatus_t status;  
+    uint16_t lengthPart = 250; // Mensajes más largos de un byte no es capaz de enviarlo
+    uint8_t cmdPartSize = lengthPart - 2; // Enviamos de 255 en 255
+    
+    gettimeofday(&t1, NULL);
+    for (int i= 0;i<length_message; i+=cmdPartSize)
+    {
+        DEBUG_PRINTF("Sending %d\n", i);
+        uint8_t *message;
+        // Si no me caben todos los bytes en este primera remesa, lo voy partiendo
+        if (i + cmdPartSize < length_message)
+        {
+            message = partMessage;
+        }
+        else
+        {
+            message = partMessageEnd;
+            lengthPart = 2 + length_message - i;
+        }
+        
+        
+        memcpy(message+2, message_to_send+i, cmdPartSize);
+        int nTries = 0;
+        do
+        {
+            status = EmvcoDataExchange(message, lengthPart, &response_buffer, &respsize);
+            CHECK_STATUS(status);
+
+            if (response_buffer[1] != message[1])
+            {
+                DEBUG_PRINTF("Respuesta incorrecta %02x\n", message[1]);
+                status = 0xFF; // invalid status
+            }
+            else 
+            {
+                DEBUG_PRINTF("Respuesta correcta %02x\n", message[1]);
+            }
+            nTries++;
+        } while (status != PH_ERR_SUCCESS && nTries <4);
+        
+        
+        partMessage[1]++;
+
+    }
+        
+    gettimeofday(&t2, NULL);
+    
+    elapsedTime = (t2.tv_sec - t1.tv_sec) * 1000.0;
+    elapsedTime += (t2.tv_usec - t1.tv_usec) / 1000.0;
+    
+    DEBUG_PRINTF("\nAfter write %f\n", elapsedTime);  
+    return status;
+}
+
 /**
 * \brief EMVCo Loop-Back function
 * This Loop-Back function converts each received R-APDU into the next C-APDU (by stripping the
@@ -251,42 +332,49 @@ static phStatus_t EmvcoLoopBack(phacDiscLoop_Sw_DataParams_t * pDataParams)
 {
 
     uint32_t cmdsize, respsize;
-    phStatus_t status;
+    phStatus_t status = 0xFF;
     uint8_t bEndOfLoopBack = 0;
     uint8_t bRemovalProcedure;
     cmdsize = sizeof(PPSE_SELECT_APDU);
 
-    status = EmvcoDataExchange(PPSE_SELECT_APDU, cmdsize, &response_buffer, &respsize);
-
-#ifndef RUN_TEST_SUIT
-
-    /*Check if P1 is 0x04 which means that the data field consists of DF name */
-    if(PPSE_SELECT_APDU[2] == 0x04)
+    while (status != PH_ERR_SUCCESS)
     {
-        DEBUG_PRINTF("\n DF Name: \n");
-        /* DF Size = Total Command size - size of(PDU Header + Expected Len(Le))*/
-        PRINT_BUFF(&PPSE_SELECT_APDU[5], PPSE_SELECT_APDU[4]);
-    }
-    if (respsize > 0)
-    {
-        memcpy(&PPSE_response_buffer[0],response_buffer,respsize);
-        DEBUG_PRINTF("\n SELECT_PPSE Res:\n");
-        /* Status word removed */
-        PRINT_BUFF(PPSE_response_buffer, (respsize - 2));
-        DEBUG_PRINTF("\nTransaction Done Remove card\n");
-    }
-    else
-    {
-        DEBUG_PRINTF("\nFCI not recieved\n");
-#ifdef PPSE_NO_LE
-        DEBUG_PRINTF("Transaction Done Remove card\n");
-#else
-        DEBUG_PRINTF("Transaction Failed Replace the card\n");
-#endif
+        status = EmvcoDataExchange(PPSE_SELECT_APDU, cmdsize, &response_buffer, &respsize);
+
+    #ifndef RUN_TEST_SUIT
+
+        /*Check if P1 is 0x04 which means that the data field consists of DF name */
+        if(PPSE_SELECT_APDU[2] == 0x04)
+        {
+            DEBUG_PRINTF("\n DF Name: \n");
+            /* DF Size = Total Command size - size of(PDU Header + Expected Len(Le))*/
+            PRINT_BUFF(&PPSE_SELECT_APDU[5], PPSE_SELECT_APDU[4]);
+        }
+        if (respsize > 0)
+        {
+            memcpy(&PPSE_response_buffer[0],response_buffer,respsize);
+            DEBUG_PRINTF("\n SELECT_PPSE Res:\n");
+            /* Status word removed */
+            PRINT_BUFF(PPSE_response_buffer, (respsize - 2));
+            DEBUG_PRINTF("\nTransaction Done Remove card\n");
+
+            SendTicket();
+
+        }
+        else
+        {
+            DEBUG_PRINTF("\nFCI not recieved\n");
+    #ifdef PPSE_NO_LE
+            DEBUG_PRINTF("Transaction Done Remove card\n");
+    #else
+            DEBUG_PRINTF("Transaction Failed Replace the card\n");
+    #endif
+        }
+
+    #endif
     }
 
-#endif
-
+#ifdef ENDOFLOOPBACK    
     while (!bEndOfLoopBack)
     {
         if (respsize > 0)
@@ -330,7 +418,11 @@ static phStatus_t EmvcoLoopBack(phacDiscLoop_Sw_DataParams_t * pDataParams)
             bEndOfLoopBack = 1;
         }
     }/*while (!bEndOfLoopBack)*/
+#endif
+    
 
+
+    bRemovalProcedure = PH_ON;
     if(bRemovalProcedure == PH_ON)
     {
         /* Set Poll state to perform Tag removal procedure*/
@@ -658,8 +750,15 @@ void Emvco_Demo(void * pDiscLoopParams)
             status = EmvcoLoopBack(pDataParams);
 
         }
+        else if (((tmpStatus & PH_ERR_MASK) == PHAC_DISCLOOP_NO_TECH_DETECTED) ||
+            ((tmpStatus & PH_ERR_MASK) == PHAC_DISCLOOP_NO_DEVICE_RESOLVED))
+        {
+           // wEntryPoint = PHAC_DISCLOOP_ENTRY_POINT_POLL;
+            status = phacDiscLoop_SetConfig(pDataParams, PHAC_DISCLOOP_CONFIG_NEXT_POLL_STATE, PHAC_DISCLOOP_POLL_STATE_DETECTION);
+        }        
         else
         {
+            printf("algÚn error\n");
             status = phacDiscLoop_SetConfig(pDataParams, PHAC_DISCLOOP_CONFIG_NEXT_POLL_STATE, PHAC_DISCLOOP_POLL_STATE_DETECTION);
             CHECK_STATUS(status);
         }

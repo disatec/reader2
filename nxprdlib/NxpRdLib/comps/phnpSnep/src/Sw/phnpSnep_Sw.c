@@ -214,6 +214,8 @@ phStatus_t phnpSnep_Sw_ServerListen(
         PH_CHECK_SUCCESS_FCT(wStatus, phnpSnep_Sw_SendCmds(pDataParams, (uint8_t)PHNP_SNEP_RES_VER_ERR));
 
         PH_CHECK_SUCCESS_FCT(wStatus, phlnLlcp_Transport_Socket_Disconnect(pDataParams->plnLlcpDataParams, pDataParams->psSocket));
+        
+        printf("Invalid SNEP version\n");
         return (PH_ERR_INVALID_VERSION | PH_COMP_NP_SNEP);
     }
 
@@ -576,7 +578,7 @@ phStatus_t phnpSnep_Sw_Put(
     }
     else
     {
-        printf("Other error sending\n");
+        printf("Other error sending %04x\n", wStatus);
         /* Return in case of any other error. */
         return wStatus;
     }

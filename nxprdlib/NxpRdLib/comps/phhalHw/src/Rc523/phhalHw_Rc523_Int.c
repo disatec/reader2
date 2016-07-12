@@ -55,6 +55,8 @@ phStatus_t phhalHw_Rc523_WriteFifo(
 
     /* Read out the FiFo Level register */
     PH_CHECK_SUCCESS_FCT(statusTmp, phhalHw_Rc523_ReadRegister(pDataParams, PHHAL_HW_RC523_REG_FIFOLEVEL, &bValue));
+    /*if (bValue > 0)
+        printf("Fifo level %d\n", bValue);*/
     bValue &= (uint8_t)~(uint8_t)PHHAL_HW_RC523_BIT_FLUSHBUFFER;
 
     /* Check if FiFO has enough space */
@@ -125,6 +127,7 @@ phStatus_t phhalHw_Rc523_FlushFifo(
                                    phhalHw_Rc523_DataParams_t * pDataParams
                                    )
 {
+    //printf("Fifo flushed\n");
     return phhalHw_Rc523_WriteRegister(pDataParams, PHHAL_HW_RC523_REG_FIFOLEVEL, PHHAL_HW_RC523_BIT_FLUSHBUFFER);
 }
 
@@ -170,6 +173,7 @@ phStatus_t phhalHw_Rc523_WriteData(
         /* check number of received bytes */
         if (wBytesRead != wLength)
         {
+            printf("WriteData2: Received bytes different than expected, expected %d, readed %d\n", wLength, wBytesRead);
             return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_HAL);
         }
     }
@@ -255,6 +259,7 @@ phStatus_t phhalHw_Rc523_ReadData(
         /* check number of received bytes */
         if (wBytesRead != wLength)
         {
+            printf("ReadData2-SPI: Received bytes different than expected, expected %d, readed %d\n", wLength, wBytesRead);
             return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_HAL);
         }
     }
@@ -277,6 +282,8 @@ phStatus_t phhalHw_Rc523_ReadData(
         /* check number of received bytes */
         if (wBytesRead != wLength)
         {
+            printf("ReadData2-I2C: Received bytes different than expected, expected %d, readed %d\n", wLength, wBytesRead);
+
             return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_HAL);
         }
     }
@@ -479,13 +486,15 @@ phStatus_t phhalHw_Rc523_ExchangeTransmit(
             wTmpBufferLen = wTxLength;
             wTxLength = 0;
         }
+        
+        
+                
         /* */
         /* Check for FIFO underflow */
         /* */
 #ifdef PHHAL_HW_RC523_FEATURE_FIFO_UNDERFLOW_CHECK
         /* read interrupt status */
         PH_CHECK_SUCCESS_FCT(statusTmp, phhalHw_Rc523_ReadRegister(pDataParams, PHHAL_HW_RC523_REG_COMMIRQ, &bIrq0Rq));
-
         /* If we got data to transmit but the Tx-command aborted, we were too slow! */
         if ((bIrq0Rq & PHHAL_HW_RC523_BIT_IDLEI) || (bIrq0Rq & PHHAL_HW_RC523_BIT_TXI))
         {
@@ -495,24 +504,37 @@ phStatus_t phhalHw_Rc523_ExchangeTransmit(
                 PHHAL_HW_RC523_REG_COMMAND,
                 PHHAL_HW_RC523_CMD_IDLE));
 
-            /* Flush FiFo */
-            PH_CHECK_SUCCESS_FCT(statusTmp, phhalHw_Rc523_FlushFifo(pDataParams));
 
+            printf("Fifo - 2, underflow, %02x\n", bIrq0Rq);
             return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_HAL);
         }
 #endif
+
         /* write remaining data to transmit into FiFo buffer */
         status = phhalHw_Rc523_WriteFifo(pDataParams, pTmpBuffer, wTmpBufferLen, &wFifoBytes);
+            /* Flush FiFo */
+            //PH_CHECK_SUCCESS_FCT(statusTmp, phhalHw_Rc523_FlushFifo(pDataParams));
 
+
+
+        /*if ((status & PH_ERR_MASK) == PH_ERR_BUFFER_OVERFLOW)
+        {
+            printf("Overflow!!!");
+        }*/
+
+            
         /* Ignore FiFo overflow warning */
         if ((status & PH_ERR_MASK) != PH_ERR_BUFFER_OVERFLOW)
         {
-            PH_CHECK_SUCCESS(status);
+            PH_CHECK_SUCCESS_PRINTERROR(status);
         }
 
         /* Update buffer pointer and length */
         pTmpBuffer += wFifoBytes;
         wTmpBufferLen = wTmpBufferLen - wFifoBytes;
+
+        //printf("Written %d, Remaining %d bytes - Interrupt status %04x\n", wFifoBytes, wTmpBufferLen, bIrq0Rq);
+
     }
 
     /* Set wait IRQs */
@@ -857,11 +879,13 @@ phStatus_t phhalHw_Rc523_ExchangeReceive(
             /* CRC / parity error */
             else if ((bRegister & PHHAL_HW_RC523_BIT_CRCERR) || (bRegister & PHHAL_HW_RC523_BIT_PARITYERR))
             {
+                //printf("Integrity error\n");
                 status = PH_ERR_INTEGRITY_ERROR;
             }
             /* protocol error */
             else if (bRegister & PHHAL_HW_RC523_BIT_PROTERR)
             {
+                printf("Protocol error\n");
                 status = PH_ERR_PROTOCOL_ERROR;
             }
             /* No error */

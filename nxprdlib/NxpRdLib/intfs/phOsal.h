@@ -41,9 +41,11 @@
 
 #ifdef NXPBUILD__PH_OSAL_FREERTOS
 #define portMAXIMUM_DELAY 0xFFFFFFFF   /* Maximum time delay configured in case FreeRTOS (i.e. portMAX_DELAY) support 32bit Tick Type. */
-#define PH_MAX_DELAY      portMAXIMUM_DELAY
+//#define PH_MAX_DELAY      portMAXIMUM_DELAY
+#define PH_MAX_DELAY      3000 // Si han pasado 3 segundos, es que no responde
 #else
-#define PH_MAX_DELAY      0xFFFF          /* Without RTOS we should wait on interrupt pin going high and not on the event. */
+//#define PH_MAX_DELAY      0xFFFF          /* Without RTOS we should wait on interrupt pin going high and not on the event. */
+#define PH_MAX_DELAY      3000 // Si han pasado 3 segundos, es que no responde
 #endif  /* NXPBUILD__PH_OSAL_FREERTOS */
 
 #ifdef  __cplusplus

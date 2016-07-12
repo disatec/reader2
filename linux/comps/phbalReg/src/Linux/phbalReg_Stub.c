@@ -246,7 +246,8 @@ phStatus_t phbalReg_Stub_Exchange(
 			ret = spi_transfer(pTxBuffer, pRxBuffer, wTxLength);
 			if(ret)
 			{
-				return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_BAL);
+                            printf("spi_transfer fail\n");
+                            return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_BAL);
 			}
 
 			if( pRxLength != NULL )
@@ -270,7 +271,8 @@ phStatus_t phbalReg_Stub_Exchange(
 				ret = spi_transfer(pTxBuffer, NULL, 2);
 				if(ret)
 				{
-					return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_BAL);
+				    printf("spi_transfer fail 2\n");	
+                                    return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_BAL);
 				}
 
 				pTxBuffer += 2;
@@ -300,7 +302,8 @@ phStatus_t phbalReg_Stub_Exchange(
 		ret = spi_transfer(pTxBuffer, NULL, wTxLength);
 		if(ret)
 		{
-			return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_BAL);
+                    printf("spi_transfer fail 3\n");		
+                    return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_BAL);
 		}
 
 		//Receive response
@@ -316,7 +319,8 @@ phStatus_t phbalReg_Stub_Exchange(
 			ret = spi_transfer(NULL, pRxBuffer, wRxBufSize);
 			if(ret)
 			{
-				return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_BAL);
+                            printf("spi_transfer fail 4\n");		
+                            return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_BAL);
 			}
 
 			if( pRxLength != NULL )
@@ -331,7 +335,8 @@ phStatus_t phbalReg_Stub_Exchange(
 		ret = spi_transfer(pTxBuffer, pRxBuffer, wTxLength);
 		if(ret)
 		{
-			return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_BAL);
+                    printf("spi_transfer fail 5\n");		
+                    return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_BAL);
 		}
 
 		if( pRxLength != NULL )

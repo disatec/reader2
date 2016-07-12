@@ -195,6 +195,8 @@
 * Macro for error handling of underlying layer and exit.
 */
 #define PH_CHECK_SUCCESS(status)         {if ((status) != PH_ERR_SUCCESS) { return (status);}}
+#define PH_CHECK_SUCCESS_PRINTERROR(status)         {if ((status) != PH_ERR_SUCCESS) { printf("Check success error %04x\n", status);return (status);}}
+
 #define PH_CHECK_SUCCESS_FCT(status,fct) {(status) = (fct); PH_CHECK_SUCCESS(status);}
 #define PH_CHECK_SUCCESS_FCT_POS(status,fct) {(status) = (fct);}
 

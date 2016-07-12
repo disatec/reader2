@@ -29,7 +29,8 @@
 #include <ph_Status.h>
 #include <phhalHw.h>
 
-#define PHHAL_HW_RC523_FIFOSIZE                           64U         /**< Size of RC internal FiFo buffer */
+#define PHHAL_HW_RC523_FIFOSIZE                          64U         /**< Size of RC internal FiFo buffer */
+
 #define PHHAL_HW_RC523_DEFAULT_TIMEOUT                    150U        /**< Default timeout in microseconds */
 #define PHHAL_HW_RC523_DEFAULT_TIMEOUT_MILLI              50U         /**< Default timeout in milliseconds */
 #define PHPAL_HW_RC523_I18092MT_START_BYTE                0xF0U       /**< Start Byte to be added to the protocol header in case protocol ISO18092. */

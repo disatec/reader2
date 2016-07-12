@@ -627,6 +627,7 @@ phStatus_t phhalHw_Rc663_Exchange(
                 /* Flush FiFo */
                 PH_CHECK_SUCCESS_FCT(statusTmp, phhalHw_Rc663_FlushFifo(pDataParams));
 
+                printf("FIFO - 3 - Underflow\n");
                 return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_HAL);
             }
 #endif
@@ -1228,6 +1229,8 @@ phStatus_t phhalHw_Rc663_Transmit(
 
             /* Flush FiFo */
             PH_CHECK_SUCCESS_FCT(statusTmp, phhalHw_Rc663_FlushFifo(pDataParams));
+
+            printf("FIFO-4 Underflow");
 
             return PH_ADD_COMPCODE(PH_ERR_INTERFACE_ERROR, PH_COMP_HAL);
         }

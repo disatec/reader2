@@ -535,6 +535,8 @@ phStatus_t phlnLlcp_Sw_Transport_Socket_UnblockAll(phlnLlcp_Sw_DataParams_t * pD
 
     while (psSockets != NULL)
     {
+        printf("Poniendo estado del socket en desactivado\n");
+        
         psSockets->bState = PHLN_LLCP_SOCKET_DISC;
         psSockets->wStatus = PH_ERR_LLCP_DEACTIVATED;
 
