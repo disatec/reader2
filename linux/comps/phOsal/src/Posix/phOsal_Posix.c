@@ -225,6 +225,7 @@ static phStatus_t phOsal_Event_Wait(
         status = phOsal_Semaphore_Take(currentThread->sem, dwTimeoutCount);
         if (PH_ERR_SUCCESS != status)
         {
+            printf("Semaphore Event wait timeout\n");
             return PH_ADD_COMPCODE(PH_ERR_IO_TIMEOUT, PH_COMP_OSAL);
         }
     }

@@ -528,7 +528,7 @@ void* irq_pin_helper(void* param)
 		read(_data.irq, &c, 1);
 		lseek(_data.irq, 0, SEEK_SET);
 
-		status = phOsal_Event_Post(
+                status = phOsal_Event_Post(
 				E_PH_OSAL_EVT_RF,
 				E_PH_OSAL_EVT_SRC_ISR,
 				E_PH_OSAL_EVT_DEST_HAL);

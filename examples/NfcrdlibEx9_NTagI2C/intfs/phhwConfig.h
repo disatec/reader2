@@ -60,14 +60,14 @@
 #define CHECK_STATUS(x)                                      \
     if ((x) != PH_ERR_SUCCESS)                               \
 {                                                            \
-    DEBUG_PRINTF("Line: %d   Error - (0x%04X) has occurred : 0xCCEE CC-Component ID, EE-Error code. Refer-ph_Status.h\n", __LINE__, (x));    \
+    DEBUG_PRINTF("File: %s - Line: %d   Error - (0x%04X) has occurred : 0xCCEE CC-Component ID, EE-Error code. Refer-ph_Status.h\n", __FILE__, __LINE__, (x));    \
 }
 
 /* prints if error is detected */
 #define CHECK_SUCCESS(x)              \
     if ((x) != PH_ERR_SUCCESS)        \
 {                                     \
-    DEBUG_PRINTF("\nLine: %d   Error - (0x%04X) has occurred : 0xCCEE CC-Component ID, EE-Error code. Refer-ph_Status.h\n ", __LINE__, (x)); \
+    DEBUG_PRINTF("\nFile: %s - Line: %d   Error - (0x%04X) has occurred : 0xCCEE CC-Component ID, EE-Error code. Refer-ph_Status.h\n ", __FILE__,__LINE__, (x)); \
     return (x);                       \
 }
 

@@ -194,10 +194,12 @@
 /**
 * Macro for error handling of underlying layer and exit.
 */
-#define PH_CHECK_SUCCESS(status)         {if ((status) != PH_ERR_SUCCESS) { return (status);}}
+#define PH_CHECK_SUCCESS_NOLOG(status)         {if ((status) != PH_ERR_SUCCESS) { return (status);}}
+
+#define PH_CHECK_SUCCESS(status)         {if ((status) != PH_ERR_SUCCESS) { printf("File: %s - Line: %d   Error - (0x%04X) has occurred : 0xCCEE CC-Component ID, EE-Error code. Refer-ph_Status.h\n", __FILE__, __LINE__, (status)); return (status);}}
 #define PH_CHECK_SUCCESS_PRINTERROR(status)         {if ((status) != PH_ERR_SUCCESS) { printf("Check success error %04x\n", status);return (status);}}
 
-#define PH_CHECK_SUCCESS_FCT(status,fct) {(status) = (fct); PH_CHECK_SUCCESS(status);}
+#define PH_CHECK_SUCCESS_FCT(status,fct) {(status) = (fct); if ((status) != PH_ERR_SUCCESS) { return (status);}}
 #define PH_CHECK_SUCCESS_FCT_POS(status,fct) {(status) = (fct);}
 
 /**

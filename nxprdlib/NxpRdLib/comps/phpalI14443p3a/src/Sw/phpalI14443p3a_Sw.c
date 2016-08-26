@@ -707,7 +707,7 @@ phStatus_t phpalI14443p3a_Sw_RequestAEx(
     /* Restore previous RxWaitTime */
     PH_CHECK_SUCCESS_FCT(Status, phhalHw_SetConfig(pDataParams->pHalDataParams, PHHAL_HW_CONFIG_RXWAIT_US, wRegister));
 
-    PH_CHECK_SUCCESS(statusTmp);
+    PH_CHECK_SUCCESS_NOLOG(statusTmp);
     /* Check and copy ATQA */
     if (wRespLength == PHPAL_I14443P3A_ATQA_LENGTH)
     {
