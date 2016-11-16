@@ -9,17 +9,6 @@
     </data>
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/home/pi/projects/reader/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/phacDiscLoop.c</file>
-            <file>file:/home/pi/projects/reader/linux/comps/phPlatform/src/Posix/phPlatform.h</file>
-            <file>file:/home/pi/projects/reader/examples/NfcrdlibEx3_NFCForum/NfcrdlibEx3_NFCForum.c</file>
-            <file>file:/home/pi/projects/reader/nxprdlib/NxpRdLib/intfs/phOsal.h</file>
-            <file>file:/home/pi/projects/reader/linux/comps/phPlatform/src/Posix/phPlatform.c</file>
-            <file>file:/home/pi/projects/reader/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.c</file>
-            <file>file:/home/pi/projects/reader/linux/comps/phOsal/src/Posix/phOsal_Posix.c</file>
-            <file>file:/home/pi/projects/reader/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c</file>
-            <file>file:/home/pi/projects/reader/linux/comps/phOsal/src/Posix/phOsal_Posix_Int.h</file>
-            <file>file:/home/pi/projects/reader/nxprdlib/NxpRdLib/types/ph_Status.h</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

@@ -8,6 +8,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/sr
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.c.o: nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -16,7 +17,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/sr
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -34,6 +34,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/sr
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore.c.o: nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -42,7 +43,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/sr
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phKeyStore/src/phKeyStore.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -94,6 +94,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c.o: nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -109,7 +110,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c.o: nxprdlib/NxpRdLib/intfs/phacDiscLoop.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -139,6 +139,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -150,7 +151,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phacDiscLoop.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -173,6 +173,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.c.o: nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.c.o: nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -185,7 +186,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.c.o: nxprdlib/NxpRdLib/intfs/phalT1T.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_A.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -207,6 +207,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c.o: nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -216,7 +217,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c.o: nxprdlib/NxpRdLib/intfs/phacDiscLoop.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_B.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -236,6 +236,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.c.o: nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -246,7 +247,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.c.o: nxprdlib/NxpRdLib/intfs/phacDiscLoop.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_F.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -268,6 +268,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c.o: nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c.o: nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -278,7 +279,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c.o: nxprdlib/NxpRdLib/intfs/phalI18000p3m3.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_I18000p3m3.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -298,6 +298,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c.o: nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -307,7 +308,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c.o: nxprdlib/NxpRdLib/intfs/phacDiscLoop.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phacDiscLoop/src/Sw/phacDiscLoop_Sw_Int_V.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -339,6 +339,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/sr
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c.o: nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -348,7 +349,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/sr
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c.o: nxprdlib/NxpRdLib/intfs/phalFelica.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalFelica/src/Sw/phalFelica_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -380,6 +380,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/sr
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.c.o: nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -389,7 +390,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/sr
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.c.o: nxprdlib/NxpRdLib/intfs/phalI15693.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI15693/src/Sw/phalI15693_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -421,6 +421,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -430,7 +431,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/intfs/phalI18000p3m3.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalI18000p3m3/src/Sw/phalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -476,6 +476,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.c.o: nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.c.o: nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -486,7 +487,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.c.o: nxprdlib/NxpRdLib/intfs/phalMfc.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -504,6 +504,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/p
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc.c.o: nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -513,7 +514,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/p
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc.c.o: nxprdlib/NxpRdLib/intfs/phalMfc.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -531,6 +531,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/p
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.c.o: nxprdlib/NxpRdLib/comps/phalMfc/src/Sw/phalMfc_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -540,7 +541,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/p
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.c.o: nxprdlib/NxpRdLib/intfs/phalMfc.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfc/src/phalMfc_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -561,6 +561,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.c.o: nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.c.o: nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -572,7 +573,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.c.o: nxprdlib/NxpRdLib/intfs/phalMfdf.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -592,6 +592,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -602,7 +603,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phalMfdf.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -620,6 +620,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf.c.o: nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -629,7 +630,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf.c.o: nxprdlib/NxpRdLib/intfs/phalMfdf.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -647,6 +647,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.c.o: nxprdlib/NxpRdLib/comps/phalMfdf/src/Sw/phalMfdf_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -656,7 +657,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.c.o: nxprdlib/NxpRdLib/intfs/phalMfdf.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMfdf/src/phalMfdf_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -676,6 +676,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.c.o: nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.c.o: nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -686,7 +687,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.c.o: nxprdlib/NxpRdLib/intfs/phalMful.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -704,6 +704,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful.c.o: nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -713,7 +714,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful.c.o: nxprdlib/NxpRdLib/intfs/phalMful.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -731,6 +731,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.c.o: nxprdlib/NxpRdLib/comps/phalMful/src/Sw/phalMful_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -740,7 +741,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.c.o: nxprdlib/NxpRdLib/intfs/phalMful.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalMful/src/phalMful_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -760,6 +760,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.c.o: nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -769,7 +770,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.c.o: nxprdlib/NxpRdLib/intfs/phalSli.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalSli/src/Sw/phalSli_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -800,6 +800,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.c.o: nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -809,7 +810,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.c.o: nxprdlib/NxpRdLib/intfs/phalT1T.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -849,6 +849,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.c.o: nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.c.o: nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -862,7 +863,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.c.o: nxprdlib/NxpRdLib/intfs/phalTop.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -884,6 +884,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.c.o: nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.c.o: nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -897,7 +898,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.c.o: nxprdlib/NxpRdLib/intfs/phalTop.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T1T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -919,6 +919,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.c.o: nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.c.o: nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -932,7 +933,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.c.o: nxprdlib/NxpRdLib/intfs/phalTop.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T2T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -955,6 +955,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.c.o: nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.c.o: nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -969,7 +970,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.c.o: nxprdlib/NxpRdLib/intfs/phalTop.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T3T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -991,6 +991,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.c.o: nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.c.o: nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1004,7 +1005,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.c.o: nxprdlib/NxpRdLib/intfs/phalTop.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T4T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1027,6 +1027,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.c.o: nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.c.o: nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1042,7 +1043,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.c.o: nxprdlib/NxpRdLib/intfs/phalTop.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw_Int_T5T.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1065,6 +1065,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/p
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/phalTop.c.o: nxprdlib/NxpRdLib/comps/phalT1T/src/Sw/phalT1T_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/phalTop.c.o: nxprdlib/NxpRdLib/comps/phalTop/src/Sw/phalTop_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/phalTop.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/phalTop.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/phalTop.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/phalTop.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/phalTop.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1078,7 +1079,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/p
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/phalTop.c.o: nxprdlib/NxpRdLib/intfs/phalTop.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/phalTop.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/phalTop.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/phalTop.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/phalTop.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/phalTop.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phalTop/src/phalTop.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1111,6 +1111,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.c.o: nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1120,7 +1121,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.c.o: nxprdlib/NxpRdLib/intfs/phceT4T.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1139,6 +1139,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1148,7 +1149,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/S
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phceT4T.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phceT4T/src/Sw/phceT4T_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1181,6 +1181,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/P
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.c.o: nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1208,6 +1209,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/P
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Instr.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Int.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Instr.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Instr.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Instr.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Instr.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Instr.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Instr.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1234,6 +1236,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/P
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Wait.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Int.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Int.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1261,6 +1264,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/P
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Wait.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Wait.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Wait.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Wait.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Wait.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Wait.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Wait.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180_Wait.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1288,6 +1292,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/R
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.c.o: nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1297,7 +1302,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/R
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.c.o: nxprdlib/NxpRdLib/intfs/phTools.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1313,6 +1317,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/R
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Cmd.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Cmd.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Cmd.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Cmd.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Cmd.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Cmd.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Cmd.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1320,7 +1325,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/R
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Cmd.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Cmd.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Cmd.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Cmd.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Cmd.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Cmd.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Cmd.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1338,6 +1342,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/R
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1345,7 +1350,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/R
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1362,6 +1366,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/R
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Wait.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Wait.c
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Wait.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Wait.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Wait.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Wait.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Wait.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Wait.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1369,7 +1374,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/R
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Wait.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Wait.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Wait.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Wait.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Wait.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Wait.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523_Wait.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1388,6 +1392,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/R
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.c.o: nxprdlib/NxpRdLib/comps/phKeyStore/src/Sw/phKeyStore_Sw.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1397,7 +1402,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/R
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.c.o: nxprdlib/NxpRdLib/intfs/phTools.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1415,6 +1419,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/R
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1422,7 +1427,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/R
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Cmd.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1439,6 +1443,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/R
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1446,7 +1451,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/R
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1464,6 +1468,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/R
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1471,7 +1476,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/R
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663_Wait.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1489,6 +1493,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/p
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/phhalHw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/phhalHw.c
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/phhalHw.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/phhalHw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/phhalHw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/phhalHw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/phhalHw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/phhalHw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1496,7 +1501,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/p
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/phhalHw.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/phhalHw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/phhalHw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/phhalHw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/phhalHw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/phhalHw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phhalHw/src/phhalHw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1548,6 +1552,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.c.o: nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Timers.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1559,7 +1564,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.c.o: nxprdlib/NxpRdLib/intfs/phTools.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phlnLlcp/src/Sw/phlnLlcp_Sw_Mac.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1695,6 +1699,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/s
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.c.o: nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw_Int.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1704,7 +1709,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/s
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.c.o: nxprdlib/NxpRdLib/intfs/phTools.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalEpcUid/src/Sw/phpalEpcUid_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1735,6 +1739,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/s
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c.o: nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw_Int.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1743,7 +1748,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/s
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/Sw/phpalFelica_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1760,6 +1764,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/s
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/phpalFelica.c.o: nxprdlib/NxpRdLib/comps/phpalFelica/src/phpalFelica.c
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/phpalFelica.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/phpalFelica.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/phpalFelica.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/phpalFelica.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/phpalFelica.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/phpalFelica.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1768,7 +1773,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/s
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/phpalFelica.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/phpalFelica.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/phpalFelica.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/phpalFelica.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/phpalFelica.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/phpalFelica.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalFelica/src/phpalFelica.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1786,6 +1790,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c.o: nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw_Int.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1794,7 +1799,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/Sw/phpalI14443p3a_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1811,6 +1815,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c.o: nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1819,7 +1824,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3a/src/phpalI14443p3a.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1837,6 +1841,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.c.o: nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw_Int.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1845,7 +1850,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/Sw/phpalI14443p3b_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1862,6 +1866,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/phpalI14443p3b.c.o: nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/phpalI14443p3b.c
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/phpalI14443p3b.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/phpalI14443p3b.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/phpalI14443p3b.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/phpalI14443p3b.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/phpalI14443p3b.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/phpalI14443p3b.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1870,7 +1875,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/phpalI14443p3b.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/phpalI14443p3b.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/phpalI14443p3b.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/phpalI14443p3b.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/phpalI14443p3b.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/phpalI14443p3b.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p3b/src/phpalI14443p3b.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1888,6 +1892,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.c.o: nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw_Int.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1896,7 +1901,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/Sw/phpalI14443p4_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1913,6 +1917,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/phpalI14443p4.c.o: nxprdlib/NxpRdLib/comps/phpalI14443p4/src/phpalI14443p4.c
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/phpalI14443p4.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/phpalI14443p4.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/phpalI14443p4.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/phpalI14443p4.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/phpalI14443p4.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/phpalI14443p4.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1921,7 +1926,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/phpalI14443p4.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/phpalI14443p4.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/phpalI14443p4.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/phpalI14443p4.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/phpalI14443p4.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/phpalI14443p4.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4/src/phpalI14443p4.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1939,6 +1943,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c.o: nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw_Int.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1947,7 +1952,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/Sw/phpalI14443p4a_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1964,6 +1968,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/phpalI14443p4a.c.o: nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/phpalI14443p4a.c
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/phpalI14443p4a.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/phpalI14443p4a.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/phpalI14443p4a.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/phpalI14443p4a.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/phpalI14443p4a.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/phpalI14443p4a.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1972,7 +1977,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/phpalI14443p4a.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/phpalI14443p4a.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/phpalI14443p4a.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/phpalI14443p4a.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/phpalI14443p4a.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/phpalI14443p4a.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4a/src/phpalI14443p4a.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -1991,6 +1995,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.c.o: linux/comps/phPlatform/src/Posix/phPlatform.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -1999,7 +2004,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -2017,6 +2021,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.c.o: linux/comps/phPlatform/src/Posix/phPlatform.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -2025,7 +2030,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/Sw/phpalI14443p4mC_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -2042,6 +2046,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/phpalI14443p4mC.c.o: nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/phpalI14443p4mC.c
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/phpalI14443p4mC.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/phpalI14443p4mC.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/phpalI14443p4mC.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/phpalI14443p4mC.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/phpalI14443p4mC.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/phpalI14443p4mC.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -2050,7 +2055,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/phpalI14443p4mC.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/phpalI14443p4mC.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/phpalI14443p4mC.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/phpalI14443p4mC.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/phpalI14443p4mC.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/phpalI14443p4mC.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI14443p4mC/src/phpalI14443p4mC.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -2068,6 +2072,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw_Int.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -2077,7 +2082,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/intfs/phTools.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/Sw/phpalI18000p3m3_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -2094,6 +2098,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c.o: nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -2102,7 +2107,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18000p3m3/src/phpalI18000p3m3.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -2120,6 +2124,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mP
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.c.o: nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -2128,7 +2133,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mP
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -2146,6 +2150,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mP
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -2154,7 +2159,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mP
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/Sw/phpalI18092mPI_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -2171,6 +2175,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mP
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/phpalI18092mPI.c.o: nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/phpalI18092mPI.c
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/phpalI18092mPI.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/phpalI18092mPI.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/phpalI18092mPI.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/phpalI18092mPI.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/phpalI18092mPI.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/phpalI18092mPI.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -2179,7 +2184,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mP
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/phpalI18092mPI.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/phpalI18092mPI.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/phpalI18092mPI.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/phpalI18092mPI.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/phpalI18092mPI.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/phpalI18092mPI.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mPI/src/phpalI18092mPI.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -2198,6 +2202,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.c.o: linux/comps/phPlatform/src/Posix/phPlatform.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -2206,7 +2211,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -2224,6 +2228,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -2232,7 +2237,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/Sw/phpalI18092mT_Sw_Int.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -2249,6 +2253,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/phpalI18092mT.c.o: nxprdlib/NxpRdLib/comps/phpalI18092mT/src/phpalI18092mT.c
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/phpalI18092mT.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/phpalI18092mT.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/phpalI18092mT.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/phpalI18092mT.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/phpalI18092mT.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/phpalI18092mT.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -2257,7 +2262,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/phpalI18092mT.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/phpalI18092mT.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/phpalI18092mT.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/phpalI18092mT.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/phpalI18092mT.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/phpalI18092mT.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalI18092mT/src/phpalI18092mT.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -2275,6 +2279,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/s
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c.o: nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare_Int.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -2285,7 +2290,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/s
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c.o: nxprdlib/NxpRdLib/intfs/phTools.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/Sw/phpalMifare_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -2303,6 +2307,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/s
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare.c.o: nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare.c
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -2311,7 +2316,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/s
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalMifare/src/phpalMifare.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -2329,6 +2333,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.c.o: nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw_Int.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -2337,7 +2342,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/Sw/phpalSli15693_Sw.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -2354,6 +2358,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/phpalSli15693.c.o: nxprdlib/NxpRdLib/comps/phpalSli15693/src/phpalSli15693.c
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/phpalSli15693.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/phpalSli15693.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/phpalSli15693.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/phpalSli15693.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/phpalSli15693.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/phpalSli15693.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -2362,7 +2367,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/phpalSli15693.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/phpalSli15693.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/phpalSli15693.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/phpalSli15693.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/phpalSli15693.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/phpalSli15693.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/__/nxprdlib/NxpRdLib/comps/phpalSli15693/src/phpalSli15693.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h
@@ -2420,6 +2424,7 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/shared/phhwConfig.c.o: linux/shared/phhw
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/shared/phhwConfig.c.o: linux/comps/phbalReg/src/Linux/phbalReg_Stub_Utils.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/shared/phhwConfig.c.o: linux/intfs/ph_NxpBuild_App.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/shared/phhwConfig.c.o: nxprdlib/NxpRdLib/comps/phbalReg/src/Stub/phbalReg_Stub.h
+linux/CMakeFiles/NxpRdLibLinuxPN512.dir/shared/phhwConfig.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/PN7462AU/phhalHw_PN7462AU.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/shared/phhwConfig.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Pn5180/phhalHw_Pn5180.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/shared/phhwConfig.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc523/phhalHw_Rc523.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/shared/phhwConfig.c.o: nxprdlib/NxpRdLib/comps/phhalHw/src/Rc663/phhalHw_Rc663.h
@@ -2427,7 +2432,6 @@ linux/CMakeFiles/NxpRdLibLinuxPN512.dir/shared/phhwConfig.c.o: nxprdlib/NxpRdLib
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/shared/phhwConfig.c.o: nxprdlib/NxpRdLib/intfs/phOsal.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/shared/phhwConfig.c.o: nxprdlib/NxpRdLib/intfs/phbalReg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/shared/phhwConfig.c.o: nxprdlib/NxpRdLib/intfs/phhalHw.h
-linux/CMakeFiles/NxpRdLibLinuxPN512.dir/shared/phhwConfig.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Pn5180_Instr.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/shared/phhwConfig.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Cmd.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/shared/phhwConfig.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc523_Reg.h
 linux/CMakeFiles/NxpRdLibLinuxPN512.dir/shared/phhwConfig.c.o: nxprdlib/NxpRdLib/intfs/phhalHw_Rc663_Cmd.h

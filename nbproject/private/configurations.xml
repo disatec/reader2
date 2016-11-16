@@ -1010,6 +1010,12 @@
                   <in>phhalHw_Pn5180_Wait.c</in>
                   <in>phhalHw_Pn5180_Wait.h</in>
                 </df>
+                <df name="PN7462AU">
+                  <in>phhalHw_PN7462AU.c</in>
+                  <in>phhalHw_PN7462AU.h</in>
+                  <in>phhalHw_PN7462AU_Int.c</in>
+                  <in>phhalHw_PN7462AU_Int.h</in>
+                </df>
                 <df name="Rc523">
                   <in>phhalHw_Rc523.c</in>
                   <in>phhalHw_Rc523.h</in>
@@ -1084,6 +1090,7 @@
               <df name="src">
                 <df name="Freertos">
                   <in>phOsal_Freertos.c</in>
+                  <in>phOsal_Freertos.h</in>
                 </df>
                 <df name="Nortos">
                   <in>phOsal_Nortos.c</in>

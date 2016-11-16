@@ -31,9 +31,15 @@
 
 #define PHHAL_HW_RC523_FIFOSIZE                          64U         /**< Size of RC internal FiFo buffer */
 
+//#define PHHAL_HW_RC523_DEFAULT_TIMEOUT                    150U        /**< Default timeout in microseconds */
+//#define PHHAL_HW_RC523_DEFAULT_TIMEOUT_MILLI              50U         /**< Default timeout in milliseconds */
+
+// Probado con distintos parametros, parece no tener efecto sobre la lectura
 #define PHHAL_HW_RC523_DEFAULT_TIMEOUT                    150U        /**< Default timeout in microseconds */
 #define PHHAL_HW_RC523_DEFAULT_TIMEOUT_MILLI              50U         /**< Default timeout in milliseconds */
 #define PHPAL_HW_RC523_I18092MT_START_BYTE                0xF0U       /**< Start Byte to be added to the protocol header in case protocol ISO18092. */
+//#define PHHAL_HW_RC523_ACTIVE_RF_OFF_INTEROP_TOLERANCE    300U        /**< Time Delay in us used for external peer to turn OFF RF in Active mode. */
+//#define PHHAL_HW_RC523_ACTIVE_INTERNAL_RF_OFF_TOLERANCE   20U         /**< Time Delay in us used to turn off Internal RF in Active mode (during buffer overflow scenario). */
 #define PHHAL_HW_RC523_ACTIVE_RF_OFF_INTEROP_TOLERANCE    300U        /**< Time Delay in us used for external peer to turn OFF RF in Active mode. */
 #define PHHAL_HW_RC523_ACTIVE_INTERNAL_RF_OFF_TOLERANCE   20U         /**< Time Delay in us used to turn off Internal RF in Active mode (during buffer overflow scenario). */
 

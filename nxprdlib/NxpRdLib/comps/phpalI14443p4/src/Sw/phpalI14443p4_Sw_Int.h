@@ -123,7 +123,8 @@
 #define PHPAL_I14443P4_SW_STATE_MASK            0x0FU
 
 /** Default Maximum Retry count for ISO/IEC 14443-4:2008(E) Rule 4 and 5 */
-#define PHPAL_I14443P4_SW_MAX_RETRIES_DEFAULT   2U
+//#define PHPAL_I14443P4_SW_MAX_RETRIES_DEFAULT   2U
+#define PHPAL_I14443P4_SW_MAX_RETRIES_DEFAULT   5
 
 /** Time extension in microseconds for all commands.  */
 #define PHPAL_I14443P4_EXT_TIME_US              60
